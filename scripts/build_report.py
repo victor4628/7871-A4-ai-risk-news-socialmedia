@@ -49,8 +49,16 @@ def main():
   if style is None:para.paragraph_format.space_before=Pt(3)
   return para
  def h(text):d.add_heading(text,level=1)
- def caption(text):p(text,'Caption')
- def table(headers,rows,widths=None):
+ def caption(text):
+  para=p(text,'Caption')
+  # Separate the note from the bottom border without detaching it from the table.
+  if para._p.getprevious() is not None and para._p.getprevious().tag==qn('w:tbl'):
+   para.paragraph_format.space_before=Pt(4)
+ def table(headers,rows,widths=None,alignments=None):
+  # Alignment is a column property: varying it with text length misaligns records.
+  alignments=alignments or [WD_ALIGN_PARAGRAPH.LEFT]*len(headers)
+  if len(alignments)!=len(headers):raise ValueError('One alignment is required per column.')
+  if widths and abs(sum(widths)-7.1)>.01:raise ValueError('Table columns must fit the 7.1-inch text area.')
   t=d.add_table(rows=1,cols=len(headers));t.alignment=WD_TABLE_ALIGNMENT.CENTER;t.autofit=False
   if widths:
    for c,w in zip(t.columns,widths):c.width=Inches(w)
@@ -66,15 +74,15 @@ def main():
     cp=c._tc.get_or_add_tcPr();sh=OxmlElement('w:shd');sh.set(qn('w:fill'),GREEN if ri==0 else ('F3F6F5' if ri%2==0 else 'FFFFFF'));cp.append(sh)
     margins=OxmlElement('w:tcMar')
     for side in ['top','bottom','left','right']:
-     el=OxmlElement('w:'+side);el.set(qn('w:w'),'65' if side in ['top','bottom'] else '95');el.set(qn('w:type'),'dxa');margins.append(el)
+     el=OxmlElement('w:'+side);el.set(qn('w:w'),'85' if side in ['top','bottom'] else '95');el.set(qn('w:type'),'dxa');margins.append(el)
     cp.append(margins);borders=OxmlElement('w:tcBorders')
     for side in ['top','left','bottom','right']:
      el=OxmlElement('w:'+side);el.set(qn('w:val'),'single');el.set(qn('w:sz'),'4');el.set(qn('w:color'),'D9D9D9');borders.append(el)
     cp.append(borders)
     for para in c.paragraphs:
      para.paragraph_format.space_after=Pt(0);para.paragraph_format.space_before=Pt(0);para.paragraph_format.line_spacing=1.0
-     if ci>0 and len(str(row.cells[ci].text))<20:para.alignment=WD_ALIGN_PARAGRAPH.CENTER
-     for run in para.runs:run.font.size=Pt(9.3);run.font.bold=(ri==0);run.font.color.rgb=RGBColor.from_string('FFFFFF' if ri==0 else '242424')
+     para.alignment=alignments[ci]
+     for run in para.runs:run.font.size=Pt(9.5);run.font.bold=(ri==0);run.font.color.rgb=RGBColor.from_string('FFFFFF' if ri==0 else '242424')
   return t
  def image(name,width=7.0):
   para=d.add_paragraph();para.paragraph_format.space_after=Pt(0);para.alignment=WD_ALIGN_PARAGRAPH.CENTER
@@ -113,7 +121,8 @@ def main():
  for phase_name in ['Sep 8-14','Sep 15-22','Sep 23-30']:
   nr=phase[(phase.phase==phase_name)&(phase.channel=='News')].iloc[0];sr=phase[(phase.phase==phase_name)&(phase.channel=='Social')].iloc[0]
   rows.append([phase_name,f'{vnews.loc[phase_name,"negative_share"]*100:.1f}%',f'{nr.negative_share*100:.1f}%',f'{vsocial.loc[phase_name,"negative_share"]*100:.1f}%',f'{sr.negative_share*100:.1f}%'])
- table(['Window','News VADER','News RoBERTa','X VADER','X RoBERTa'],rows,[1.25,1.4,1.6,1.4,1.45])
+ table(['Window','News VADER','News RoBERTa','X VADER','X RoBERTa'],rows,[1.25,1.4,1.6,1.4,1.45],
+       [WD_ALIGN_PARAGRAPH.LEFT]+[WD_ALIGN_PARAGRAPH.CENTER]*4)
  caption('Table 1. Record-weighted negative-tone shares within three fixed calendar phases.')
  p('News negativity falls from 34.6% to 19.1% under VADER and from 17.1% to 10.7% under RoBERTa. The Hu–Liu negative-word share [9] also falls, from 4.57% to 3.27%. Existential-risk keyword coverage declines from 7.3% to 1.3% of news headlines. The result is a fading initial risk-news spike, rather than steadily worsening coverage. The final week still includes fresh safety concerns.')
  p(f'X negativity changes from {xv0:.1f}% to {xv1:.1f}% under VADER and {xr0:.1f}% to {xr1:.1f}% under RoBERTa. Mean signed X scores move from {vsocial.loc[first,"mean"]:+.3f} to {vsocial.loc[last,"mean"]:+.3f} and {rb_social.loc[first,"mean"]:+.3f} to {rb_social.loc[last,"mean"]:+.3f}, respectively. Existential-risk cues move from {100*vsocial.loc[first,"existential_share"]:.1f}% to {100*vsocial.loc[last,"existential_share"]:.1f}%. These phase comparisons describe this sample; they do not prove a response to Hubinger’s post.')
@@ -145,7 +154,8 @@ def main():
    channel='News' if 'news' in r.specification else 'X'
    direction=channel+' → return' if r.outcome=='basket_return' else 'Return → '+channel
    table_rows.append([model,direction,f'{r.F:.3f}',f'{r.p:.3f}',f'{r.eight_primary_holm_p:.3f}'])
- table(['Model','Direction','F statistic','Raw p','Holm p'],table_rows,[1.15,2.2,1.25,1.15,1.35])
+ table(['Model','Direction','F statistic','Raw p','Holm p'],table_rows,[1.15,2.2,1.25,1.15,1.35],
+       [WD_ALIGN_PARAGRAPH.LEFT]+[WD_ALIGN_PARAGRAPH.CENTER]*4)
  caption('Table 2. One-lag Granger tests. Holm p values correct the eight displayed tests across both models. Every regression uses the same fixed period; no lag is selected for its p value.')
  effects=[]
  for model in ['VADER','RoBERTa']:
@@ -171,7 +181,8 @@ def main():
   ['US major vs corporate','+17.1 pp [9.5, 24.6]','+7.4 pp [2.4, 12.5]'],
   ['Technology vs corporate','+13.4 pp [7.5, 19.3]','+12.1 pp [6.6, 17.7]'],
   ['US vs international major','−11.9 pp [−29.0, 5.1]','−6.2 pp [−16.7, 4.4]'],
-  ['X qualified vs excluded',*selection_gaps]], [2.15,2.45,2.5])
+  ['X qualified vs excluded',*selection_gaps]], [2.15,2.45,2.5],
+       [WD_ALIGN_PARAGRAPH.LEFT,WD_ALIGN_PARAGRAPH.CENTER,WD_ALIGN_PARAGRAPH.CENTER])
  caption(f'Table 3. Adjusted negative-tone differences and clustered 95% confidence intervals. News: 1,006 headlines, 140 source-domain clusters. X: {xinfo["unfiltered_cleaned_posts"]:,} cleaned posts, author clusters. Both use date, topic and length controls; gaps are associations, not causal bias estimates.')
  p('The clearest measurable difference is between independent reporting and company releases. Risk/safety keywords appear in 23.9% of US-major headlines versus 2.3% of company/research headlines. The tone gap persists under both classifiers after controls, although the adjusted Hu–Liu word-share gap is imprecise. This is consistent with promotional selection and different editorial mandates. It does not show that journalists exaggerated objectively measured AI danger.')
  p('The US-versus-international result points opposite to the COVID paper and is statistically inconclusive. A negative headline may criticize doom advocates, while a reassuring denial can contain catastrophe vocabulary. These cases document framing and measurement differences; neither classifier identifies support for an extinction forecast. No objective daily AI-danger series is available to distinguish reasonable risk reporting from exaggeration.')
