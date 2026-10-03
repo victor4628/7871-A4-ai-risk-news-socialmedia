@@ -1,0 +1,8 @@
+{
+  "unique_sampled": 13738,
+  "explicit_ai_term": 12400,
+  "at_least_five_non_url_non_mention_tokens": 12094,
+  "unique_author_text": 12068,
+  "exposure_qualified_after_common_cleaning": 7461,
+  "limitations": "Keyword relevance excludes compound hashtags/aliases without an explicit AI term; token count is not a semantic relevance guarantee."
+}

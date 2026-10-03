@@ -1,0 +1,102 @@
+[
+  {
+    "id": "2102273932594237590",
+    "review_tone": "negative",
+    "reason": "Dissatisfaction with tournament length and rewards."
+  },
+  {
+    "id": "2098386519320834089",
+    "review_tone": "positive",
+    "reason": "Enthusiastic token-price promotion; tone does not measure AI safety stance."
+  },
+  {
+    "id": "2097985214651982095",
+    "review_tone": "neutral",
+    "reason": "Factual account of prospective safety legislation."
+  },
+  {
+    "id": "2102516461780734383",
+    "review_tone": "neutral",
+    "reason": "Reports potential sector disruption without a clear evaluative stance."
+  },
+  {
+    "id": "2099044784254112162",
+    "review_tone": "negative",
+    "reason": "Criticizes investors and advocates economic pressure over AI risk."
+  },
+  {
+    "id": "2099506367987859710",
+    "review_tone": "negative",
+    "reason": "Concern about inequitable AI wealth distribution and past policy mistakes."
+  },
+  {
+    "id": "2100265948892598430",
+    "review_tone": "positive",
+    "reason": "Cautiously welcomes AI agents reducing friction in wellness actions."
+  },
+  {
+    "id": "2100768122898935880",
+    "review_tone": "positive",
+    "reason": "Praises data infrastructure and progress in robotics."
+  },
+  {
+    "id": "2105320673380098346",
+    "review_tone": "negative",
+    "reason": "Dark negative imagery despite an opening reference to improvement."
+  },
+  {
+    "id": "2100602871079108680",
+    "review_tone": "negative",
+    "reason": "Explicit dislike and discomfort with AI-generated art."
+  },
+  {
+    "id": "2103061126791798998",
+    "review_tone": "positive",
+    "reason": "Promotes useful training and a community workshop."
+  },
+  {
+    "id": "2102324860080853352",
+    "review_tone": "negative",
+    "reason": "Expresses concern about the direction of education, rather than machine humanization."
+  },
+  {
+    "id": "2099577095978676573",
+    "review_tone": "neutral",
+    "reason": "States a speculative explanatory hypothesis without explicit emotional evaluation."
+  },
+  {
+    "id": "2097188806696800715",
+    "review_tone": "negative",
+    "reason": "Criticizes claims that AGI has already arrived; not a claim of existential danger."
+  },
+  {
+    "id": "2101448560541679683",
+    "review_tone": "positive",
+    "reason": "Warm aesthetic language and favorable creative instructions dominate tone."
+  },
+  {
+    "id": "2101252944754561482",
+    "review_tone": "negative",
+    "reason": "Critical tone about fiscal difficulties and consequences for younger people."
+  },
+  {
+    "id": "2101154050515271982",
+    "review_tone": "negative",
+    "reason": "Hostile criticism of media and technology companies; rejects AI-doom claims."
+  },
+  {
+    "id": "2102174793370083799",
+    "review_tone": "negative",
+    "reason": "Sad emoticon signals dissatisfaction."
+  },
+  {
+    "id": "2100438518694855101",
+    "review_tone": "negative",
+    "reason": "Discusses layoffs, hiring failures and financial strain."
+  },
+  {
+    "id": "2099351573277081708",
+    "review_tone": "negative",
+    "reason": "Reports falling stocks and threats to humanity."
+  }
+]

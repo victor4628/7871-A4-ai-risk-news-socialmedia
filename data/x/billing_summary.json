@@ -1,0 +1,11 @@
+{
+  "recharge_credits_at_resume": 999785,
+  "recharge_credits_after_collection": 797935,
+  "credits_consumed_after_resume": 201850,
+  "usd_consumed_after_resume": 2.0185,
+  "total_estimated_tweet_endpoint_usage_usd": 2.27865,
+  "authorized_usage_cap_usd": 3,
+  "authorized_account_recharge_usd": 10,
+  "expected_usage_after_resume_usd": 2.1765,
+  "balance_snapshot_note": "Account balance is a point-in-time snapshot, not an invoice. The study reports the conservative returned-post/minimum-call price estimate, including replaced and diagnostic requests."
+}

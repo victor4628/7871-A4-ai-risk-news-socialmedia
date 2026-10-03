@@ -1,0 +1,258 @@
+{
+  "social_source": "x",
+  "raw_news": 1023,
+  "deduplicated_news": 1007,
+  "editorial_news": 831,
+  "corporate_news": 175,
+  "raw_social": 13738,
+  "social": 7461,
+  "social_authors": 6793,
+  "social_threads": 7296,
+  "news_domains": 133,
+  "dates": 23,
+  "price_days": 17,
+  "basket_return_pct": 3.723137459260717,
+  "SPY_return_pct": -0.7356960091315701,
+  "QQQ_return_pct": 3.0016795019434994,
+  "trough_date": "2026-09-15",
+  "trough_return_pct": -1.6977495340208426,
+  "positive_stocks": 15,
+  "sectors": {
+    "Semiconductors": 9.476010652360722,
+    "Cloud and platforms": -0.25765895870512034,
+    "Enterprise software": -3.677080812577105,
+    "Servers": 9.84975431700732,
+    "Autonomy": 0.20617120820498602
+  },
+  "primary_tests": [
+    {
+      "specification": "news change -> basket",
+      "outcome": "basket_return",
+      "predictor": "delta_news",
+      "lags": 1,
+      "aligned_rows": 15,
+      "n": 14,
+      "F": 0.072666050426749,
+      "df_num": 1,
+      "df_den": 11,
+      "p": 0.7924835714338498,
+      "beta": 1.201516375964708,
+      "ci_low": -8.608755216952035,
+      "ci_high": 11.011787968881452,
+      "beta_sum": 1.201516375964708,
+      "lb_p": 0.43660871742919205,
+      "primary": true,
+      "holm_p": 1.0
+    },
+    {
+      "specification": "basket -> news change",
+      "outcome": "delta_news",
+      "predictor": "basket_return",
+      "lags": 1,
+      "aligned_rows": 15,
+      "n": 14,
+      "F": 1.9851845220838218,
+      "df_num": 1,
+      "df_den": 11,
+      "p": 0.18648114469060334,
+      "beta": 0.01603607730929832,
+      "ci_low": -0.009014331369038613,
+      "ci_high": 0.04108648598763525,
+      "beta_sum": 0.01603607730929832,
+      "lb_p": 0.9530658150114866,
+      "primary": true,
+      "holm_p": 0.7158111262173074
+    },
+    {
+      "specification": "social change -> basket",
+      "outcome": "basket_return",
+      "predictor": "delta_social",
+      "lags": 1,
+      "aligned_rows": 15,
+      "n": 14,
+      "F": 0.0566478484748288,
+      "df_num": 1,
+      "df_den": 11,
+      "p": 0.8162501268583273,
+      "beta": 3.112903503329502,
+      "ci_low": -25.673742205289972,
+      "ci_high": 31.899549211948976,
+      "beta_sum": 3.112903503329502,
+      "lb_p": 0.5298645645296145,
+      "primary": true,
+      "holm_p": 1.0
+    },
+    {
+      "specification": "basket -> social change",
+      "outcome": "delta_social",
+      "predictor": "basket_return",
+      "lags": 1,
+      "aligned_rows": 15,
+      "n": 14,
+      "F": 2.0607775051530517,
+      "df_num": 1,
+      "df_den": 11,
+      "p": 0.17895278155432684,
+      "beta": 0.01002611332028794,
+      "ci_low": -0.005346021004690034,
+      "ci_high": 0.025398247645265916,
+      "beta_sum": 0.01002611332028794,
+      "lb_p": 0.7913717460536663,
+      "primary": true,
+      "holm_p": 0.7158111262173074
+    }
+  ],
+  "diagnostics": [
+    {
+      "series": "basket_return",
+      "ADF_stat": -4.690259953473685,
+      "p": 8.777054034586086e-05,
+      "n": 15
+    },
+    {
+      "series": "delta_news",
+      "ADF_stat": -6.632418525927271,
+      "p": 5.67117329810594e-09,
+      "n": 14
+    },
+    {
+      "series": "delta_social",
+      "ADF_stat": -4.5073495670039865,
+      "p": 0.00019071364145541265,
+      "n": 14
+    }
+  ],
+  "exposure_filter": {
+    "min_followers": 100,
+    "min_views": 100,
+    "threshold_logic": "Both thresholds must be met; equality passes.",
+    "metadata_timing": "Values recorded at API retrieval, not at posting or the historical trading close.",
+    "missing_policy": "Excluded from exposure-qualified sample; retained in raw sample and separately counted.",
+    "sampled": 13738,
+    "retained": 8345,
+    "reason_counts": {
+      "retained": 8345,
+      "low_views": 3550,
+      "low_followers": 935,
+      "low_followers_and_views": 908
+    },
+    "daily": [
+      {
+        "date": "2026-09-08",
+        "sampled": 600,
+        "retained": 426
+      },
+      {
+        "date": "2026-09-09",
+        "sampled": 600,
+        "retained": 393
+      },
+      {
+        "date": "2026-09-10",
+        "sampled": 600,
+        "retained": 411
+      },
+      {
+        "date": "2026-09-11",
+        "sampled": 600,
+        "retained": 406
+      },
+      {
+        "date": "2026-09-12",
+        "sampled": 600,
+        "retained": 415
+      },
+      {
+        "date": "2026-09-13",
+        "sampled": 600,
+        "retained": 409
+      },
+      {
+        "date": "2026-09-14",
+        "sampled": 600,
+        "retained": 405
+      },
+      {
+        "date": "2026-09-15",
+        "sampled": 600,
+        "retained": 435
+      },
+      {
+        "date": "2026-09-16",
+        "sampled": 600,
+        "retained": 408
+      },
+      {
+        "date": "2026-09-17",
+        "sampled": 599,
+        "retained": 427
+      },
+      {
+        "date": "2026-09-18",
+        "sampled": 600,
+        "retained": 435
+      },
+      {
+        "date": "2026-09-19",
+        "sampled": 540,
+        "retained": 396
+      },
+      {
+        "date": "2026-09-20",
+        "sampled": 600,
+        "retained": 446
+      },
+      {
+        "date": "2026-09-21",
+        "sampled": 600,
+        "retained": 434
+      },
+      {
+        "date": "2026-09-22",
+        "sampled": 600,
+        "retained": 445
+      },
+      {
+        "date": "2026-09-23",
+        "sampled": 599,
+        "retained": 425
+      },
+      {
+        "date": "2026-09-24",
+        "sampled": 600,
+        "retained": 427
+      },
+      {
+        "date": "2026-09-25",
+        "sampled": 600,
+        "retained": 409
+      },
+      {
+        "date": "2026-09-26",
+        "sampled": 600,
+        "retained": 171
+      },
+      {
+        "date": "2026-09-27",
+        "sampled": 600,
+        "retained": 164
+      },
+      {
+        "date": "2026-09-28",
+        "sampled": 600,
+        "retained": 141
+      },
+      {
+        "date": "2026-09-29",
+        "sampled": 600,
+        "retained": 165
+      },
+      {
+        "date": "2026-09-30",
+        "sampled": 600,
+        "retained": 152
+      }
+    ],
+    "limitation": "Exposure filtering changes the target population and may favor large accounts, promotional content, or viral warnings. Compare with the unfiltered sample."
+  }
+}

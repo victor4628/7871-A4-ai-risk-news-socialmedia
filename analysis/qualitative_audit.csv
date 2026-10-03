@@ -1,0 +1,41 @@
+channel,id,date,url,review_tone,automated_tone,reason
+News,a71e4b786106b4a1,2026-09-20,https://www.bloomberg.com/news/articles/2026-09-20/microsoft-ai-chief-says-china-isn-t-excuse-to-forego-regulation,neutral,positive,Policy position; no explicit praise or fear.
+News,853dde9e25f6ddab,2026-09-21,https://www.bloomberg.com/news/articles/2026-09-21/startups-like-harvey-embrace-open-models-to-cut-reliance-on-anthropic-openai,neutral,positive,Overall tone assigned through blind qualitative reading.
+News,4b6571e626d78bc8,2026-09-30,https://www.forbes.com/sites/iainmartin/2026/09/30/google-and-amazon-are-the-reason-for-anthropics-eye-watering-42-billion-loss/,negative,negative,Overall tone assigned through blind qualitative reading.
+News,d746251ded6ddc31,2026-09-12,https://officechai.com/ai/david-sacks-says-anthropic-quitter-jacob-coxons-virality-was-a-psyopfriedberg-says-ai-doomers-are-using-fear-like-religious-institutions/,negative,negative,"Negative tone toward doom advocates, not support for their AI-risk forecast."
+News,d900c04bad71da4d,2026-09-26,https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/,negative,neutral,Overall tone assigned through blind qualitative reading.
+News,7c287630ef1be65a,2026-09-10,https://thenewstack.io/gpt-images-2-5-sunburst-flare/,positive,positive,Overall tone assigned through blind qualitative reading.
+News,b178831e4060420b,2026-09-11,https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-yemen-group-used-claude-in-missile-development,negative,neutral,Overall tone assigned through blind qualitative reading.
+News,022a99ed331502b8,2026-09-19,https://www.bloomberg.com/news/articles/2026-09-18/nvidia-ceo-says-there-s-0-chance-that-world-will-end-in-2030,positive,neutral,Denial of extinction risk is reassuring; risk vocabulary can reverse classification.
+News,ba61216b9fbd351d,2026-09-11,https://www.bloomberg.com/news/articles/2026-09-11/china-ai-star-moonshot-eyes-2-billion-annualized-sales-in-2026,positive,neutral,Overall tone assigned through blind qualitative reading.
+News,dab510eb3ddf18a2,2026-09-10,https://www.forbes.com/sites/sandycarter/2026/09/10/did-openai-steal-a-1m-math-proof-four-questions-for-every-ceo/,negative,negative,Overall tone assigned through blind qualitative reading.
+News,1e9d661630f1888f,2026-09-23,https://www.bloomberg.com/news/videos/2026-09-23/microsoft-bofa-macquarie-on-ai-infrastructure-video,neutral,neutral,Overall tone assigned through blind qualitative reading.
+News,26cfc81ce1e870a9,2026-09-22,https://www.bloomberg.com/news/articles/2026-09-22/spacexai-s-grok-bot-agent-tops-400-000-users-after-first-month,positive,positive,Overall tone assigned through blind qualitative reading.
+News,985026d999b61735,2026-09-18,https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/,positive,positive,Overall tone assigned through blind qualitative reading.
+News,66dd1253f91ad641,2026-09-29,https://officechai.com/ai/gpt-6-1-sol/,positive,positive,Overall tone assigned through blind qualitative reading.
+News,e0017eb248ee6123,2026-09-14,https://www.foxnews.com/live-news/artificial-intelligence-openai-sam-altman-09-14-26,negative,negative,Overall tone assigned through blind qualitative reading.
+News,cad8c4f5e9c35f56,2026-09-29,https://www.forbes.com/sites/johnwerner/2026/09/29/capping-a-month-of-fear-openai-unveils-dots/,neutral,negative,Overall tone assigned through blind qualitative reading.
+News,b25a48edcfe4078d,2026-09-16,https://www.foxnews.com/live-news/artificial-intelligence-safety-mark-zuckerberg-09-16-26,neutral,neutral,Overall tone assigned through blind qualitative reading.
+News,fc138a6b9b886166,2026-09-29,https://thenewstack.io/openai-decision-api-luna/,neutral,neutral,Overall tone assigned through blind qualitative reading.
+News,ef63e862daf8060c,2026-09-27,https://www.tradingkey.com/analysis/stocks/us-stocks/262188276-ai-agents-e-commerce-meta-shopify-amazon-win-tradingkey,positive,positive,Overall tone assigned through blind qualitative reading.
+News,9ab10c5f25eb96f7,2026-09-14,https://fortune.com/2026/09/14/openai-may-have-violated-californias-ai-safety-law-with-astra-model-releases-ai-watchdog-says/,negative,negative,Overall tone assigned through blind qualitative reading.
+Social,2102273932594237590,2026-09-22,https://x.com/Cpt_Broseph/status/2102273932594237590,negative,positive,Dissatisfaction with tournament length and rewards.
+Social,2098386519320834089,2026-09-11,https://x.com/DexGemsReal/status/2098386519320834089,positive,positive,Enthusiastic token-price promotion; tone does not measure AI safety stance.
+Social,2097985214651982095,2026-09-10,https://x.com/CryptoTimes_io/status/2097985214651982095,neutral,positive,Factual account of prospective safety legislation.
+Social,2102516461780734383,2026-09-22,https://x.com/CNBCFastMoney/status/2102516461780734383,neutral,negative,Reports potential sector disruption without a clear evaluative stance.
+Social,2099044784254112162,2026-09-13,https://x.com/DebuJaiHind/status/2099044784254112162,negative,negative,Criticizes investors and advocates economic pressure over AI risk.
+Social,2099506367987859710,2026-09-14,https://x.com/liambyrnemp/status/2099506367987859710,negative,positive,Concern about inequitable AI wealth distribution and past policy mistakes.
+Social,2100265948892598430,2026-09-16,https://x.com/Saraxbtt/status/2100265948892598430,positive,positive,Cautiously welcomes AI agents reducing friction in wellness actions.
+Social,2100768122898935880,2026-09-17,https://x.com/saiful265777507/status/2100768122898935880,positive,positive,Praises data infrastructure and progress in robotics.
+Social,2105320673380098346,2026-09-30,https://x.com/BobbyDazzler666/status/2105320673380098346,negative,positive,Dark negative imagery despite an opening reference to improvement.
+Social,2100602871079108680,2026-09-17,https://x.com/TheBrittWithAnI/status/2100602871079108680,negative,negative,Explicit dislike and discomfort with AI-generated art.
+Social,2103061126791798998,2026-09-24,https://x.com/Johnsontaiwo_/status/2103061126791798998,positive,negative,Promotes useful training and a community workshop.
+Social,2102324860080853352,2026-09-22,https://x.com/NewTimesRwanda/status/2102324860080853352,negative,negative,"Expresses concern about the direction of education, rather than machine humanization."
+Social,2099577095978676573,2026-09-14,https://x.com/DanielMiessler/status/2099577095978676573,neutral,negative,States a speculative explanatory hypothesis without explicit emotional evaluation.
+Social,2097188806696800715,2026-09-08,https://x.com/SchmidhuberAI/status/2097188806696800715,negative,positive,Criticizes claims that AGI has already arrived; not a claim of existential danger.
+Social,2101448560541679683,2026-09-19,https://x.com/__Libra1/status/2101448560541679683,positive,positive,Warm aesthetic language and favorable creative instructions dominate tone.
+Social,2101252944754561482,2026-09-19,https://x.com/BobgonzaleBob/status/2101252944754561482,negative,positive,Critical tone about fiscal difficulties and consequences for younger people.
+Social,2101154050515271982,2026-09-18,https://x.com/108SAR/status/2101154050515271982,negative,negative,Hostile criticism of media and technology companies; rejects AI-doom claims.
+Social,2102174793370083799,2026-09-21,https://x.com/hypsclera/status/2102174793370083799,negative,negative,Sad emoticon signals dissatisfaction.
+Social,2100438518694855101,2026-09-17,https://x.com/Crypto_Jargon/status/2100438518694855101,negative,negative,"Discusses layoffs, hiring failures and financial strain."
+Social,2099351573277081708,2026-09-14,https://x.com/ReutersTech/status/2099351573277081708,negative,negative,Reports falling stocks and threats to humanity.

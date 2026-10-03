@@ -1,0 +1,20 @@
+{
+  "news_all": {
+    "n": 1007,
+    "truncated_at_256_tokens": 0,
+    "seconds": 3.354966878890991,
+    "preprocessing_version": "url_http_and_mention_user_v1"
+  },
+  "social": {
+    "n": 7461,
+    "truncated_at_256_tokens": 570,
+    "preprocessing_version": "url_http_and_mention_user_v1",
+    "prediction_source": "Matched unfiltered X predictions; no duplicate inference."
+  },
+  "social_unfiltered": {
+    "n": 12068,
+    "truncated_at_256_tokens": 656,
+    "seconds": 139.89991545677185,
+    "preprocessing_version": "url_http_and_mention_user_v1"
+  }
+}

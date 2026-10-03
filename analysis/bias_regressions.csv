@@ -1,0 +1,9 @@
+outcome,term,coefficient,se,p,low,high,n,domains
+Negative probability,"C(category, Treatment(reference=""International major""))[T.Corporate and research]",-0.289763419616956,0.083382007421,0.0005106034607995177,-0.4531891511207675,-0.12633768811314447,1006,140
+Negative probability,"C(category, Treatment(reference=""International major""))[T.Other outlets]",-0.1897216815394556,0.08711960693148398,0.029427255709908354,-0.3604729734724502,-0.01897038960646094,1006,140
+Negative probability,"C(category, Treatment(reference=""International major""))[T.Technology media]",-0.15545583610223984,0.08176217901497494,0.057260479374285064,-0.3157067622691073,0.004795090064627638,1006,140
+Negative probability,"C(category, Treatment(reference=""International major""))[T.US major]",-0.11918928421773017,0.08705497307438066,0.17095968714066834,-0.2898138961186204,0.05143532768316006,1006,140
+Hu Liu z score,"C(category, Treatment(reference=""International major""))[T.Corporate and research]",-0.4326895845188479,0.27684457252462863,0.11806829843661071,-0.9752949759825069,0.10991580694481112,1006,140
+Hu Liu z score,"C(category, Treatment(reference=""International major""))[T.Other outlets]",-0.3139842051846794,0.27768543347317887,0.25817336727023055,-0.8582376538235031,0.23026924345414435,1006,140
+Hu Liu z score,"C(category, Treatment(reference=""International major""))[T.Technology media]",-0.3180042476729619,0.26854694758679126,0.23634723590925866,-0.8443465931012384,0.20833809775531448,1006,140
+Hu Liu z score,"C(category, Treatment(reference=""International major""))[T.US major]",-0.24953033051284046,0.27024563737070606,0.3558267259895125,-0.779202046738496,0.2801413857128151,1006,140

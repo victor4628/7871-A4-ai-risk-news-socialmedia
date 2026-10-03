@@ -1,0 +1,32 @@
+{
+  "model": "Xenova/twitter-roberta-base-sentiment-latest",
+  "revision": "f3ec4d0925f90c3ca7ee7814f52d6ee7cf180445",
+  "files": [
+    {
+      "name": "tokenizer.json",
+      "sha256": "1e6506713f00e34406a757acb80f9f3233c1c3950857d32bbc41bcd419d5d8b6",
+      "bytes": 2108615
+    },
+    {
+      "name": "config.json",
+      "sha256": "cdf2b36e0066bd9996e3b9fb3f7c095dc656a0e62c6e3a7327d4ff5541e55b51",
+      "bytes": 887
+    },
+    {
+      "name": "onnx/model_quantized.onnx",
+      "sha256": "046f7e4cc46b399558fa9b2de966f6b0d42c69e4b01f582bfb4099b01a0bb5d7",
+      "bytes": 125905426
+    }
+  ],
+  "original_model": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+  "model_card": "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest",
+  "pretraining_tweets_period": "January 2018 to December 2021",
+  "sentiment_finetuning": "TweetEval",
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "preprocessing": "URL -> http; @mention -> @user",
+  "maximum_tokens": 256
+}

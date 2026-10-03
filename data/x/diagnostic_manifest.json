@@ -1,0 +1,64 @@
+[
+  {
+    "query": "AI lang:en since_time:1789012800 until_time:1789099200",
+    "file": "data/raw/x_diagnostic/sep10_syntax_0.json",
+    "returned": 0,
+    "estimated_usd": 0.00015,
+    "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785"
+  },
+  {
+    "query": "AI lang:en since:2026-09-10 until:2026-09-11",
+    "file": "data/raw/x_diagnostic/sep10_syntax_1.json",
+    "returned": 20,
+    "estimated_usd": 0.0029999999999999996,
+    "sha256": "fa937f1dee69497ecfcf90bfd39a60570625150b958c2957d226b809eda53daf"
+  },
+  {
+    "query": "AI lang:en since_id:2097897853547446272 max_id:2098260241413046271",
+    "file": "data/raw/x_diagnostic/sep10_alternative_0.json",
+    "returned": 20,
+    "estimated_usd": 0.0029999999999999996,
+    "sha256": "5d12f6a308ad7c06e41c11f809e6666ce4d8413d8aaad93f84f4095fc4a441b4",
+    "retrieved_utc": "2026-10-03T00:45:17.214570+00:00"
+  },
+  {
+    "query": "AI lang:en since:2026-09-10_04:00:00_UTC until:2026-09-11_04:00:00_UTC",
+    "file": "data/raw/x_diagnostic/sep10_alternative_1.json",
+    "returned": 20,
+    "estimated_usd": 0.0029999999999999996,
+    "sha256": "98afac564ab85229b7b44f14e92cdda01c30b880c312bfb61069def08253ee04",
+    "retrieved_utc": "2026-10-03T00:45:19.933086+00:00"
+  },
+  {
+    "query": "AI lang:en since_time:1788926400 until_time:1789185600",
+    "file": "data/raw/x_diagnostic/sep10_alternative_2.json",
+    "returned": 20,
+    "estimated_usd": 0.0029999999999999996,
+    "sha256": "48392d06b972bd984c4d812441e8f9e1a7a15bccfeda38bfbc23c2622a9bbd47",
+    "retrieved_utc": "2026-10-03T00:45:22.643682+00:00"
+  },
+  {
+    "query": "(AI OR \"artificial intelligence\" OR superintelligence) lang:en -filter:retweets since_id:2097600645166006272 max_id:2097601903457206271",
+    "file": "data/raw/x_diagnostic/id_window_2026-09-09_s1.json",
+    "returned": 20,
+    "estimated_usd": 0.0029999999999999996,
+    "sha256": "699c5546c3de971071a95175448344f56c512e840862963b06b5d8a2dbc29124",
+    "retrieved_utc": "2026-10-03T00:45:59.590599+00:00"
+  },
+  {
+    "query": "(AI OR \"artificial intelligence\" OR superintelligence) lang:en -filter:retweets since_id:2097901125104566272 max_id:2097902383395766271",
+    "file": "data/raw/x_diagnostic/id_window_2026-09-10_s0.json",
+    "returned": 20,
+    "estimated_usd": 0.0029999999999999996,
+    "sha256": "88b1e92ece7e413294fd340d10c4c4fd4706d6cd3b9e4a5f70a5801c0ea67b87",
+    "retrieved_utc": "2026-10-03T00:46:02.578099+00:00"
+  },
+  {
+    "query": "(AI OR \"artificial intelligence\" OR superintelligence) lang:en -filter:retweets since_id:2105497177420726272 max_id:2105498435711926271",
+    "file": "data/raw/x_diagnostic/id_window_2026-09-30_s5.json",
+    "returned": 20,
+    "estimated_usd": 0.0029999999999999996,
+    "sha256": "e84fae7da080a70779756b2b03276d25688e2d9892a68a60ffe0e445ad01527f",
+    "retrieved_utc": "2026-10-03T00:46:05.612896+00:00"
+  }
+]

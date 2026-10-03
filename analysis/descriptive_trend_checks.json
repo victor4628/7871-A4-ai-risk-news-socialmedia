@@ -1,0 +1,10 @@
+{
+  "news": {
+    "negative_share_slope_pp_per_calendar_day": -0.7770704123021686,
+    "unweighted_daily_trend_p": 0.0115111552978205
+  },
+  "social": {
+    "negative_share_slope_pp_per_calendar_day": -0.22502877835046853,
+    "unweighted_daily_trend_p": 0.05421346214172714
+  }
+}

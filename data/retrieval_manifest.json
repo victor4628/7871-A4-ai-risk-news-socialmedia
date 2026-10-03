@@ -1,0 +1,296 @@
+[
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMD?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\AMD.json",
+    "retrieved_utc": "2026-10-01T21:27:55.545463+00:00",
+    "sha256": "2696ba4953022a6068f301720be1940e1a7c17b385c7adcea5711104bea2030a"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ARM?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\ARM.json",
+    "retrieved_utc": "2026-10-01T21:27:55.559476+00:00",
+    "sha256": "f5d26bcb2efaccae81cd775be1e8a71f358bccdfc231d1889a4d56e303f4027d"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\NVDA.json",
+    "retrieved_utc": "2026-10-01T21:27:55.563462+00:00",
+    "sha256": "dcad280988d9bebce475ca297a4ce6ff96dd688dbcb667df919017f8cd76fbfb"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AVGO?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\AVGO.json",
+    "retrieved_utc": "2026-10-01T21:27:55.584396+00:00",
+    "sha256": "ac039157341345fd58656ea9caac858290390a2ddc11df5c06818898e15e3dc5"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MU?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\MU.json",
+    "retrieved_utc": "2026-10-01T21:27:55.624830+00:00",
+    "sha256": "1cc83720621d16be1000612f9c1a57d93fa3f2de2e0b2db78d0ceb729621270e"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSM?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\TSM.json",
+    "retrieved_utc": "2026-10-01T21:27:55.632845+00:00",
+    "sha256": "59c47cce797bab7737f2fe0e4df616875b0980f9de6e768fe53ae429b5b04f9f"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ASML?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\ASML.json",
+    "retrieved_utc": "2026-10-01T21:27:55.640356+00:00",
+    "sha256": "af09e5a930335aed6f2cfd4506484416a7a7a83537d9f7c927dd08b9c00ee097"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MRVL?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\MRVL.json",
+    "retrieved_utc": "2026-10-01T21:27:55.661252+00:00",
+    "sha256": "0c4cf565e66928194fc9a73bd3e258e9f12e3868b4bd6cff0c5dc019b5425b3a"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\MSFT.json",
+    "retrieved_utc": "2026-10-01T21:27:55.675362+00:00",
+    "sha256": "aa4292bd0ff3f5477f232b489bbd93452b7b01b72549d9b5db77c341bc5912ea"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\AMZN.json",
+    "retrieved_utc": "2026-10-01T21:27:55.709346+00:00",
+    "sha256": "aad0c55846f487004d863298831b542aeec43cd8eb72e16d685abaf99316c450"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\GOOGL.json",
+    "retrieved_utc": "2026-10-01T21:27:55.718362+00:00",
+    "sha256": "dd5025d15ee1e3ef525a6d2b9167b385b77b0a2d52ffbe193c7039a83d5253ce"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\META.json",
+    "retrieved_utc": "2026-10-01T21:27:55.725825+00:00",
+    "sha256": "6e06e59a8f637a94b00064b39f4795f1a96c4caeedae5a629a25c2c6b5192c6c"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ORCL?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\ORCL.json",
+    "retrieved_utc": "2026-10-01T21:27:55.770837+00:00",
+    "sha256": "2edca542db5dea46e28a8fdf85f16874a739d9b176d6871a81b0a87d3ce19f06"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NOW?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\NOW.json",
+    "retrieved_utc": "2026-10-01T21:27:55.774838+00:00",
+    "sha256": "19963c277191a874203550dff1b7c812ee4cdf34879e2a02412b3ea3bd8ecbc8"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CRM?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\CRM.json",
+    "retrieved_utc": "2026-10-01T21:27:55.793371+00:00",
+    "sha256": "238dec96d9ba6719729adecad31397c5a5dfa1a9b8855ffeb0cc7467f13b1acb"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PLTR?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\PLTR.json",
+    "retrieved_utc": "2026-10-01T21:27:55.795371+00:00",
+    "sha256": "d0d9d10e232fb8869a531fba86627571a5090b3f2c10cb09ce1457cb890f430f"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IBM?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\IBM.json",
+    "retrieved_utc": "2026-10-01T21:27:55.806844+00:00",
+    "sha256": "99e787c373166e39ab83781575b04fb55cddeec0b0e107e0eae7f0f1504d8aa8"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SNOW?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\SNOW.json",
+    "retrieved_utc": "2026-10-01T21:27:55.823840+00:00",
+    "sha256": "b741938705c5e3cce618289de905c58e6f6fdeda3346531257568aef592e7fb3"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DELL?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\DELL.json",
+    "retrieved_utc": "2026-10-01T21:27:55.845713+00:00",
+    "sha256": "d188bd350b630fdb25a1cd15abf4091f5d04069aa77fcf79a3d37dc0a7fdcfdb"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HPE?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\HPE.json",
+    "retrieved_utc": "2026-10-01T21:27:55.851223+00:00",
+    "sha256": "98a65463e931fe2271e3721972db1b7987ecf35ca1d5e7dfcfc4051ea6375337"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ADBE?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\ADBE.json",
+    "retrieved_utc": "2026-10-01T21:27:55.859727+00:00",
+    "sha256": "f20c0330bad12ab70c0a66065ef43eae369814fcd5f845cad48f0c9018fcb974"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SMCI?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\SMCI.json",
+    "retrieved_utc": "2026-10-01T21:27:55.878366+00:00",
+    "sha256": "67cb3e82cf3a360d0f4c0abacfb2cf9d27a0464513553b3caac7c5afd4406cc0"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\TSLA.json",
+    "retrieved_utc": "2026-10-01T21:27:55.908453+00:00",
+    "sha256": "ca4b33ae84bf6c1f0eac2755110b67bd0a42db1f4aeb7e16dc38c8094fe73fae"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\QQQ.json",
+    "retrieved_utc": "2026-10-01T21:27:55.917466+00:00",
+    "sha256": "610ebf0a317efd2e6e6012104dd9c27cb4fd1425ac513b92a9722ea3e92318b6"
+  },
+  {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1788480000&period2=1790827200&interval=1d&events=div%2Csplits",
+    "file": "data\\raw\\prices\\SPY.json",
+    "retrieved_utc": "2026-10-01T21:27:55.966852+00:00",
+    "sha256": "d2218056380884c15d91960ae64079e345cb54afb519c2c1e5e11dbeec81b9a5"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-08",
+    "file": "data\\raw\\news\\2026-09-08.html",
+    "retrieved_utc": "2026-10-01T21:27:56.087648+00:00",
+    "sha256": "d13233147cdd949e0ded85f2c1225574606483b588828593b32e0602edfc42f2"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-11",
+    "file": "data\\raw\\news\\2026-09-11.html",
+    "retrieved_utc": "2026-10-01T21:27:56.146383+00:00",
+    "sha256": "5a5b4f6bf8294515418afcf9a6ee574763ae59a6975c19ed7f570a8bcbdf45ab"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-12",
+    "file": "data\\raw\\news\\2026-09-12.html",
+    "retrieved_utc": "2026-10-01T21:27:56.161975+00:00",
+    "sha256": "c6357ee336ad1cbe42bcda24034c6a12b21bc5339d378ee2130733fb0030711c"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-13",
+    "file": "data\\raw\\news\\2026-09-13.html",
+    "retrieved_utc": "2026-10-01T21:27:56.241524+00:00",
+    "sha256": "0af5baff0dcffd2d552f3c5555a3f5d65b791ea6cd80832e00cbf4221b5ca907"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-09",
+    "file": "data\\raw\\news\\2026-09-09.html",
+    "retrieved_utc": "2026-10-01T21:27:56.258539+00:00",
+    "sha256": "d2119d9b194d9bdd051e9f38258cecf06b3df0e631169928d765c45c5c43f6d5"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-10",
+    "file": "data\\raw\\news\\2026-09-10.html",
+    "retrieved_utc": "2026-10-01T21:27:56.315343+00:00",
+    "sha256": "22e0f76a8874eb9d0eb48275ba27b4da6667dec11de6a1abcd9a998067326a14"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-14",
+    "file": "data\\raw\\news\\2026-09-14.html",
+    "retrieved_utc": "2026-10-01T21:27:56.344228+00:00",
+    "sha256": "54ac2bb2a4d442b682c1bcb409dafd7144cf726fc54576fd416a2d88ae622ab2"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-17",
+    "file": "data\\raw\\news\\2026-09-17.html",
+    "retrieved_utc": "2026-10-01T21:27:56.447913+00:00",
+    "sha256": "e2b2a618bdffa6685c53bef01e235d0fd1e364d868c161254225438160f0871d"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-15",
+    "file": "data\\raw\\news\\2026-09-15.html",
+    "retrieved_utc": "2026-10-01T21:27:56.472024+00:00",
+    "sha256": "c974409cfe9de1d5a397980f15ee9dd40ee199418801aaeb475950e49ee2dfab"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-19",
+    "file": "data\\raw\\news\\2026-09-19.html",
+    "retrieved_utc": "2026-10-01T21:27:56.533992+00:00",
+    "sha256": "e340653931c7dd783c2b30e9bebbcfdd45d6ea841e4a7faf21348a3cdd09998a"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-18",
+    "file": "data\\raw\\news\\2026-09-18.html",
+    "retrieved_utc": "2026-10-01T21:27:56.551565+00:00",
+    "sha256": "5e3df225554fbaae45926497ebec343f385f092628b850e7d6176c7b9b3c4275"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-16",
+    "file": "data\\raw\\news\\2026-09-16.html",
+    "retrieved_utc": "2026-10-01T21:27:56.575503+00:00",
+    "sha256": "af0e1ef767c9520b1ecbc20d10c3d6e976b6248ebeecaf40388480d10134ef03"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-20",
+    "file": "data\\raw\\news\\2026-09-20.html",
+    "retrieved_utc": "2026-10-01T21:27:56.592717+00:00",
+    "sha256": "4a529995d27173e128bf4a33190d43be66d24999e13887c637d59e755d585486"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-21",
+    "file": "data\\raw\\news\\2026-09-21.html",
+    "retrieved_utc": "2026-10-01T21:27:56.641602+00:00",
+    "sha256": "f6c94102baa2eed77842758dd375c4446c371cc1c4501968cbcd3e5f81043084"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-22",
+    "file": "data\\raw\\news\\2026-09-22.html",
+    "retrieved_utc": "2026-10-01T21:27:56.682474+00:00",
+    "sha256": "1c02cc4c534ac6cc4746ea2a98bcced6d0c5a10d71f224505fffabad8a160478"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-23",
+    "file": "data\\raw\\news\\2026-09-23.html",
+    "retrieved_utc": "2026-10-01T21:27:56.732531+00:00",
+    "sha256": "d415a0e5fbc9e72c2d698b9af8fc9233b2b2a87d899a10c3509bda6aefbc9b64"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-26",
+    "file": "data\\raw\\news\\2026-09-26.html",
+    "retrieved_utc": "2026-10-01T21:27:56.818365+00:00",
+    "sha256": "c7791b5882c23ad8eb6783e213b75c6419efbc0f4a253b91f578660a0fd8e68c"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-25",
+    "file": "data\\raw\\news\\2026-09-25.html",
+    "retrieved_utc": "2026-10-01T21:27:56.881459+00:00",
+    "sha256": "3108bd4eb9c786b82e339384534029bf48244cb66caa5adb22e79cf5b183f0b9"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-28",
+    "file": "data\\raw\\news\\2026-09-28.html",
+    "retrieved_utc": "2026-10-01T21:27:56.897981+00:00",
+    "sha256": "096bcf2e9864e5976da69303dc044b69b56f72e0b27f643ec7e3717bc489d2c9"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-27",
+    "file": "data\\raw\\news\\2026-09-27.html",
+    "retrieved_utc": "2026-10-01T21:27:56.912520+00:00",
+    "sha256": "6d9826cb82cdad4ccd190e1cb7f04b1c6fa9f5dbc2129a09d83eae5daaa0d1f0"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-24",
+    "file": "data\\raw\\news\\2026-09-24.html",
+    "retrieved_utc": "2026-10-01T21:27:56.924531+00:00",
+    "sha256": "d22aa844ef42e09df54e5b0cf8bbcd1d84b28610eb197dde9818e980d66ad638"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-29",
+    "file": "data\\raw\\news\\2026-09-29.html",
+    "retrieved_utc": "2026-10-01T21:27:57.063491+00:00",
+    "sha256": "215ac50e313acca58b2e166ae52c48e9b880ac2125aad3ac4e7e8307021f4320"
+  },
+  {
+    "url": "https://www.dataaihub.co/daily/2026-09-30",
+    "file": "data\\raw\\news\\2026-09-30.html",
+    "retrieved_utc": "2026-10-01T21:27:57.145443+00:00",
+    "sha256": "64db6d287ab93ed27f25f8ef1ba487bbe88e0215ccbe086e3224e39862e2e248"
+  },
+  {
+    "url": "https://cdn.syndication.twimg.com/tweet-result?id=2097497037956891126&lang=en&token=1",
+    "file": "data\\raw\\anchor_tweet.json",
+    "retrieved_utc": "2026-10-01T21:28:07.825994+00:00",
+    "sha256": "496d046895488c3ca003808facc5d7acd5c643870eecf19a32f4e7d7a67fafc7"
+  }
+]

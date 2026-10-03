@@ -1,0 +1,14 @@
+[
+  {
+    "channel": "News",
+    "n": 20,
+    "vader_agreement": 0.65,
+    "roberta_agreement": 0.5
+  },
+  {
+    "channel": "Social",
+    "n": 20,
+    "vader_agreement": 0.55,
+    "roberta_agreement": 0.7
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "a71e4b786106b4a1",
+    "review_tone": "neutral",
+    "reason": "Policy position; no explicit praise or fear."
+  },
+  {
+    "id": "853dde9e25f6ddab",
+    "review_tone": "neutral",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "4b6571e626d78bc8",
+    "review_tone": "negative",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "d746251ded6ddc31",
+    "review_tone": "negative",
+    "reason": "Negative tone toward doom advocates, not support for their AI-risk forecast."
+  },
+  {
+    "id": "d900c04bad71da4d",
+    "review_tone": "negative",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "7c287630ef1be65a",
+    "review_tone": "positive",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "b178831e4060420b",
+    "review_tone": "negative",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "022a99ed331502b8",
+    "review_tone": "positive",
+    "reason": "Denial of extinction risk is reassuring; risk vocabulary can reverse classification."
+  },
+  {
+    "id": "ba61216b9fbd351d",
+    "review_tone": "positive",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "dab510eb3ddf18a2",
+    "review_tone": "negative",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "1e9d661630f1888f",
+    "review_tone": "neutral",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "26cfc81ce1e870a9",
+    "review_tone": "positive",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "985026d999b61735",
+    "review_tone": "positive",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "66dd1253f91ad641",
+    "review_tone": "positive",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "e0017eb248ee6123",
+    "review_tone": "negative",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "cad8c4f5e9c35f56",
+    "review_tone": "neutral",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "b25a48edcfe4078d",
+    "review_tone": "neutral",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "fc138a6b9b886166",
+    "review_tone": "neutral",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "ef63e862daf8060c",
+    "review_tone": "positive",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  },
+  {
+    "id": "9ab10c5f25eb96f7",
+    "review_tone": "negative",
+    "reason": "Overall tone assigned through blind qualitative reading."
+  }
+]

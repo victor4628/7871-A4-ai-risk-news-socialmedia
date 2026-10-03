@@ -1,0 +1,16 @@
+tmp/
+__pycache__/
+*.pyc
+
+# Local source caches and full comment bodies; distribution uses metadata and scores.
+data/raw/*
+!data/raw/opinion_lexicon/
+data/social_candidates.csv
+data/anchor_verification.json
+analysis/social_scored.csv
+analysis/social_roberta.csv
+analysis/social_unfiltered_scored.csv
+analysis/social_unfiltered_roberta.csv
+analysis/review_sample.csv
+data/x/*_posts.csv
+data/x/*.tmp

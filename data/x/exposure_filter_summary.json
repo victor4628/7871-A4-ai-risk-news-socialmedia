@@ -1,0 +1,134 @@
+{
+  "min_followers": 100,
+  "min_views": 100,
+  "threshold_logic": "Both thresholds must be met; equality passes.",
+  "metadata_timing": "Values recorded at API retrieval, not at posting or the historical trading close.",
+  "missing_policy": "Excluded from exposure-qualified sample; retained in raw sample and separately counted.",
+  "sampled": 13738,
+  "retained": 8345,
+  "reason_counts": {
+    "retained": 8345,
+    "low_views": 3550,
+    "low_followers": 935,
+    "low_followers_and_views": 908
+  },
+  "daily": [
+    {
+      "date": "2026-09-08",
+      "sampled": 600,
+      "retained": 426
+    },
+    {
+      "date": "2026-09-09",
+      "sampled": 600,
+      "retained": 393
+    },
+    {
+      "date": "2026-09-10",
+      "sampled": 600,
+      "retained": 411
+    },
+    {
+      "date": "2026-09-11",
+      "sampled": 600,
+      "retained": 406
+    },
+    {
+      "date": "2026-09-12",
+      "sampled": 600,
+      "retained": 415
+    },
+    {
+      "date": "2026-09-13",
+      "sampled": 600,
+      "retained": 409
+    },
+    {
+      "date": "2026-09-14",
+      "sampled": 600,
+      "retained": 405
+    },
+    {
+      "date": "2026-09-15",
+      "sampled": 600,
+      "retained": 435
+    },
+    {
+      "date": "2026-09-16",
+      "sampled": 600,
+      "retained": 408
+    },
+    {
+      "date": "2026-09-17",
+      "sampled": 599,
+      "retained": 427
+    },
+    {
+      "date": "2026-09-18",
+      "sampled": 600,
+      "retained": 435
+    },
+    {
+      "date": "2026-09-19",
+      "sampled": 540,
+      "retained": 396
+    },
+    {
+      "date": "2026-09-20",
+      "sampled": 600,
+      "retained": 446
+    },
+    {
+      "date": "2026-09-21",
+      "sampled": 600,
+      "retained": 434
+    },
+    {
+      "date": "2026-09-22",
+      "sampled": 600,
+      "retained": 445
+    },
+    {
+      "date": "2026-09-23",
+      "sampled": 599,
+      "retained": 425
+    },
+    {
+      "date": "2026-09-24",
+      "sampled": 600,
+      "retained": 427
+    },
+    {
+      "date": "2026-09-25",
+      "sampled": 600,
+      "retained": 409
+    },
+    {
+      "date": "2026-09-26",
+      "sampled": 600,
+      "retained": 171
+    },
+    {
+      "date": "2026-09-27",
+      "sampled": 600,
+      "retained": 164
+    },
+    {
+      "date": "2026-09-28",
+      "sampled": 600,
+      "retained": 141
+    },
+    {
+      "date": "2026-09-29",
+      "sampled": 600,
+      "retained": 165
+    },
+    {
+      "date": "2026-09-30",
+      "sampled": 600,
+      "retained": 152
+    }
+  ],
+  "limitation": "Exposure filtering changes the target population and may favor large accounts, promotional content, or viral warnings. Compare with the unfiltered sample.",
+  "collection_completed": true
+}

@@ -1,0 +1,27 @@
+{
+  "prices_and_portfolio": {
+    "symbols": 25,
+    "constituents": 23,
+    "basket_return_pct": 3.723137459260717
+  },
+  "independent_restricted_unrestricted_OLS": {
+    "specifications_verified": 32,
+    "primary_n": 14
+  },
+  "x_data": {
+    "raw_posts": 13738,
+    "qualified_cleaned_posts": 7461,
+    "dates": 23,
+    "windows": 138,
+    "estimated_total_api_usd": 2.27865,
+    "ids_verified": true,
+    "available_response_hashes_verified": 688
+  },
+  "raw_source_text_hashes_verified": 49,
+  "model_file_hashes_verified": 3,
+  "report": {
+    "pages": 6,
+    "references": 13,
+    "links_verified": true
+  }
+}

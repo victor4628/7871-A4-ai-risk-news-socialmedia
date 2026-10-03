@@ -1,0 +1,9 @@
+{
+  "status": "user_confirmed",
+  "min_followers": 100,
+  "min_views": 100,
+  "logic": "Both retrieval-time counts must meet or exceed the threshold.",
+  "missing_policy": "Exclude from the primary qualified sample and disclose separately.",
+  "raw_sample_policy": "Preserve the unfiltered sample for sensitivity analysis.",
+  "timing_limitation": "Followers and views are measured at retrieval, not historical posting or trading-close time."
+}

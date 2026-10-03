@@ -1,0 +1,2131 @@
+{
+  "plan": {
+    "period_start_ny": "2026-09-08T00:00:00-04:00",
+    "period_end_exclusive_ny": "2026-10-01T00:00:00-04:00",
+    "base_query": "(AI OR \"artificial intelligence\" OR superintelligence) lang:en -filter:retweets",
+    "query_type": "Latest",
+    "seed": 7871,
+    "windows": [
+      {
+        "id": "2026-09-08_s0",
+        "start_ny": "2026-09-08T01:00:00-04:00",
+        "end_ny": "2026-09-08T01:05:00-04:00",
+        "start_epoch": 1788843600,
+        "end_epoch": 1788843900
+      },
+      {
+        "id": "2026-09-08_s1",
+        "start_ny": "2026-09-08T06:32:00-04:00",
+        "end_ny": "2026-09-08T06:37:00-04:00",
+        "start_epoch": 1788863520,
+        "end_epoch": 1788863820
+      },
+      {
+        "id": "2026-09-08_s2",
+        "start_ny": "2026-09-08T10:26:00-04:00",
+        "end_ny": "2026-09-08T10:31:00-04:00",
+        "start_epoch": 1788877560,
+        "end_epoch": 1788877860
+      },
+      {
+        "id": "2026-09-08_s3",
+        "start_ny": "2026-09-08T13:07:00-04:00",
+        "end_ny": "2026-09-08T13:12:00-04:00",
+        "start_epoch": 1788887220,
+        "end_epoch": 1788887520
+      },
+      {
+        "id": "2026-09-08_s4",
+        "start_ny": "2026-09-08T17:21:00-04:00",
+        "end_ny": "2026-09-08T17:26:00-04:00",
+        "start_epoch": 1788902460,
+        "end_epoch": 1788902760
+      },
+      {
+        "id": "2026-09-08_s5",
+        "start_ny": "2026-09-08T20:37:00-04:00",
+        "end_ny": "2026-09-08T20:42:00-04:00",
+        "start_epoch": 1788914220,
+        "end_epoch": 1788914520
+      },
+      {
+        "id": "2026-09-09_s0",
+        "start_ny": "2026-09-09T01:01:00-04:00",
+        "end_ny": "2026-09-09T01:06:00-04:00",
+        "start_epoch": 1788930060,
+        "end_epoch": 1788930360
+      },
+      {
+        "id": "2026-09-09_s1",
+        "start_ny": "2026-09-09T04:19:00-04:00",
+        "end_ny": "2026-09-09T04:24:00-04:00",
+        "start_epoch": 1788941940,
+        "end_epoch": 1788942240
+      },
+      {
+        "id": "2026-09-09_s2",
+        "start_ny": "2026-09-09T09:21:00-04:00",
+        "end_ny": "2026-09-09T09:26:00-04:00",
+        "start_epoch": 1788960060,
+        "end_epoch": 1788960360
+      },
+      {
+        "id": "2026-09-09_s3",
+        "start_ny": "2026-09-09T14:13:00-04:00",
+        "end_ny": "2026-09-09T14:18:00-04:00",
+        "start_epoch": 1788977580,
+        "end_epoch": 1788977880
+      },
+      {
+        "id": "2026-09-09_s4",
+        "start_ny": "2026-09-09T17:24:00-04:00",
+        "end_ny": "2026-09-09T17:29:00-04:00",
+        "start_epoch": 1788989040,
+        "end_epoch": 1788989340
+      },
+      {
+        "id": "2026-09-09_s5",
+        "start_ny": "2026-09-09T23:04:00-04:00",
+        "end_ny": "2026-09-09T23:09:00-04:00",
+        "start_epoch": 1789009440,
+        "end_epoch": 1789009740
+      },
+      {
+        "id": "2026-09-10_s0",
+        "start_ny": "2026-09-10T00:13:00-04:00",
+        "end_ny": "2026-09-10T00:18:00-04:00",
+        "start_epoch": 1789013580,
+        "end_epoch": 1789013880
+      },
+      {
+        "id": "2026-09-10_s1",
+        "start_ny": "2026-09-10T05:44:00-04:00",
+        "end_ny": "2026-09-10T05:49:00-04:00",
+        "start_epoch": 1789033440,
+        "end_epoch": 1789033740
+      },
+      {
+        "id": "2026-09-10_s2",
+        "start_ny": "2026-09-10T09:47:00-04:00",
+        "end_ny": "2026-09-10T09:52:00-04:00",
+        "start_epoch": 1789048020,
+        "end_epoch": 1789048320
+      },
+      {
+        "id": "2026-09-10_s3",
+        "start_ny": "2026-09-10T12:06:00-04:00",
+        "end_ny": "2026-09-10T12:11:00-04:00",
+        "start_epoch": 1789056360,
+        "end_epoch": 1789056660
+      },
+      {
+        "id": "2026-09-10_s4",
+        "start_ny": "2026-09-10T18:22:00-04:00",
+        "end_ny": "2026-09-10T18:27:00-04:00",
+        "start_epoch": 1789078920,
+        "end_epoch": 1789079220
+      },
+      {
+        "id": "2026-09-10_s5",
+        "start_ny": "2026-09-10T20:55:00-04:00",
+        "end_ny": "2026-09-10T21:00:00-04:00",
+        "start_epoch": 1789088100,
+        "end_epoch": 1789088400
+      },
+      {
+        "id": "2026-09-11_s0",
+        "start_ny": "2026-09-11T00:25:00-04:00",
+        "end_ny": "2026-09-11T00:30:00-04:00",
+        "start_epoch": 1789100700,
+        "end_epoch": 1789101000
+      },
+      {
+        "id": "2026-09-11_s1",
+        "start_ny": "2026-09-11T06:45:00-04:00",
+        "end_ny": "2026-09-11T06:50:00-04:00",
+        "start_epoch": 1789123500,
+        "end_epoch": 1789123800
+      },
+      {
+        "id": "2026-09-11_s2",
+        "start_ny": "2026-09-11T08:17:00-04:00",
+        "end_ny": "2026-09-11T08:22:00-04:00",
+        "start_epoch": 1789129020,
+        "end_epoch": 1789129320
+      },
+      {
+        "id": "2026-09-11_s3",
+        "start_ny": "2026-09-11T15:42:00-04:00",
+        "end_ny": "2026-09-11T15:47:00-04:00",
+        "start_epoch": 1789155720,
+        "end_epoch": 1789156020
+      },
+      {
+        "id": "2026-09-11_s4",
+        "start_ny": "2026-09-11T16:41:00-04:00",
+        "end_ny": "2026-09-11T16:46:00-04:00",
+        "start_epoch": 1789159260,
+        "end_epoch": 1789159560
+      },
+      {
+        "id": "2026-09-11_s5",
+        "start_ny": "2026-09-11T21:16:00-04:00",
+        "end_ny": "2026-09-11T21:21:00-04:00",
+        "start_epoch": 1789175760,
+        "end_epoch": 1789176060
+      },
+      {
+        "id": "2026-09-12_s0",
+        "start_ny": "2026-09-12T01:03:00-04:00",
+        "end_ny": "2026-09-12T01:08:00-04:00",
+        "start_epoch": 1789189380,
+        "end_epoch": 1789189680
+      },
+      {
+        "id": "2026-09-12_s1",
+        "start_ny": "2026-09-12T07:49:00-04:00",
+        "end_ny": "2026-09-12T07:54:00-04:00",
+        "start_epoch": 1789213740,
+        "end_epoch": 1789214040
+      },
+      {
+        "id": "2026-09-12_s2",
+        "start_ny": "2026-09-12T08:19:00-04:00",
+        "end_ny": "2026-09-12T08:24:00-04:00",
+        "start_epoch": 1789215540,
+        "end_epoch": 1789215840
+      },
+      {
+        "id": "2026-09-12_s3",
+        "start_ny": "2026-09-12T13:59:00-04:00",
+        "end_ny": "2026-09-12T14:04:00-04:00",
+        "start_epoch": 1789235940,
+        "end_epoch": 1789236240
+      },
+      {
+        "id": "2026-09-12_s4",
+        "start_ny": "2026-09-12T17:32:00-04:00",
+        "end_ny": "2026-09-12T17:37:00-04:00",
+        "start_epoch": 1789248720,
+        "end_epoch": 1789249020
+      },
+      {
+        "id": "2026-09-12_s5",
+        "start_ny": "2026-09-12T23:54:00-04:00",
+        "end_ny": "2026-09-12T23:59:00-04:00",
+        "start_epoch": 1789271640,
+        "end_epoch": 1789271940
+      },
+      {
+        "id": "2026-09-13_s0",
+        "start_ny": "2026-09-13T03:54:00-04:00",
+        "end_ny": "2026-09-13T03:59:00-04:00",
+        "start_epoch": 1789286040,
+        "end_epoch": 1789286340
+      },
+      {
+        "id": "2026-09-13_s1",
+        "start_ny": "2026-09-13T05:34:00-04:00",
+        "end_ny": "2026-09-13T05:39:00-04:00",
+        "start_epoch": 1789292040,
+        "end_epoch": 1789292340
+      },
+      {
+        "id": "2026-09-13_s2",
+        "start_ny": "2026-09-13T11:07:00-04:00",
+        "end_ny": "2026-09-13T11:12:00-04:00",
+        "start_epoch": 1789312020,
+        "end_epoch": 1789312320
+      },
+      {
+        "id": "2026-09-13_s3",
+        "start_ny": "2026-09-13T14:32:00-04:00",
+        "end_ny": "2026-09-13T14:37:00-04:00",
+        "start_epoch": 1789324320,
+        "end_epoch": 1789324620
+      },
+      {
+        "id": "2026-09-13_s4",
+        "start_ny": "2026-09-13T19:43:00-04:00",
+        "end_ny": "2026-09-13T19:48:00-04:00",
+        "start_epoch": 1789342980,
+        "end_epoch": 1789343280
+      },
+      {
+        "id": "2026-09-13_s5",
+        "start_ny": "2026-09-13T20:00:00-04:00",
+        "end_ny": "2026-09-13T20:05:00-04:00",
+        "start_epoch": 1789344000,
+        "end_epoch": 1789344300
+      },
+      {
+        "id": "2026-09-14_s0",
+        "start_ny": "2026-09-14T00:13:00-04:00",
+        "end_ny": "2026-09-14T00:18:00-04:00",
+        "start_epoch": 1789359180,
+        "end_epoch": 1789359480
+      },
+      {
+        "id": "2026-09-14_s1",
+        "start_ny": "2026-09-14T06:52:00-04:00",
+        "end_ny": "2026-09-14T06:57:00-04:00",
+        "start_epoch": 1789383120,
+        "end_epoch": 1789383420
+      },
+      {
+        "id": "2026-09-14_s2",
+        "start_ny": "2026-09-14T10:27:00-04:00",
+        "end_ny": "2026-09-14T10:32:00-04:00",
+        "start_epoch": 1789396020,
+        "end_epoch": 1789396320
+      },
+      {
+        "id": "2026-09-14_s3",
+        "start_ny": "2026-09-14T15:09:00-04:00",
+        "end_ny": "2026-09-14T15:14:00-04:00",
+        "start_epoch": 1789412940,
+        "end_epoch": 1789413240
+      },
+      {
+        "id": "2026-09-14_s4",
+        "start_ny": "2026-09-14T17:15:00-04:00",
+        "end_ny": "2026-09-14T17:20:00-04:00",
+        "start_epoch": 1789420500,
+        "end_epoch": 1789420800
+      },
+      {
+        "id": "2026-09-14_s5",
+        "start_ny": "2026-09-14T22:44:00-04:00",
+        "end_ny": "2026-09-14T22:49:00-04:00",
+        "start_epoch": 1789440240,
+        "end_epoch": 1789440540
+      },
+      {
+        "id": "2026-09-15_s0",
+        "start_ny": "2026-09-15T03:24:00-04:00",
+        "end_ny": "2026-09-15T03:29:00-04:00",
+        "start_epoch": 1789457040,
+        "end_epoch": 1789457340
+      },
+      {
+        "id": "2026-09-15_s1",
+        "start_ny": "2026-09-15T05:30:00-04:00",
+        "end_ny": "2026-09-15T05:35:00-04:00",
+        "start_epoch": 1789464600,
+        "end_epoch": 1789464900
+      },
+      {
+        "id": "2026-09-15_s2",
+        "start_ny": "2026-09-15T11:55:00-04:00",
+        "end_ny": "2026-09-15T12:00:00-04:00",
+        "start_epoch": 1789487700,
+        "end_epoch": 1789488000
+      },
+      {
+        "id": "2026-09-15_s3",
+        "start_ny": "2026-09-15T15:05:00-04:00",
+        "end_ny": "2026-09-15T15:10:00-04:00",
+        "start_epoch": 1789499100,
+        "end_epoch": 1789499400
+      },
+      {
+        "id": "2026-09-15_s4",
+        "start_ny": "2026-09-15T19:26:00-04:00",
+        "end_ny": "2026-09-15T19:31:00-04:00",
+        "start_epoch": 1789514760,
+        "end_epoch": 1789515060
+      },
+      {
+        "id": "2026-09-15_s5",
+        "start_ny": "2026-09-15T22:53:00-04:00",
+        "end_ny": "2026-09-15T22:58:00-04:00",
+        "start_epoch": 1789527180,
+        "end_epoch": 1789527480
+      },
+      {
+        "id": "2026-09-16_s0",
+        "start_ny": "2026-09-16T00:20:00-04:00",
+        "end_ny": "2026-09-16T00:25:00-04:00",
+        "start_epoch": 1789532400,
+        "end_epoch": 1789532700
+      },
+      {
+        "id": "2026-09-16_s1",
+        "start_ny": "2026-09-16T04:01:00-04:00",
+        "end_ny": "2026-09-16T04:06:00-04:00",
+        "start_epoch": 1789545660,
+        "end_epoch": 1789545960
+      },
+      {
+        "id": "2026-09-16_s2",
+        "start_ny": "2026-09-16T11:12:00-04:00",
+        "end_ny": "2026-09-16T11:17:00-04:00",
+        "start_epoch": 1789571520,
+        "end_epoch": 1789571820
+      },
+      {
+        "id": "2026-09-16_s3",
+        "start_ny": "2026-09-16T12:45:00-04:00",
+        "end_ny": "2026-09-16T12:50:00-04:00",
+        "start_epoch": 1789577100,
+        "end_epoch": 1789577400
+      },
+      {
+        "id": "2026-09-16_s4",
+        "start_ny": "2026-09-16T18:08:00-04:00",
+        "end_ny": "2026-09-16T18:13:00-04:00",
+        "start_epoch": 1789596480,
+        "end_epoch": 1789596780
+      },
+      {
+        "id": "2026-09-16_s5",
+        "start_ny": "2026-09-16T21:42:00-04:00",
+        "end_ny": "2026-09-16T21:47:00-04:00",
+        "start_epoch": 1789609320,
+        "end_epoch": 1789609620
+      },
+      {
+        "id": "2026-09-17_s0",
+        "start_ny": "2026-09-17T00:13:00-04:00",
+        "end_ny": "2026-09-17T00:18:00-04:00",
+        "start_epoch": 1789618380,
+        "end_epoch": 1789618680
+      },
+      {
+        "id": "2026-09-17_s1",
+        "start_ny": "2026-09-17T04:24:00-04:00",
+        "end_ny": "2026-09-17T04:29:00-04:00",
+        "start_epoch": 1789633440,
+        "end_epoch": 1789633740
+      },
+      {
+        "id": "2026-09-17_s2",
+        "start_ny": "2026-09-17T11:05:00-04:00",
+        "end_ny": "2026-09-17T11:10:00-04:00",
+        "start_epoch": 1789657500,
+        "end_epoch": 1789657800
+      },
+      {
+        "id": "2026-09-17_s3",
+        "start_ny": "2026-09-17T15:47:00-04:00",
+        "end_ny": "2026-09-17T15:52:00-04:00",
+        "start_epoch": 1789674420,
+        "end_epoch": 1789674720
+      },
+      {
+        "id": "2026-09-17_s4",
+        "start_ny": "2026-09-17T17:22:00-04:00",
+        "end_ny": "2026-09-17T17:27:00-04:00",
+        "start_epoch": 1789680120,
+        "end_epoch": 1789680420
+      },
+      {
+        "id": "2026-09-17_s5",
+        "start_ny": "2026-09-17T22:02:00-04:00",
+        "end_ny": "2026-09-17T22:07:00-04:00",
+        "start_epoch": 1789696920,
+        "end_epoch": 1789697220
+      },
+      {
+        "id": "2026-09-18_s0",
+        "start_ny": "2026-09-18T01:51:00-04:00",
+        "end_ny": "2026-09-18T01:56:00-04:00",
+        "start_epoch": 1789710660,
+        "end_epoch": 1789710960
+      },
+      {
+        "id": "2026-09-18_s1",
+        "start_ny": "2026-09-18T04:19:00-04:00",
+        "end_ny": "2026-09-18T04:24:00-04:00",
+        "start_epoch": 1789719540,
+        "end_epoch": 1789719840
+      },
+      {
+        "id": "2026-09-18_s2",
+        "start_ny": "2026-09-18T11:39:00-04:00",
+        "end_ny": "2026-09-18T11:44:00-04:00",
+        "start_epoch": 1789745940,
+        "end_epoch": 1789746240
+      },
+      {
+        "id": "2026-09-18_s3",
+        "start_ny": "2026-09-18T12:17:00-04:00",
+        "end_ny": "2026-09-18T12:22:00-04:00",
+        "start_epoch": 1789748220,
+        "end_epoch": 1789748520
+      },
+      {
+        "id": "2026-09-18_s4",
+        "start_ny": "2026-09-18T17:02:00-04:00",
+        "end_ny": "2026-09-18T17:07:00-04:00",
+        "start_epoch": 1789765320,
+        "end_epoch": 1789765620
+      },
+      {
+        "id": "2026-09-18_s5",
+        "start_ny": "2026-09-18T23:37:00-04:00",
+        "end_ny": "2026-09-18T23:42:00-04:00",
+        "start_epoch": 1789789020,
+        "end_epoch": 1789789320
+      },
+      {
+        "id": "2026-09-19_s0",
+        "start_ny": "2026-09-19T00:51:00-04:00",
+        "end_ny": "2026-09-19T00:56:00-04:00",
+        "start_epoch": 1789793460,
+        "end_epoch": 1789793760
+      },
+      {
+        "id": "2026-09-19_s1",
+        "start_ny": "2026-09-19T06:07:00-04:00",
+        "end_ny": "2026-09-19T06:12:00-04:00",
+        "start_epoch": 1789812420,
+        "end_epoch": 1789812720
+      },
+      {
+        "id": "2026-09-19_s2",
+        "start_ny": "2026-09-19T09:41:00-04:00",
+        "end_ny": "2026-09-19T09:46:00-04:00",
+        "start_epoch": 1789825260,
+        "end_epoch": 1789825560
+      },
+      {
+        "id": "2026-09-19_s3",
+        "start_ny": "2026-09-19T15:51:00-04:00",
+        "end_ny": "2026-09-19T15:56:00-04:00",
+        "start_epoch": 1789847460,
+        "end_epoch": 1789847760
+      },
+      {
+        "id": "2026-09-19_s4",
+        "start_ny": "2026-09-19T19:05:00-04:00",
+        "end_ny": "2026-09-19T19:10:00-04:00",
+        "start_epoch": 1789859100,
+        "end_epoch": 1789859400
+      },
+      {
+        "id": "2026-09-19_s5",
+        "start_ny": "2026-09-19T20:19:00-04:00",
+        "end_ny": "2026-09-19T20:24:00-04:00",
+        "start_epoch": 1789863540,
+        "end_epoch": 1789863840
+      },
+      {
+        "id": "2026-09-20_s0",
+        "start_ny": "2026-09-20T02:51:00-04:00",
+        "end_ny": "2026-09-20T02:56:00-04:00",
+        "start_epoch": 1789887060,
+        "end_epoch": 1789887360
+      },
+      {
+        "id": "2026-09-20_s1",
+        "start_ny": "2026-09-20T04:23:00-04:00",
+        "end_ny": "2026-09-20T04:28:00-04:00",
+        "start_epoch": 1789892580,
+        "end_epoch": 1789892880
+      },
+      {
+        "id": "2026-09-20_s2",
+        "start_ny": "2026-09-20T11:15:00-04:00",
+        "end_ny": "2026-09-20T11:20:00-04:00",
+        "start_epoch": 1789917300,
+        "end_epoch": 1789917600
+      },
+      {
+        "id": "2026-09-20_s3",
+        "start_ny": "2026-09-20T15:15:00-04:00",
+        "end_ny": "2026-09-20T15:20:00-04:00",
+        "start_epoch": 1789931700,
+        "end_epoch": 1789932000
+      },
+      {
+        "id": "2026-09-20_s4",
+        "start_ny": "2026-09-20T18:21:00-04:00",
+        "end_ny": "2026-09-20T18:26:00-04:00",
+        "start_epoch": 1789942860,
+        "end_epoch": 1789943160
+      },
+      {
+        "id": "2026-09-20_s5",
+        "start_ny": "2026-09-20T22:05:00-04:00",
+        "end_ny": "2026-09-20T22:10:00-04:00",
+        "start_epoch": 1789956300,
+        "end_epoch": 1789956600
+      },
+      {
+        "id": "2026-09-21_s0",
+        "start_ny": "2026-09-21T03:31:00-04:00",
+        "end_ny": "2026-09-21T03:36:00-04:00",
+        "start_epoch": 1789975860,
+        "end_epoch": 1789976160
+      },
+      {
+        "id": "2026-09-21_s1",
+        "start_ny": "2026-09-21T04:42:00-04:00",
+        "end_ny": "2026-09-21T04:47:00-04:00",
+        "start_epoch": 1789980120,
+        "end_epoch": 1789980420
+      },
+      {
+        "id": "2026-09-21_s2",
+        "start_ny": "2026-09-21T09:28:00-04:00",
+        "end_ny": "2026-09-21T09:33:00-04:00",
+        "start_epoch": 1789997280,
+        "end_epoch": 1789997580
+      },
+      {
+        "id": "2026-09-21_s3",
+        "start_ny": "2026-09-21T12:08:00-04:00",
+        "end_ny": "2026-09-21T12:13:00-04:00",
+        "start_epoch": 1790006880,
+        "end_epoch": 1790007180
+      },
+      {
+        "id": "2026-09-21_s4",
+        "start_ny": "2026-09-21T19:12:00-04:00",
+        "end_ny": "2026-09-21T19:17:00-04:00",
+        "start_epoch": 1790032320,
+        "end_epoch": 1790032620
+      },
+      {
+        "id": "2026-09-21_s5",
+        "start_ny": "2026-09-21T22:54:00-04:00",
+        "end_ny": "2026-09-21T22:59:00-04:00",
+        "start_epoch": 1790045640,
+        "end_epoch": 1790045940
+      },
+      {
+        "id": "2026-09-22_s0",
+        "start_ny": "2026-09-22T01:46:00-04:00",
+        "end_ny": "2026-09-22T01:51:00-04:00",
+        "start_epoch": 1790055960,
+        "end_epoch": 1790056260
+      },
+      {
+        "id": "2026-09-22_s1",
+        "start_ny": "2026-09-22T05:08:00-04:00",
+        "end_ny": "2026-09-22T05:13:00-04:00",
+        "start_epoch": 1790068080,
+        "end_epoch": 1790068380
+      },
+      {
+        "id": "2026-09-22_s2",
+        "start_ny": "2026-09-22T08:37:00-04:00",
+        "end_ny": "2026-09-22T08:42:00-04:00",
+        "start_epoch": 1790080620,
+        "end_epoch": 1790080920
+      },
+      {
+        "id": "2026-09-22_s3",
+        "start_ny": "2026-09-22T13:10:00-04:00",
+        "end_ny": "2026-09-22T13:15:00-04:00",
+        "start_epoch": 1790097000,
+        "end_epoch": 1790097300
+      },
+      {
+        "id": "2026-09-22_s4",
+        "start_ny": "2026-09-22T17:49:00-04:00",
+        "end_ny": "2026-09-22T17:54:00-04:00",
+        "start_epoch": 1790113740,
+        "end_epoch": 1790114040
+      },
+      {
+        "id": "2026-09-22_s5",
+        "start_ny": "2026-09-22T20:32:00-04:00",
+        "end_ny": "2026-09-22T20:37:00-04:00",
+        "start_epoch": 1790123520,
+        "end_epoch": 1790123820
+      },
+      {
+        "id": "2026-09-23_s0",
+        "start_ny": "2026-09-23T02:57:00-04:00",
+        "end_ny": "2026-09-23T03:02:00-04:00",
+        "start_epoch": 1790146620,
+        "end_epoch": 1790146920
+      },
+      {
+        "id": "2026-09-23_s1",
+        "start_ny": "2026-09-23T04:37:00-04:00",
+        "end_ny": "2026-09-23T04:42:00-04:00",
+        "start_epoch": 1790152620,
+        "end_epoch": 1790152920
+      },
+      {
+        "id": "2026-09-23_s2",
+        "start_ny": "2026-09-23T11:54:00-04:00",
+        "end_ny": "2026-09-23T11:59:00-04:00",
+        "start_epoch": 1790178840,
+        "end_epoch": 1790179140
+      },
+      {
+        "id": "2026-09-23_s3",
+        "start_ny": "2026-09-23T13:13:00-04:00",
+        "end_ny": "2026-09-23T13:18:00-04:00",
+        "start_epoch": 1790183580,
+        "end_epoch": 1790183880
+      },
+      {
+        "id": "2026-09-23_s4",
+        "start_ny": "2026-09-23T16:37:00-04:00",
+        "end_ny": "2026-09-23T16:42:00-04:00",
+        "start_epoch": 1790195820,
+        "end_epoch": 1790196120
+      },
+      {
+        "id": "2026-09-23_s5",
+        "start_ny": "2026-09-23T22:29:00-04:00",
+        "end_ny": "2026-09-23T22:34:00-04:00",
+        "start_epoch": 1790216940,
+        "end_epoch": 1790217240
+      },
+      {
+        "id": "2026-09-24_s0",
+        "start_ny": "2026-09-24T01:49:00-04:00",
+        "end_ny": "2026-09-24T01:54:00-04:00",
+        "start_epoch": 1790228940,
+        "end_epoch": 1790229240
+      },
+      {
+        "id": "2026-09-24_s1",
+        "start_ny": "2026-09-24T05:53:00-04:00",
+        "end_ny": "2026-09-24T05:58:00-04:00",
+        "start_epoch": 1790243580,
+        "end_epoch": 1790243880
+      },
+      {
+        "id": "2026-09-24_s2",
+        "start_ny": "2026-09-24T10:27:00-04:00",
+        "end_ny": "2026-09-24T10:32:00-04:00",
+        "start_epoch": 1790260020,
+        "end_epoch": 1790260320
+      },
+      {
+        "id": "2026-09-24_s3",
+        "start_ny": "2026-09-24T15:15:00-04:00",
+        "end_ny": "2026-09-24T15:20:00-04:00",
+        "start_epoch": 1790277300,
+        "end_epoch": 1790277600
+      },
+      {
+        "id": "2026-09-24_s4",
+        "start_ny": "2026-09-24T18:15:00-04:00",
+        "end_ny": "2026-09-24T18:20:00-04:00",
+        "start_epoch": 1790288100,
+        "end_epoch": 1790288400
+      },
+      {
+        "id": "2026-09-24_s5",
+        "start_ny": "2026-09-24T23:40:00-04:00",
+        "end_ny": "2026-09-24T23:45:00-04:00",
+        "start_epoch": 1790307600,
+        "end_epoch": 1790307900
+      },
+      {
+        "id": "2026-09-25_s0",
+        "start_ny": "2026-09-25T00:12:00-04:00",
+        "end_ny": "2026-09-25T00:17:00-04:00",
+        "start_epoch": 1790309520,
+        "end_epoch": 1790309820
+      },
+      {
+        "id": "2026-09-25_s1",
+        "start_ny": "2026-09-25T05:27:00-04:00",
+        "end_ny": "2026-09-25T05:32:00-04:00",
+        "start_epoch": 1790328420,
+        "end_epoch": 1790328720
+      },
+      {
+        "id": "2026-09-25_s2",
+        "start_ny": "2026-09-25T10:08:00-04:00",
+        "end_ny": "2026-09-25T10:13:00-04:00",
+        "start_epoch": 1790345280,
+        "end_epoch": 1790345580
+      },
+      {
+        "id": "2026-09-25_s3",
+        "start_ny": "2026-09-25T14:21:00-04:00",
+        "end_ny": "2026-09-25T14:26:00-04:00",
+        "start_epoch": 1790360460,
+        "end_epoch": 1790360760
+      },
+      {
+        "id": "2026-09-25_s4",
+        "start_ny": "2026-09-25T16:23:00-04:00",
+        "end_ny": "2026-09-25T16:28:00-04:00",
+        "start_epoch": 1790367780,
+        "end_epoch": 1790368080
+      },
+      {
+        "id": "2026-09-25_s5",
+        "start_ny": "2026-09-25T20:10:00-04:00",
+        "end_ny": "2026-09-25T20:15:00-04:00",
+        "start_epoch": 1790381400,
+        "end_epoch": 1790381700
+      },
+      {
+        "id": "2026-09-26_s0",
+        "start_ny": "2026-09-26T01:54:00-04:00",
+        "end_ny": "2026-09-26T01:59:00-04:00",
+        "start_epoch": 1790402040,
+        "end_epoch": 1790402340
+      },
+      {
+        "id": "2026-09-26_s1",
+        "start_ny": "2026-09-26T06:31:00-04:00",
+        "end_ny": "2026-09-26T06:36:00-04:00",
+        "start_epoch": 1790418660,
+        "end_epoch": 1790418960
+      },
+      {
+        "id": "2026-09-26_s2",
+        "start_ny": "2026-09-26T10:34:00-04:00",
+        "end_ny": "2026-09-26T10:39:00-04:00",
+        "start_epoch": 1790433240,
+        "end_epoch": 1790433540
+      },
+      {
+        "id": "2026-09-26_s3",
+        "start_ny": "2026-09-26T15:33:00-04:00",
+        "end_ny": "2026-09-26T15:38:00-04:00",
+        "start_epoch": 1790451180,
+        "end_epoch": 1790451480
+      },
+      {
+        "id": "2026-09-26_s4",
+        "start_ny": "2026-09-26T19:33:00-04:00",
+        "end_ny": "2026-09-26T19:38:00-04:00",
+        "start_epoch": 1790465580,
+        "end_epoch": 1790465880
+      },
+      {
+        "id": "2026-09-26_s5",
+        "start_ny": "2026-09-26T23:49:00-04:00",
+        "end_ny": "2026-09-26T23:54:00-04:00",
+        "start_epoch": 1790480940,
+        "end_epoch": 1790481240
+      },
+      {
+        "id": "2026-09-27_s0",
+        "start_ny": "2026-09-27T01:32:00-04:00",
+        "end_ny": "2026-09-27T01:37:00-04:00",
+        "start_epoch": 1790487120,
+        "end_epoch": 1790487420
+      },
+      {
+        "id": "2026-09-27_s1",
+        "start_ny": "2026-09-27T04:45:00-04:00",
+        "end_ny": "2026-09-27T04:50:00-04:00",
+        "start_epoch": 1790498700,
+        "end_epoch": 1790499000
+      },
+      {
+        "id": "2026-09-27_s2",
+        "start_ny": "2026-09-27T11:44:00-04:00",
+        "end_ny": "2026-09-27T11:49:00-04:00",
+        "start_epoch": 1790523840,
+        "end_epoch": 1790524140
+      },
+      {
+        "id": "2026-09-27_s3",
+        "start_ny": "2026-09-27T15:24:00-04:00",
+        "end_ny": "2026-09-27T15:29:00-04:00",
+        "start_epoch": 1790537040,
+        "end_epoch": 1790537340
+      },
+      {
+        "id": "2026-09-27_s4",
+        "start_ny": "2026-09-27T18:18:00-04:00",
+        "end_ny": "2026-09-27T18:23:00-04:00",
+        "start_epoch": 1790547480,
+        "end_epoch": 1790547780
+      },
+      {
+        "id": "2026-09-27_s5",
+        "start_ny": "2026-09-27T22:55:00-04:00",
+        "end_ny": "2026-09-27T23:00:00-04:00",
+        "start_epoch": 1790564100,
+        "end_epoch": 1790564400
+      },
+      {
+        "id": "2026-09-28_s0",
+        "start_ny": "2026-09-28T03:25:00-04:00",
+        "end_ny": "2026-09-28T03:30:00-04:00",
+        "start_epoch": 1790580300,
+        "end_epoch": 1790580600
+      },
+      {
+        "id": "2026-09-28_s1",
+        "start_ny": "2026-09-28T07:16:00-04:00",
+        "end_ny": "2026-09-28T07:21:00-04:00",
+        "start_epoch": 1790594160,
+        "end_epoch": 1790594460
+      },
+      {
+        "id": "2026-09-28_s2",
+        "start_ny": "2026-09-28T10:10:00-04:00",
+        "end_ny": "2026-09-28T10:15:00-04:00",
+        "start_epoch": 1790604600,
+        "end_epoch": 1790604900
+      },
+      {
+        "id": "2026-09-28_s3",
+        "start_ny": "2026-09-28T12:39:00-04:00",
+        "end_ny": "2026-09-28T12:44:00-04:00",
+        "start_epoch": 1790613540,
+        "end_epoch": 1790613840
+      },
+      {
+        "id": "2026-09-28_s4",
+        "start_ny": "2026-09-28T17:34:00-04:00",
+        "end_ny": "2026-09-28T17:39:00-04:00",
+        "start_epoch": 1790631240,
+        "end_epoch": 1790631540
+      },
+      {
+        "id": "2026-09-28_s5",
+        "start_ny": "2026-09-28T22:40:00-04:00",
+        "end_ny": "2026-09-28T22:45:00-04:00",
+        "start_epoch": 1790649600,
+        "end_epoch": 1790649900
+      },
+      {
+        "id": "2026-09-29_s0",
+        "start_ny": "2026-09-29T03:30:00-04:00",
+        "end_ny": "2026-09-29T03:35:00-04:00",
+        "start_epoch": 1790667000,
+        "end_epoch": 1790667300
+      },
+      {
+        "id": "2026-09-29_s1",
+        "start_ny": "2026-09-29T06:06:00-04:00",
+        "end_ny": "2026-09-29T06:11:00-04:00",
+        "start_epoch": 1790676360,
+        "end_epoch": 1790676660
+      },
+      {
+        "id": "2026-09-29_s2",
+        "start_ny": "2026-09-29T09:25:00-04:00",
+        "end_ny": "2026-09-29T09:30:00-04:00",
+        "start_epoch": 1790688300,
+        "end_epoch": 1790688600
+      },
+      {
+        "id": "2026-09-29_s3",
+        "start_ny": "2026-09-29T13:43:00-04:00",
+        "end_ny": "2026-09-29T13:48:00-04:00",
+        "start_epoch": 1790703780,
+        "end_epoch": 1790704080
+      },
+      {
+        "id": "2026-09-29_s4",
+        "start_ny": "2026-09-29T17:06:00-04:00",
+        "end_ny": "2026-09-29T17:11:00-04:00",
+        "start_epoch": 1790715960,
+        "end_epoch": 1790716260
+      },
+      {
+        "id": "2026-09-29_s5",
+        "start_ny": "2026-09-29T22:29:00-04:00",
+        "end_ny": "2026-09-29T22:34:00-04:00",
+        "start_epoch": 1790735340,
+        "end_epoch": 1790735640
+      },
+      {
+        "id": "2026-09-30_s0",
+        "start_ny": "2026-09-30T03:41:00-04:00",
+        "end_ny": "2026-09-30T03:46:00-04:00",
+        "start_epoch": 1790754060,
+        "end_epoch": 1790754360
+      },
+      {
+        "id": "2026-09-30_s1",
+        "start_ny": "2026-09-30T05:15:00-04:00",
+        "end_ny": "2026-09-30T05:20:00-04:00",
+        "start_epoch": 1790759700,
+        "end_epoch": 1790760000
+      },
+      {
+        "id": "2026-09-30_s2",
+        "start_ny": "2026-09-30T11:31:00-04:00",
+        "end_ny": "2026-09-30T11:36:00-04:00",
+        "start_epoch": 1790782260,
+        "end_epoch": 1790782560
+      },
+      {
+        "id": "2026-09-30_s3",
+        "start_ny": "2026-09-30T14:45:00-04:00",
+        "end_ny": "2026-09-30T14:50:00-04:00",
+        "start_epoch": 1790793900,
+        "end_epoch": 1790794200
+      },
+      {
+        "id": "2026-09-30_s4",
+        "start_ny": "2026-09-30T17:22:00-04:00",
+        "end_ny": "2026-09-30T17:27:00-04:00",
+        "start_epoch": 1790803320,
+        "end_epoch": 1790803620
+      },
+      {
+        "id": "2026-09-30_s5",
+        "start_ny": "2026-09-30T23:17:00-04:00",
+        "end_ny": "2026-09-30T23:22:00-04:00",
+        "start_epoch": 1790824620,
+        "end_epoch": 1790824920
+      }
+    ],
+    "sampling": "One random five-minute interval per four-hour stratum per day; capped pagination is recorded.",
+    "max_pages_per_window": 5,
+    "maximum_calls": 690,
+    "conservative_maximum_estimated_usd": "2.07000",
+    "price_usd_per_returned_post": "0.00015",
+    "limitations": "Indexed public English keyword-matching posts; not the full X population. Engagement counts are retrieval-time values."
+  },
+  "requests": [
+    {
+      "window_id": "2026-09-08_s0",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788843600+until_time%3A1788843900&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:24:04.384009+00:00",
+      "returned": 20,
+      "sha256": "c44724d0db93c65666bb77ee482cdc5f562c486b07ae08d63dc30c123aa1f0d4",
+      "file": "data/raw/x/stratified_2026-09-08_s0_p0.json"
+    },
+    {
+      "window_id": "2026-09-08_s0",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788843600+until_time%3A1788843900&queryType=Latest&cursor=DAADDAABCgABHRq2reyXUIIKAAIdGrZ9a1ewxgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqYgDEAnEAoABh06piAMP9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRHcmFWRjllUnNoMGF0cGdoVndFVEhScTJmV3RYc01ZZEdyYWlUZGNSTXgwYXRwRnMxcEJCSFJxMmxHVFdvYUlkR3JhcnBOY3gxeDBhdHFhbW11REZIUnEyclgzWHdFQWRHcmFwZWRiQjlCMGF0bjVSMmdHaUhScTJrOXZic0hrZEdyYUNZRnVnL0IwYXRvZTlXa0VoSFJxMnJleVhVSUlkR3JaLzFaY1IweDBhdHFLVEZuR3BIUnEybDBZYWtURWRHcmFCYVZhZ3FSMGF0cGthRzVEagAA",
+      "retrieved_utc": "2026-10-03T00:24:40.682874+00:00",
+      "returned": 20,
+      "sha256": "f3c6ec016dbaf1ca973c503840a754ba6188fbcd3c2783ef355875310a31d6b8",
+      "file": "data/raw/x/stratified_2026-09-08_s0_p1.json"
+    },
+    {
+      "window_id": "2026-09-08_s0",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788843600+until_time%3A1788843900&queryType=Latest&cursor=DAADDAABCgABHRq2reyXUIIKAAIdGrZh4ZrAYwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqYgDEAnEAoABh06piAMP7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RHclo2WVJkaHBSMGF0cGdoVndFVEhScTJZb3JXb0tVZEdyWnA4eHB4WngwYXRxSk4xeEV6SFJxMmtXeldrRUVkR3JhVVpOYWhvaDBhdHF1azF6SFhIUnEyYjJKYmtmTWRHclp5Z2xkQXFoMGF0cTE5MThCQUhScTJxWG5Xd2ZRZEdyWitVZG9Cb2gwYXRtSGhtc0JqSFJxMlpva1hzQkFkR3JhQ1lGdWcvQjBhdG5ITkYyRmxIUnEyb3BNV2Nha2RHcmFYUmhxUk1SMGF0bk5UbXdCTUhScTJkQ25XWURFZEdyWnpISnNCMFIwYXRuUHFHOEhSSFJxMmxSZlhrYklkR3JaejlGWXhvaDBhdG4xclY3REdIUnEycHFhYTRNVWRHclo4bkpid254MGF0bU5hR2xBUUhScTJhc2dXQU80ZEdyYVQyOXV3ZVIwYXRvZTlXa0VoSFJxMnJleVhVSUlkR3JaLzFaY1IweDBhdG0xMTE3RG5IUnEyYnBjYW9XZ2RHcmFCYVZhZ3FSMGF0cGthRzVEakhScTJhbG9YQUE4ZEdyWnlDeHJSUVE9PQAA",
+      "retrieved_utc": "2026-10-03T00:25:16.335880+00:00",
+      "returned": 20,
+      "sha256": "7f9a23c5fcc0817fb82bf178d06a0c2af2a250ca4db263b856a0d46ea68394d0",
+      "file": "data/raw/x/stratified_2026-09-08_s0_p2.json"
+    },
+    {
+      "window_id": "2026-09-08_s0",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788843600+until_time%3A1788843900&queryType=Latest&cursor=DAADDAABCgABHRq2reyXUIIKAAIdGrY1m1ZwfQAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqYgDEAnEAoABh06piAMP4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RHclo2WVJkaHBSMGF0cFJrMXFHaUhScTJrV3pXa0VFZEdyWk9RcFlBa3gwYXRra2pWbUF4SFJxMmFmTWFjV2NkR3JhdGZkZkFRQjBhdHFsNTFzSDBIUnEyUHRiYllhRWRHclorVWRvQm9oMGF0bWFKRjdBUUhScTJPVWpYSVdBZEdyWTVhMWF3ZlIwYXRuSE5GMkZsSFJxMmMxT2JBRXdkR3JaMEtkWmdNUjBhdGtLYkZ2RXdIUnEyY3h5YkFkRWRHclp6Nmh2QjBSMGF0amlabWpBSkhScTJSbnphZ2FRZEdyYVZGOWVSc2gwYXRsUk9sdEY3SFJxMlRBWVhzVHdkR3JaOWExZXd4aDBhdHFhbW11REZIUnEyZkp5VzhKOGRHclpqV2hwUUVCMGF0bXJJRmdEdUhScTJTejZhRUVFZEdyWi8xWmNSMHgwYXRqV2JWbkI5SFJxMldzbWJZZUVkR3JZOUdsc0JYUjBhdG1wYUZ3QVBIUnEyT0ZFYmtYOGRHcmFZSVZjQkV4MGF0bDVKR3JEZEhScTJvazNYRVRNZEdyWmlpdGFncFIwYXRxdWsxekhYSFJxMmNvSlhRS29kR3JadllsdVI4eDBhdGtKSWw1RnBIUnEyZ21CYm9Qd2RHclpoNFpyQVl4MGF0bE1VbDRIQkhScTJvcE1XY2FrZEdyYVhSaHFSTVIwYXRrZXRHMERKSFJxMmMvUldNYUlkR3JhVDI5dXdlUjBhdG9lOVdrRWhIUnEyVlJsWHNkMGRHcmF0N0pkUWdoMGF0bTExMTdEbkhScTJicGNhb1dnZEdyYUJhVmFncVIwYXRwa2FHNURqSFJxMmNnc2EwVUU9AAA",
+      "retrieved_utc": "2026-10-03T00:27:02.011693+00:00",
+      "returned": 20,
+      "sha256": "775f09ee61c8135b18773e804513723b4c5f1ecf512b6598cffd11b2f36611c2",
+      "file": "data/raw/x/stratified_2026-09-08_s0_p3.json"
+    },
+    {
+      "window_id": "2026-09-08_s0",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788843600+until_time%3A1788843900&queryType=Latest&cursor=DAADDAABCgABHRq2reyXUIIKAAIdGrYWzFehegAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqYgDEAnEAoABh06piAMP2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRHcllZQnBxQVZoMGF0bnBoRjJHbEhScTJLNGZiSWR3ZEdyWWVubHVBOHgwYXRwRnMxcEJCSFJxMmxHVFdvYUlkR3JacDh4cHhaeDBhdGs1Q2xnQ1RIUnEyU1NOV1lERWRHcmF0ZmRmQVFCMGF0cWw1MXNIMEhScTJmbEhhQWFJZEdyWSsxdHRob1IwYXRtYUpGN0FRSFJxMkZzeFhvWG9kR3JZWEF4YXcraDBhdGh1NkZwSExIUnEyT1VqWElXQWRHclowS2RaZ01SMGF0bkhORjJGbEhScTJjMU9iQUV3ZEdyWTVhMWF3ZlIwYXRrS2JGdkV3SFJxMmN4eWJBZEVkR3JaejZodkIwUjBhdGl3K21rR2hIUnEybFJmWGtiSWRHclk0bVpvd0NSMGF0a1o4Mm9Ha0hScTJUQVlYc1R3ZEdyWlVUcGJSZXgwYXRuMXJWN0RHSFJxMnBxYWE0TVVkR3JaOG5KYndueDBhdG1OYUdsQVFIUnEyYXNnV0FPNGRHcll6VmhiZ1JoMGF0a3MrbWhCQkhScTJmOVdYRWRNZEdyWTFtMVp3ZlIwYXRsckptMkhoSFJxMkthZVh3V3NkR3JZOUdsc0JYUjBhdG1wYUZ3QVBIUnEybUNGWEFSTWRHclk0VVJ1UmZ4MGF0aVFKVmpHN0hScTJYa2thc04wZEdyYWlUZGNSTXgwYXRtS0sxcUNsSFJxMnE2VFhNZGNkR3JaeWdsZEFxaDBhdG05aVc1SHpIUnEyUWtpWGtXa2RHcmFDWUZ1Zy9CMGF0bUhobXNCakhScTJVeFNYZ2NFZEdyYWlreFp4cVIwYXRwZEdHcEV4SFJxMkd1aFhrR3NkR3JZMDNCZlFkUjBhdGg1bkZyRmRIUnEyUjYwYlFNa2RHcll3V2xzZ2doMGF0aU5pRnJIQkhScTJLNC9YRUVFZEdyWXprNXJBdlIwYXRuUDBWakdpSFJxMk1rZGJVYlVkR3JhVDI5dXdlUjBhdGxVWlY3SGRIUnEyaDcxYVFTRWRHcllpaHBjeG94MGF0cTNzbDFDQ0hScTJicGNhb1dnZEdyWnRkZGV3NXgwYXRpRkhXdEQ4SFJxMmdXbFdvS2tkR3JhWkdodVE0eDBhdG5JTEd0RkIAAA",
+      "retrieved_utc": "2026-10-03T00:27:08.027347+00:00",
+      "returned": 20,
+      "sha256": "68d4eb49fc824ec30ed361db53771571895b61cf2f149db2536197c91b8512e6",
+      "file": "data/raw/x/stratified_2026-09-08_s0_p4.json"
+    },
+    {
+      "window_id": "2026-09-08_s1",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788863520+until_time%3A1788863820&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:27:13.772930+00:00",
+      "returned": 20,
+      "sha256": "aa4c0101ec4bb882455937d050e748f077611a1fe1369e7be2f71aac0d78b483",
+      "file": "data/raw/x/stratified_2026-09-08_s1_p0.json"
+    },
+    {
+      "window_id": "2026-09-08_s1",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788863520+until_time%3A1788863820&queryType=Latest&cursor=DAADDAABCgABHRsCqkfa8RMKAAIdGwKC3NYh0AAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqbZH8AnEAoABh06ptkfv9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRHd0tEcXBvaFB4MGJBcHhLbDNDMUhSc0NqYnJYUURFZEd3S1hTOXB3RXgwYkFvTGMxaUhRSFJzQ2t0YVhFS0FkR3dLaTgxWlJveDBiQW8xdUdqR1lIUnNDay8yV29DQWRHd0tWaVpaQXJSMGJBcU1jMjNCRkhSc0NwYWJiVVZZZEd3S1ppMXF4WFIwYkFwOENsckJFSFJzQ3FrZmE4Uk1kR3dLSHBkYlFkeDBiQXBqdzI1RVhIUnNDalpoV29XSWRHd0tWWjlxQlJ4MGJBbzZXMXNFdgAA",
+      "retrieved_utc": "2026-10-03T00:27:19.830080+00:00",
+      "returned": 20,
+      "sha256": "9ac1df7043d027ef09ec723f02682c6f6455a71937168dd96cb3ffef7caf9cd0",
+      "file": "data/raw/x/stratified_2026-09-08_s1_p1.json"
+    },
+    {
+      "window_id": "2026-09-08_s1",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788863520+until_time%3A1788863820&queryType=Latest&cursor=DAADDAABCgABHRsCqkfa8RMKAAIdGwJq8xcA7QAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqbZH8AnEAoABh06ptkfv7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RHd0tjU3Bkd3RSMGJBbzI2MTBBeEhSc0NlY2RYRVhnZEd3SjlaUllSaXgwYkFvRTVsNUFYSFJzQ2RtTWJBUWNkR3dLQi9ocXdjUjBiQXBXSmxrQ3RIUnNDcGFiYlVWWWRHd0p3UmxxZ0FSMGJBcFA5bHFBZ0hSc0NqVzRhTVpnZEd3S05tRmFoWWgwYkFvNlcxc0V2SFJzQ2F2TVhBTzBkR3dKclZscWdhaDBiQW5WbmxxRkRIUnNDZzZxYUlUOGRHd0tDT05zaDJoMGJBcGRMMm5BVEhSc0NhMjFXc1JBZEd3SjRwUmFSV3gwYkFvTGMxaUhRSFJzQ2t0YVhFS0FkR3dLaTgxWlJveDBiQW5Tcmw5RitIUnNDZDlQV0FOTWRHd0tCdEJ0UmRCMGJBbmxOVmdESEhSc0NnbWJXMFJRZEd3S2pITnR3UlIwYkFwbUxXckZkSFJzQ253S1dzRVFkR3dLcVI5cnhFeDBiQW0xdlZ1Q2lIUnNDaDZYVzBIY2RHd0tZOE51UkZ4MGJBbkszVnpDa0hSc0NsV2ZhZ1VjZEd3SnhVZHB4T1E9PQAA",
+      "retrieved_utc": "2026-10-03T00:27:25.312249+00:00",
+      "returned": 20,
+      "sha256": "e2ddc6bb832432daca37a99a24d41209d324282eb89f193d67246d0d131c422b",
+      "file": "data/raw/x/stratified_2026-09-08_s1_p2.json"
+    },
+    {
+      "window_id": "2026-09-08_s1",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788863520+until_time%3A1788863820&queryType=Latest&cursor=DAADDAABCgABHRsCqkfa8RMKAAIdGwJPSZphagAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqbZH8AnEAoABh06ptkfv4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RHd0pYbE51aEN4MGJBbzI2MTBBeEhSc0NlY2RYRVhnZEd3SjJZeHNCQngwYkFxV20yMUZXSFJzQ2pXNGFNWmdkR3dLVC9aYWdJQjBiQW1HaTJpQ2xIUnNDVDBtYVlXb2RHd0oxWjVhaFF4MGJBbGg4VjRHR0hSc0NrdGFYRUtBZEd3S2k4MVpSb3gwYkFvRzBHMUYwSFJzQ1Y3SFdvZUlkR3dLQ1p0YlJGQjBiQXFNYzIzQkZIUnNDZVUxV0FNY2RHd0taaTFxeFhSMGJBcXBIMnZFVEhSc0NYWXVXOEhBZEd3Snl0MWN3cEIwYkFtRG4ya0hGSFJzQ25FcVhjTFVkR3dKZE1Kc0JHaDBiQW9FNWw1QVhIUnNDZldVV0VZc2RHd0tCL2hxd2NSMGJBcFdKbGtDdEhSc0NVL1lXQURVZEd3SndSbHFnQVIwYkFtcHRWaURDSFJzQ1kxWGE0WWdkR3dLTm1GYWhZaDBiQW1yekZ3RHRIUnNDanBiV3dTOGRHd0puaFZaZ01SMGJBbXRXV3FCcUhSc0NnNnFhSVQ4ZEd3S1hTOXB3RXgwYkFvSTQyeUhhSFJzQ2VLVVdrVnNkR3dKcmJWYXhFQjBiQW1LSVZsQktIUnNDWC9JYWdQZ2RHd0tDM05ZaDBCMGJBbWJnMW9Dd0hSc0NkOVBXQU5NZEd3SjBxNWZSZmgwYkFwOENsckJFSFJzQ1huYVhJRndkR3dKdGIxYmdvaDBiQW9lbDF0QjNIUnNDbVBEYmtSY2RHd0pYaDlaaHBCMGJBcFZuMm9GSEhSc0NaWi9Xc0hNZEd3SmY1WnNScVIwYkFuRlIybkU1SFJzQ1l1MVdJYkk9AAA",
+      "retrieved_utc": "2026-10-03T00:27:31.863863+00:00",
+      "returned": 20,
+      "sha256": "ff867d6edba0e27f2f56d6c7237e6fae00f521e6a6b821450c7c9be53715e9ff",
+      "file": "data/raw/x/stratified_2026-09-08_s1_p3.json"
+    },
+    {
+      "window_id": "2026-09-08_s1",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788863520+until_time%3A1788863820&queryType=Latest&cursor=DAADDAABCgABHRsCqkfa8RMKAAIdGwI0uNbB8wAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqbZH8AnEAoABh06ptkfv2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRHd0pYbE51aEN4MGJBbzI2MTBBeEhSc0NlY2RYRVhnZEd3SjJZeHNCQngwYkFrWGNGdUNwSFJzQ3BhYmJVVllkR3dKaG90b2dwUjBiQXBQOWxxQWdIUnNDalc0YU1aZ2RHd0pLNHR1ZzNoMGJBazlKbW1GcUhSc0NkV2VXb1VNZEd3SllmRmVCaGgwYkFrSnBGbEZWSFJzQ1E4cFdJZGtkR3dLaTgxWlJveDBiQXBMV2x4Q2dIUnNDUGtZWE1ic2RHd0tCdEJ0UmRCMGJBbDJMbHZCd0hSc0NnbWJXMFJRZEd3S2pITnR3UlIwYkFwbUxXckZkSFJzQ2VVMVdBTWNkR3dLcVI5cnhFeDBiQWxleDFxSGlIUnNDY3JkWE1LUWRHd0k1QXBieE5oMGJBbURuMmtIRkhSc0NRSGJXVWFZZEd3STc2Wm9nSFIwYkFweEtsM0MxSFJzQ1hUQ2JBUm9kR3dLQk9aZVFGeDBiQW4xbEZoR0xIUnNDZ2Y0YXNIRWRHd0kyWkJhQmR4MGJBa0hQVnRBckhSc0NTdEliTVMwZEd3S1ZpWlpBclIwYkFsUDJGZ0ExSFJzQ2NFWmFvQUVkR3dKcWJWWWd3aDBiQW1OVjJ1R0lIUnNDTkxqV3dmTWRHd0tObUZhaFloMGJBamFQVnlFQkhSc0Nhdk1YQU8wZEd3S09sdGJCTHgwYkFtZUZWbUF4SFJzQ2ExWmFvR29kR3dJMllkYUJKaDBiQW9PcW1pRS9IUnNDbDB2YWNCTWRHd0tDT05zaDJoMGJBa3hRRmxFdEhSc0NlS1VXa1ZzZEd3SnJiVmF4RUIwYkFtS0lWbEJLSFJzQ1gvSWFnUGdkR3dLQzNOWWgwQjBiQW1iZzFvQ3dIUnNDTzlmV2tRa2RHd0ozMDlZQTB4MGJBa05UR3BHZUhSc0NSNXFXNE5FZEd3S2ZBcGF3UkIwYkFuU3JsOUYrSFJzQ2g2WFcwSGNkR3dKdGIxYmdvaDBiQWw1Mmx5QmNIUnNDbVBEYmtSY2RHd0pMaUpmUUpoMGJBbkZSMm5FNUhSc0NsV2ZhZ1VjZEd3SmxuOWF3Y3gwYkFsL2xteEdwSFJzQ1Y0ZldZYVFkR3dKR3ROYWdjQjBiQW1MdFZpR3kAAA",
+      "retrieved_utc": "2026-10-03T00:27:37.811661+00:00",
+      "returned": 20,
+      "sha256": "c392851b34df32837a1c4a14a28ab90c8855a732acda6de4bdc4cbdfad9188a9",
+      "file": "data/raw/x/stratified_2026-09-08_s1_p4.json"
+    },
+    {
+      "window_id": "2026-09-08_s2",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788877560+until_time%3A1788877860&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:27:43.365256+00:00",
+      "returned": 20,
+      "sha256": "681a98a5363c3673bd9b6ef7237949d126c37250a6352ac9224e43f217bf81ab",
+      "file": "data/raw/x/stratified_2026-09-08_s2_p0.json"
+    },
+    {
+      "window_id": "2026-09-08_s2",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788877560+until_time%3A1788877860&queryType=Latest&cursor=DAADDAABCgABHRs4OMoXENYKAAIdGzgkrJug7AAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqb2QIAnEAoABh06pvZAf9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRHemd4S05mQkJ4MGJPREdKbHRGUkhSczRONkdib0xZZEd6Z20xOWNoVEIwYk9DVXJtdkFNSFJzNEtzdldrYlFkR3pnek1kY3hPaDBiT0N2SjE1QXJIUnM0TTk5YU1Pc2RHemd0MnBaQS9CMGJPQ2p5MjRDWEhSczRMM0pXQU40ZEd6ZzR5aGNRMWgwYk9EVlVsOUZlSFJzNEpLeWJvT3dkR3pnbFBCWUErUjBiT0RFRzJqRkZIUnM0TnhaYWNiOGRHemd3cU5vaG9oMGJPQ1poRzNFLwAA",
+      "retrieved_utc": "2026-10-03T00:27:49.794353+00:00",
+      "returned": 20,
+      "sha256": "e84eab7e5912ea76412b7729d909063c39df6fa98f4c1fcb479d5e61cbfdbe96",
+      "file": "data/raw/x/stratified_2026-09-08_s2_p1.json"
+    },
+    {
+      "window_id": "2026-09-08_s2",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788877560+until_time%3A1788877860&queryType=Latest&cursor=DAADDAABCgABHRs4OMoXENYKAAIdGzgSgZagJgAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqb2QIAnEAoABh06pvZAf7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RHemd4S05mQkJ4MGJPQm5lVmpFa0hSczRNWW1XMFZFZEd6ZzNvWnVndGgwYk9CS1VGMkRPSFJzNEVvR1dvQ1lkR3pnbEs1cndEQjBiT0NOcUZtRXZIUnM0RTBaVzhOc2RHemd0MnBaQS9CMGJPQk5PVjhBckhSczRHYktYZ0JvZEd6ZzR5aGNRMWgwYk9DU3NtNkRzSFJzNEhmMVdFYk1kR3pnVFFGcFFDeDBiT0RFRzJqRkZIUnM0RllWYlVBVWRHemdTdUZlZ3BSMGJPQllaMmlBOEhSczRKdGZYSVV3ZEd6Z3F5OWFSdEIwYk9CN3lGOUFzSFJzNE16SFhNVG9kR3pncnlkZVFLeDBiT0JNcGxrQXVIUnM0TTk5YU1Pc2RHemdvOHR1QWx4MGJPQzl5VmdEZUhSczRGRUpYZ1VnZEd6ZzFWSmZSWGgwYk9CWk0yakZqSFJzNEpUd1dBUGtkR3pnWXZGYmhGQjBiT0NGNjFsRXdIUnM0RzlwV3NMRWRHemdUb1JjQWZCMGJPRGNXV25HL0hSczRNS2phSWFJZEd6Z21ZUnR4UHc9PQAA",
+      "retrieved_utc": "2026-10-03T00:27:55.769724+00:00",
+      "returned": 20,
+      "sha256": "21751b4daa2a62440c55c6fd0e86549ede40d95db6d9d9b33de3b266a2a05f46",
+      "file": "data/raw/x/stratified_2026-09-08_s2_p2.json"
+    },
+    {
+      "window_id": "2026-09-08_s2",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788877560+until_time%3A1788877860&queryType=Latest&cursor=DAADDAABCgABHRs4OMoXENYKAAIdGzgIIlsxOwAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqb2QIAnEAoABh06pvZAf4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RHemd4aVpiUlVSMGJPQm5lVmpFa0hSczRONkdib0xZZEd6Z1NsQmRnemgwYk9DVXJtdkFNSFJzNEVvR1dvQ1lkR3pnVFJsYncyeDBiT0MzYWxrRDhIUnM0R2JLWGdCb2RHemc0eWhjUTFoMGJPQk5BV2xBTEhSczREeGxXVUhzZEd6Z3hCdG94UlIwYk9CV0ZXMUFGSFJzNERCclhnTzRkR3pnV0dkb2dQQjBiT0JLNFY2Q2xIUnM0SHZJWDBDd2RHemdxeTlhUnRCMGJPRE14MXpFNkhSczRLOG5Ya0NzZEd6Z3ozMW93NngwYk9DankyNENYSFJzNEwzSldBTjRkR3pnVVFsZUJTQjBiT0JpOFZ1RVVIUnM0REtWWG9TWWRHemczRmxweHZ4MGJPRENvMmlHaUhSczRKbUViY1Q4ZEd6Z3hLTmZCQngwYk9BOGgybkVNSFJzNEQ5SVhFSllkR3pnUW4xWkI1UjBiT0NOcUZtRXZIUnM0QzBVWHNVNGRHemdQUmR1Z0dCMGJPQk5PVjhBckhSczRKS3lib093ZEd6Z2QvVllSc3gwYk9BOEhXdEZLSFJzNEMyOVhzQVVkR3pnTFVCZHhhaDBiT0EyZWxtQkxIUnM0SnRmWElVd2RHemdJSlpzQVJSMGJPQkhGMTZIakhSczRFeW1XUUM0ZEd6Z1BsaHZRWmgwYk9BODExd0NWSFJzNENDSmJNVHNkR3pnMVZKZlJYaDBiT0FsOGw0RkRIUnM0RHFHV2NSZ2RHemdPbGxiQS9CMGJPQlpNMmpGakhSczRKVHdXQVBrZEd6Z2hldFpSTUIwYk9CdmFWckN4SFJzNEU2RVhBSHc9AAA",
+      "retrieved_utc": "2026-10-03T00:28:01.962761+00:00",
+      "returned": 20,
+      "sha256": "b24004a4c4603595244eb53d339f5ad5387603e599bc8efcb252fe85c62c440f",
+      "file": "data/raw/x/stratified_2026-09-08_s2_p3.json"
+    },
+    {
+      "window_id": "2026-09-08_s2",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788877560+until_time%3A1788877860&queryType=Latest&cursor=DAADDAABCgABHRs4OMoXENYKAAIdGzgAQtaRGwAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqb2QIAnEAoABh06pvZAf2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRHemdCczVwUjlCMGJPQm5lVmpFa0hSczRNWW1XMFZFZEd6ZzNvWnVndGgwYk9BYUJGcUZNSFJzNEVwUVhZTTRkR3pnU2daYWdKaDBiT0NVcm12QU1IUnM0QkFOV1Fkb2RHemdUUmxidzJ4MGJPQzNhbGtEOEhSczRHYktYZ0JvZEd6ZzR5aGNRMWgwYk9CTkFXbEFMSFJzNER4bFdVSHNkR3pnQVF0YVJHeDBiT0RFRzJqRkZIUnM0RllWYlVBVWRHemdBaXR0ZzdCMGJPQllaMmlBOEhSczRIdklYMEN3ZEd6Z1N1RmVncFIwYk9Bd2ExNER1SFJzNEtzdldrYlFkR3pnek1kY3hPaDBiT0N2SjE1QXJIUnM0QUV6YnNTa2RHemdBaWhwaE94MGJPRFBmV2pEckhSczRCY0VYc0VVZEd6Z284dHVBbHgwYk9DOXlWZ0RlSFJzNEZFSlhnVWdkR3pnQVI1ckJZaDBiT0JpOFZ1RVVIUnM0REtWWG9TWWRHemczRmxweHZ4MGJPRENvMmlHaUhSczRNU2pYd1FjZEd6Z21ZUnR4UHgwYk9BOGgybkVNSFJzNEFPZ1c0WThkR3pnUDBoY1FsaDBiT0JDZlZrSGxIUnM0STJvV1lTOGRHemdDbDFwQkVCMGJPQUR2MXlHU0hSczRDMFVYc1U0ZEd6Z1BSZHVnR0IwYk9BQ0dXeERwSFJzNEUwNVh3Q3NkR3pna3JKdWc3QjBiT0IzOVZoR3pIUnM0RHdkYTBVb2RHemdMYjFld0JSMGJPQXRRRjNGcUhSczRCVWZiY000ZEd6Z05ucFpnU3gwYk9DYlgxeUZNSFJzNEVjWFhvZU1kR3pnSUpac0FSUjBiT0JNcGxrQXVIUnM0RDVZYjBHWWRHemdQTmRjQWxSMGJPQUxTVzJDWkhSczRDQ0piTVRzZEd6Z0FySlpRblIwYk9BSkptbkRKSFJzNE5WU1gwVjRkR3pnbFBCWUErUjBiT0E2aGxuRVlIUnM0RHBaV3dQd2RHemdXVE5veFl4MGJPQWw4bDRGREhSczRBSVRhRVo4ZEd6Z2IybGF3c1IwYk9DRjYxbEV3SFJzNEU2RVhBSHdkR3pnQXNwY2dZUjBiT0Fmdkc5Q1IAAA",
+      "retrieved_utc": "2026-10-03T00:28:07.789041+00:00",
+      "returned": 20,
+      "sha256": "04ed0a1c30700c3737a397ada93abbb2ca318bfd8db33996b3d9c597a44ef694",
+      "file": "data/raw/x/stratified_2026-09-08_s2_p4.json"
+    },
+    {
+      "window_id": "2026-09-08_s3",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788887220+until_time%3A1788887520&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:28:13.783884+00:00",
+      "returned": 20,
+      "sha256": "5b0d53506fca745f8f0f14019da67f3038b171413232664c6815df0c7c5b75ae",
+      "file": "data/raw/x/stratified_2026-09-08_s3_p0.json"
+    },
+    {
+      "window_id": "2026-09-08_s3",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788887220+until_time%3A1788887520&queryType=Latest&cursor=DAADDAABCgABHRtdEVEbsF0KAAIdG10DxhZhZgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqcTuAAnEAoABh06pxO3_9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRHMTBRTFpjdzVoMGJYUXBDR3BCcEhSdGRCcmFiRVF3ZEcxME5GZHRCZkIwYlhSRlJHN0JkSFJ0ZEN1dWFBUklkRzEwUks1YndQeDBiWFEzbG15QVVIUnRkQ3lKYllCUWRHMTBOeXhxeHJSMGJYUkJmMXJGVUhSdGRBOFlXWVdZZEcxMEQvdGNRL3gwYlhRb1Jta0VjSFJ0ZENCeGFnV2dkRzEwS3NGb0JnaDBiWFFlTzFxQmVIUnRkQ25rYThlQWRHMTBOTUJlaE5CMGJYUVIxVnFGSwAA",
+      "retrieved_utc": "2026-10-03T00:28:19.743114+00:00",
+      "returned": 20,
+      "sha256": "1ab39dcace4c3a46c983e4901308a9a2bcf970ec00cf78aa9d46885b8896ef97",
+      "file": "data/raw/x/stratified_2026-09-08_s3_p1.json"
+    },
+    {
+      "window_id": "2026-09-08_s3",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788887220+until_time%3A1788887520&queryType=Latest&cursor=DAADDAABCgABHRtdEVEbsF0KAAIdG1z4MNqxTQAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqcTuAAnEAoABh06pxO3_7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RHMTBRTFpjdzVoMGJYUDJDMjdGc0hSdGMrVjFic2VjZEcxMEtRaHFRYVIwYlhRYTJteEVNSFJ0ZERSWGJRWHdkRzF6NE1OcXhUUjBiWFJGUkc3QmRIUnRkQ3V1YUFSSWRHMTBONVpzZ0ZCMGJYUUc0Rm5EaUhSdGRDeUpiWUJRZEcxMEFLSm93cEIwYlhQbzZtaEN4SFJ0ZENCeGFnV2dkRzEwRHhoWmhaaDBiWFFlTzFxQmVIUnRkQWZVWFlXc2RHMTBOTUJlaE5CMGJYUUdqMjBCbEhSdGMrdGVhVUxrZEcxejVTNVlRV0IwYlhRSVQxM0dZSFJ0Yy9xY1dZVW9kRzF6OUs5Y0I4aDBiWFJFcmx2QS9IUnRjK2w5YW9BSWRHMXovQ1ZiUmNCMGJYUTNMR3JHdEhSdGMrNW5iRUJRZEcxMFFYOWF4VkIwYlhRb1Jta0VjSFJ0ZENyQmFBWUlkRzEwRC90Y1EveDBiWFFwNUd2SGdIUnRjK09EWHNDMGRHMXo0NHh0UjVCMGJYUDNuV3NDV0hSdGMvcWxXNGVjZEcxMEVkVmFoU2c9PQAA",
+      "retrieved_utc": "2026-10-03T00:28:25.263232+00:00",
+      "returned": 20,
+      "sha256": "415086aca4dd56740749a9b3c610e6f2135f79fea54c78d1ae0f4c1cf74b38f3",
+      "file": "data/raw/x/stratified_2026-09-08_s3_p2.json"
+    },
+    {
+      "window_id": "2026-09-08_s3",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788887220+until_time%3A1788887520&queryType=Latest&cursor=DAADDAABCgABHRtdEVEbsF0KAAIdG1zippswAAAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqcTuAAnEAoABh06pxO3_4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RHMXo5Z3R1eGJCMGJYUXBDR3BCcEhSdGMrVjFic2VjZEcxMEd0cHNSREIwYlhRMFYyMEY4SFJ0ZERlV2JJQlFkRzEwQnVCWnc0aDBiWE92TFYzSEZIUnRjOCtuV2tHc2RHMTBJSEZxQmFCMGJYUUdqMjBCbEhSdGREVEFYb1RRZEcxMEI5UmRoYXgwYlhRZU8xcUJlSFJ0YzdJVlhjS1lkRzF6NjE1cFF1UjBiWFFJVDEzR1lIUnRjK1V1V0VGZ2RHMXpsYTVZaHNSMGJYT2lFVjJBakhSdGM3Q3RiMFhBZEcxejlLOWNCOGgwYlhQOEpWdEZ3SFJ0Yys1bmJFQlFkRzEwUVg5YXhWQjBiWE9NemwzRlRIUnRjNi84V2NjSWRHMTBEL3RjUS94MGJYUW9SbWtFY0hSdGM4aDhXQWRjZEcxenVkRnVBSWgwYlhPNFNWaUZXSFJ0YzZLS2JvYWtkRzF6c0I5ZEJqUjBiWFBqZzE3QXRIUnRjL3FsVzRlY2RHMTBFZFZhaFNoMGJYTy9YMXJBQ0hSdGRFQzJYTU9ZZEcxenRXRlpneGgwYlhQUTRXbkdhSFJ0ZEVWRWJzRjBkRzF6NE1OcXhUUjBiWE9LbW16QUFIUnRkQ3V1YUFSSWRHMTBMSWx0Z0ZCMGJYT3Y3V2lGakhSdGRBQ2lhTUtRZEcxejZPcG9Rc1IwYlhRUEdGbUZtSFJ0Yy9xY1dZVW9kRzF6bFdKcVJVeDBiWFJFcmx2QS9IUnRjK2w5YW9BSWRHMTBOeXhxeHJSMGJYUFd2VzlHNkhSdGRDckJhQVlJZEcxMEtlUnJ4NEIwYlhQampHMUhrSFJ0Yy9lZGF3Slk9AAA",
+      "retrieved_utc": "2026-10-03T00:28:31.705687+00:00",
+      "returned": 20,
+      "sha256": "1de9efc9ffcf559170d79e75ff3db548a10f6761f9f942fc2bbeb216f9fc3829",
+      "file": "data/raw/x/stratified_2026-09-08_s3_p3.json"
+    },
+    {
+      "window_id": "2026-09-08_s3",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788887220+until_time%3A1788887520&queryType=Latest&cursor=DAADDAABCgABHRtdEVEbsF0KAAIdG1zQRFogIgAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqcTuAAnEAoABh06pxO3_2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRHMXo5Z3R1eGJCMGJYUGxkVzdIbkhSdGRDa0lha0drZEcxMEd0cHNSREIwYlhRMFYyMEY4SFJ0YzRPbGFjT1VkRzEwTjVac2dGQjBiWFFHNEZuRGlIUnRjMFJrV1FUWWRHMXpyeTFkeHhSMGJYUFBwMXBCckhSdGRDQnhhZ1dnZEcxenNoVmR3cGgwYlhRZU8xcUJlSFJ0ZEFmVVhZV3NkRzEwTk1CZWhOQjBiWFFHajIwQmxIUnRjMU1MYmdSUWRHMXo2MTVwUXVSMGJYUUlUMTNHWUhSdGMrVXVXRUZnZEcxelE2QnRRRFIwYlhPVnJsaUd4SFJ0YzZJUlhZQ01kRzF6c0sxdlJjQjBiWE5yS2w5Q0ZIUnRjMm9DWElWMGRHMXplMzVvQVJ4MGJYUDByMXdIeUhSdGMvd2xXMFhBZEcxMFFYOWF4VkIwYlhQdVoyeEFVSFJ0ZEEvN1hFUDhkRzF6ak01ZHhVeDBiWE92L0ZuSENIUnRkQ2hHYVFSd2RHMXp5SHhZQjF4MGJYTzUwVzRBaUhSdGM3aEpXSVZZZEcxemNZaGJ3bUIwYlhQNnBWdUhuSFJ0YzdBZlhRWTBkRzF6b29wdWhxUjBiWFFSMVZxRktIUnRjNzlmV3NBSWRHMTBRTFpjdzVoMGJYTzFZVm1ER0hSdGMrT0RYc0MwZEcxejBPRnB4bWgwYlhOZ3ZXakVaSFJ0ZEVWRWJzRjBkRzF6NE1OcXhUUjBiWE9LbW16QUFIUnRkQ3V1YUFSSWRHMTBMSWx0Z0ZCMGJYTkJFV2lBaUhSdGM2L3RhSVdNZEcxMEFLSm93cEIwYlhQbzZtaEN4SFJ0YzM1RmE0R1VkRzEwRHhoWmhaaDBiWE4vNEZ0SERIUnRjMHFMWEVVMGRHMXorcHhaaFNoMGJYT0MxMmtFWkhSdGM1Vmlha1ZNZEcxemIzOXBoVkIwYlhSRXJsdkEvSFJ0YytsOWFvQUlkRzEwTnl4cXhyUjBiWFBXdlc5RzZIUnRjMWNqWDBOWWRHMTBLc0ZvQmdoMGJYTmQ0R2xFeEhSdGMzTEZXY1dVZEcxMEtlUnJ4NEIwYlhPRzAyMUNwSFJ0YytPTWJVZVFkRzF6OTUxckFsaDBiWE53VEdpRTgAAA",
+      "retrieved_utc": "2026-10-03T00:28:37.788626+00:00",
+      "returned": 20,
+      "sha256": "75032f44c61356bd4f889554ccbb9c6f55e82ced31828c1050879d9c959b5cd1",
+      "file": "data/raw/x/stratified_2026-09-08_s3_p4.json"
+    },
+    {
+      "window_id": "2026-09-08_s4",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788902460+until_time%3A1788902760&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:28:43.349821+00:00",
+      "returned": 20,
+      "sha256": "df1f39530b9d2e44f2d11091868a20a84a23572035595857e3302f04b11b7c8d",
+      "file": "data/raw/x/stratified_2026-09-08_s4_p0.json"
+    },
+    {
+      "window_id": "2026-09-08_s4",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788902460+until_time%3A1788902760&queryType=Latest&cursor=DAADDAABCgABHRuXNdjWgQkKAAIdG5cbhdah6gAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqcwyIAnEAoABh06pzDIf9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRHNWN6MkZlZ0loMGJsekZTbDZBV0hSdVhKRDNXZ09BZEc1Y3VOVmN3ZUIwYmx5RHYycERpSFJ1WEtXVFhjTDhkRzVjYmhkYWg2aDBibHluOTFuQ2NIUnVYS1kwWHdhUWRHNWNyMlp0QStSMGJseC9jV3VFNkhSdVhLbnNYQUt3ZEc1Y2hUeGVBQXgwYmx5Zm9Gb0N1SFJ1WE1nQ1drR2dkRzVjMWZCdUJ5UjBibHpYWTFvRUpIUnVYTTBoYmdHNGRHNWN5Tk5wQmV4MGJseWNXbHRGQgAA",
+      "retrieved_utc": "2026-10-03T00:28:49.725825+00:00",
+      "returned": 20,
+      "sha256": "f6efa5b69ecebaa0d19855a3d8a1364fc5ee879bc85aaa6d1ae83d658436fabb",
+      "file": "data/raw/x/stratified_2026-09-08_s4_p1.json"
+    },
+    {
+      "window_id": "2026-09-08_s4",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788902460+until_time%3A1788902760&queryType=Latest&cursor=DAADDAABCgABHRuXNdjWgQkKAAIdG5cEatohXAAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqcwyIAnEAoABh06pzDIf7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RHNWNXT3RzUmZSMGJsdzFnR25Cd0hSdVhKRDNXZ09BZEc1Y2JjNW9ocXgwYmx3UzdtM0FpSFJ1WEJya2JzSzhkRzVjRjZadkFmUjBibHdkbkZuR1dIUnVYRUw1YlVaZ2RHNWNVemxwUi9CMGJsd2sxR29FL0hSdVhLbnNYQUt3ZEc1Y1J6dGFCL2gwYmx5Zm9Gb0N1SFJ1WE5Yd2JnY2tkRzVjYmhkYWg2aDBibHpYWTFvRUpIUnVYQ2o0Yk1NZ2RHNWN6MkZlZ0loMGJseERqRjhBdUhSdVhNVktYb0JZZEc1Y3VOVmN3ZUIwYmx5RHYycERpSFJ1WEtXVFhjTDhkRzVjWFU5dEIrQjBibHdUR0cyREFIUnVYQk1hYlFLc2RHNWNwL2Rad25CMGJseW1ORjhHa0hSdVhLOW1iUVBrZEc1Y0VhdG9oWEIwYmx3bmgxNkN2SFJ1WElVOFhnQU1kRzVjZjNGcmhPaDBibHpJQWxwQm9IUnVYQlZHYm9UY2RHNWN5Tk5wQmV4MGJsek5JVzRCdUhSdVhHMjJYMGIwZEc1Y25GcGJSUVE9PQAA",
+      "retrieved_utc": "2026-10-03T00:28:55.860329+00:00",
+      "returned": 20,
+      "sha256": "465005532ec826f437a0a52608edce757190043c86754ac3a5ae9307360a6875",
+      "file": "data/raw/x/stratified_2026-09-08_s4_p2.json"
+    },
+    {
+      "window_id": "2026-09-08_s4",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788902460+until_time%3A1788902760&queryType=Latest&cursor=DAADDAABCgABHRuXNdjWgQkKAAIdG5bmildgcAAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqcwyIAnEAoABh06pzDIf4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RHNWJ1dVpjZ1N4MGJseFk2MnhGOUhSdVcvSSthMEp3ZEc1Y05ZQnB3Y0IwYmx3WHBtOEI5SFJ1VzVvcFhZSEFkRzVjSFp4WnhsaDBibHlmb0ZvQ3VIUnVYTmRqV2dRa2RHNWJzNWxZUXlCMGJsd0F1RzFGM0hSdVhLV1RYY0w4ZEc1Y2c3OXFRNGgwYmx2dlgybUYzSFJ1VzdXWFgwRmdkRzVjcC9kWnduQjBibHYvTm1pQ1lIUnVYSzltYlFQa2RHNWNKNGRlZ3J4MGJseC9jV3VFNkhSdVhNZ0NXa0dnZEc1Ynk0WmFBK3gwYmx6STAya0Y3SFJ1WE0waGJnRzRkRzVjYmJaZlJ2UjBibHdScTJpRmNIUnVYQU5yWEFTY2RHNWJuR0JmQm54MGJseVE5MW9EZ0hSdVhBKzhYSVo0ZEc1Y2JjNW9ocXgwYmx3YTVHN0N2SFJ1WEJMdWJjQ0lkRzVjUXZsdFJtQjBibHhUT1dsSDhIUnVYQ1RVYWdUOGRHNWNxZXhjQXJCMGJseEhPMW9IK0hSdVc2WU9Xd1RZZEc1Y2JoZGFoNmgwYmx6VjhHNEhKSFJ1WEVPTVh3QzRkRzVjS1Boc3d5QjBibHpQWVY2QWlIUnVYQW0rWGdhWWRHNWN4VXBlZ0ZoMGJsdXdMVmtBaEhSdVcrMFhYd0NnZEc1Y0JGSlloUVIwYmx5NDFWekI0SFJ1WEYxUGJRZmdkRzViOTN0b1JsaDBibHdUR0cyREFIUnVXODRJWFlUc2RHNWI2QzlZeDJSMGJsd1RHbTBDckhSdVhLWTBYd2FRZEc1Y2hUeGVBQXgwYmx3VlJtNkUzSFJ1WEp4YVcwVUU9AAA",
+      "retrieved_utc": "2026-10-03T00:29:01.724021+00:00",
+      "returned": 20,
+      "sha256": "33991b4a5c4b965f7efa36da181119ddf29151477a6f8efa11e802abc37b70c0",
+      "file": "data/raw/x/stratified_2026-09-08_s4_p3.json"
+    },
+    {
+      "window_id": "2026-09-08_s4",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788902460+until_time%3A1788902760&queryType=Latest&cursor=DAADDAABCgABHRuXNdjWgQkKAAIdG5bNIdfBLQAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqcwyIAnEAoABh06pzDIf2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRHNWJWYzliaGlCMGJsdDE4Mm5GNUhSdVc0S1JYVVhFZEc1YmtRUnNBcVIwYmx3MWdHbkJ3SFJ1Vy9JK2EwSndkRzVjV090c1JmUjBibHU2NWx5QkxIUnVXelZtVzhHNGRHNWNGNlp2QWZSMGJsdWFLVjJCd0hSdVhCMmNXY1pZZEc1Y242QmFBcmgwYmx0NjBGaUc1SFJ1WE5kaldnUWtkRzViczVsWVF5QjBibHVHam1pRmhIUnVXNGxvV01JNGRHNWJWY3hxQmloMGJsdDVHbDBFbUhSdVcycDZiMFNZZEc1Y0FMaHRSZHgwYmx5RHYycERpSFJ1WEtXVFhjTDhkRzViNzE5cGhkeDBibHMwaDE4RXRIUnVXN1dYWDBGZ2RHNWIvelpvZ21CMGJseW45MW5DY0hSdVhLOW1iUVBrZEc1YlFlMXNSYWgwYmx3bmgxNkN2SFJ1WE1nQ1drR2dkRzVjZjNGcmhPaDBibHh0dGw5RzlIUnVXOHVHV2dQc2RHNWN6U0Z1QWJoMGJsekkwMmtGN0hSdVhCR3JhSVZ3ZEc1Y0EydGNCSngwYmx1Y1lGOEdmSFJ1WEpEM1dnT0FkRzVjRDd4Y2huaDBibHh0em1pR3JIUnVYQnJrYnNLOGRHNWNFdTV0d0loMGJseEMrVzFHWUhSdVhGTTVhVWZ3ZEc1Y0pOUnFCUHgwYmx5cDdGd0NzSFJ1VzFEb1hBSjBkRzVjUnp0YUIvaDBibHVtRGxzRTJIUnVYRzRYV29lb2RHNWMxZkJ1QnlSMGJseERqRjhBdUhSdVhDajRiTU1nZEc1Y3oyRmVnSWgwYmx3SnZsNEdtSFJ1WE1WS1hvQllkRzVic0MxWkFJUjBibHVLeGw2SGFIUnVXKzBYWHdDZ2RHNWNCRkpZaFFSMGJseTQxVnpCNEhSdVcxNmFhd1VBZEc1YjkzdG9SbGgwYmx4ZFQyMEg0SFJ1WEJNWWJZTUFkRzViemdoZGhPeDBibHdUR20wQ3JIUnVXK2d2V01ka2RHNWNwalJmQnBCMGJsdGRhMTlCQUhSdVhJVThYZ0FNZEc1YlhlVnBRaUIwYmx1WElsdUMySFJ1WEJWR2JvVGNkRzViVE5Oc1EraDBibHljV2x0RkIAAA",
+      "retrieved_utc": "2026-10-03T00:29:07.990440+00:00",
+      "returned": 20,
+      "sha256": "c4dca98e6adbafacd6abaae91c6ff56c1aa241ace4990c498582dddff5461a3f",
+      "file": "data/raw/x/stratified_2026-09-08_s4_p4.json"
+    },
+    {
+      "window_id": "2026-09-08_s5",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788914220+until_time%3A1788914520&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:29:13.748969+00:00",
+      "returned": 20,
+      "sha256": "eed7c54334802667366edc4a06810f7a97e74df21a757cb2d7f299a9d0560489",
+      "file": "data/raw/x/stratified_2026-09-08_s5_p0.json"
+    },
+    {
+      "window_id": "2026-09-08_s5",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788914220+until_time%3A1788914520&queryType=Latest&cursor=DAADDAABCgABHRvEEPeWAYwKAAIdG8PvUJtQ_gAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqdOQQAnEAoABh06p05A_9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRHOFAxbjlxeFRoMGJ4QS9zR29CUUhSdkQ3NGJiQWEwZEc4UDdwVnJBN2gwYncvektHOEN0SFJ2RUQ4Rlc4VkVkRzhQdm5oZlFNeDBidy9rTjF6QlFIUnZFQXIrV1lZd2RHOFFOVDFkeHlCMGJ4QkQzbGdHTUhSdkVERzFiRVk0ZEc4UC9tQlpoeVIwYncrOVFtMUQrSFJ2RDgyOVdzTFlkRzhRTGpacmdnaDBieEF1WmxuQXpIUnZEOENKV0lENGRHOFFCK0ZhaGdCMGJ4QkNXV3RGNwAA",
+      "retrieved_utc": "2026-10-03T00:29:19.316597+00:00",
+      "returned": 20,
+      "sha256": "e1cfcf8e9e4a71356074358d27394e07e187f440c66ac022172447a3c1118ebe",
+      "file": "data/raw/x/stratified_2026-09-08_s5_p1.json"
+    },
+    {
+      "window_id": "2026-09-08_s5",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788914220+until_time%3A1788914520&queryType=Latest&cursor=DAADDAABCgABHRvEEPeWAYwKAAIdG8PR-RegZgAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqdOQQAnEAoABh06p05A_7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RHOFAxbjlxeFRoMGJ3K1BzRjVFeEhSdkQ0TS9iZ01NZEc4UFdOZGN4YmgwYncvdWxXc0R1SFJ2RC9Nb2J3SzBkRzhQVTJWYmhjUjBidy9rTjF6QlFIUnZFREcxYkVZNGRHOFAvbUJaaHlSMGJ3K21obTRBVEhSdkQwalNXVVBZZEc4UHR4cHFCdHgwYnc5MkdHbUdYSFJ2RUM1bVdjRE1kRzhQd0lsWWdQaDBieEFINFZxR0FIUnZFRUpaYTBYc2RHOFBYNk5ZQSt4MGJ3OStJMXVGNkhSdkQzWnBYQVF3ZEc4UVA3QnFBVUIwYnhBL0JWdkZSSFJ2RDc0YmJBYTBkRzhQdm5oZlFNeDBieEFLL2xtR01IUnZFRFU5WGNjZ2RHOFFROTVZQmpCMGJ3OU45VjhHREhSdkQ0YXdYa2NZZEc4UHVQeHJBblIwYnc5SDVGNkJtSFJ2RDcxQ2JVUDRkRzhQemIxYXd0aDBidzlmQmxqQ0lIUnZFQzQyYTRJSWRHOFBZV1pZUUlSMGJ3OTQ5bHFFY0hSdkQyS3Bha2RnZEc4UFhmaHV4NGc9PQAA",
+      "retrieved_utc": "2026-10-03T00:29:28.358290+00:00",
+      "returned": 20,
+      "sha256": "7ac967599628359d7905e1a9a0e0d018ee862e3b1d5e0120c74d5c13cc47f6e2",
+      "file": "data/raw/x/stratified_2026-09-08_s5_p2.json"
+    },
+    {
+      "window_id": "2026-09-08_s5",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788914220+until_time%3A1788914520&queryType=Latest&cursor=DAADDAABCgABHRvEEPeWAYwKAAIdG8O1bhqw0wAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqdOQQAnEAoABh06p05A_4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RHOE8yM3hiaC9CMGJ3K1BzRjVFeEhSdkQrNlZhd080ZEc4UFdOZGN4YmgwYnc5VFpWdUZ4SFJ2RHdCRFhZUWdkRzhQL21CWmh5UjBidzhYdDFsSE9IUnZEdFc0YXNOTWRHOFFMbVpad014MGJ3OTJHR21HWEhSdkQ4Q0pXSUQ0ZEc4UVFsbHJSZXgwYnc5K0kxdUY2SFJ2RUQrd2FnRkFkRzhPOW9kYUFWQjBieEExUFYzSElIUnZENzRiYkFhMGRHOFFROTVZQmpCMGJ3K0dzRjVIR0hSdkR1NUJXWVNBZEc4UFFyeHRRNXgwYnhBdU5tdUNDSFJ2RDJLcGFrZGdkRzhQWGZodXg0aDBidy9XZjJyRk9IUnZEdmtXYklhRWRHOFBnejl1QXd4MGJ3NytoMmhGZUhSdkQvTW9id0swZEc4UE04TmZSTkIwYnc3ajNXNUVwSFJ2RCtRM1hNRkFkRzhQTjlwY3cxeDBidzc3L2xuR2NIUnZFREcxYkVZNGRHOFBBSXRjeFFCMGJ3K21obTRBVEhSdkQ3Y2FhZ2JjZEc4UFNOSlpROWgwYnhBSDRWcUdBSFJ2RHgwNGJ3Q2NkRzhQWDZOWUEreDBidzh6N20wQXlIUnZEM1pwWEFRd2RHOFBPNU5kaFpoMGJ3NzBHR3JFWUhSdkVEOEZXOFZFZEc4UHZuaGZRTXgwYnc4WkttdEhoSFJ2RUFyK1dZWXdkRzhQVGZWZkJneDBidys0L0dzQ2RIUnZEMGZrWG9HWWRHOFB2VUp0US9oMGJ3L052VnJDMkhSdkQxOEdXTUlnZEc4UFlXWllRSVIwYnc4STcxcUJVSFJ2RDNqMldvUnc9AAA",
+      "retrieved_utc": "2026-10-03T00:29:32.061032+00:00",
+      "returned": 20,
+      "sha256": "23f9a1a81c3f0b7230addaddcbf2b65dfc0d9ffae5ec57a3ab2b10c9b5a32cd7",
+      "file": "data/raw/x/stratified_2026-09-08_s5_p3.json"
+    },
+    {
+      "window_id": "2026-09-08_s5",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788914220+until_time%3A1788914520&queryType=Latest&cursor=DAADDAABCgABHRvEEPeWAYwKAAIdG8OOpJcgLQAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqdOQQAnEAoABh06p05A_2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRHOE8yM3hiaC9CMGJ3NTdnVmxCU0hSdkQ0K3dYa1RFZEc4T21YeHJCTWgwYnc5WTExekZ1SFJ2RCs2VmF3TzRkRzhQVTJWYmhjUjBidzhBUTEyRUlIUnZELzVnV1lja2RHOFBGN2RaUnpoMGJ3N1Z1R3JEVEhSdkRqeCtYY01VZEc4T3Q2RnJnengwYnc5MkdHbUdYSFJ2RUM1bVdjRE1kRzhPVXRWZEJOaDBidy9BaVZpQStIUnZFRUpaYTBYc2RHOFBmaU5iaGVoMGJ4QS9zR29CUUhSdkR2YUhXZ0ZRZEc4T2ZqbFpnZmgwYnhCRDNsZ0dNSFJ2RDc0YmJBYTBkRzhRTlQxZHh5QjBidytHc0Y1SEdIUnZEdTVCV1lTQWRHOE90d3h1QXl4MGJ3OUN2RzFEbkhSdkVDNDJhNElJZEc4UFlxbHFSMkIwYnc1U0pXeUJJSFJ2RDEzNGJzZUlkRzhQMW45cXhUaDBidzVvMjJvQTBIUnZEdmtXYklhRWRHOFBnejl1QXd4MGJ3NXN5bXFFREhSdkQvTW9id0swZEc4Ty9vZG9SWGgwYnc4encxOUUwSFJ2RG9nQ1djTUVkRzhQcG9adUFFeDBidy9rTjF6QlFIUnZEemZhWE1OY2RHOE80OTF1UktSMGJ4QXh0V3hHT0hSdkR2ditXY1p3ZEc4UEFJdGN4UUIwYncrM0dtb0czSFJ2RDBqU1dVUFlkRzhPc3VSY3hTQjBidzQ2a2x5QXRIUnZEb1JhV3NOMGRHOE95aHhxUjF4MGJ4QUg0VnFHQUhSdkR4MDRid0NjZEc4UFg2TllBK3gwYnc4ejdtMEF5SFJ2RDNacFhBUXdkRzhPbWdGZVFuUjBidzg3azEyRm1IUnZEeGtxYTBlRWRHOFFQd1ZieFVSMGJ3NzBHR3JFWUhSdkQ3NTRYMERNZEc4UUN2NVpoakIwYnc2Y2VXa0dkSFJ2RDAzMVh3WU1kRzhQdVB4ckFuUjBidzZpcVYxRU9IUnZENzFDYlVQNGRHOFBSK1JlZ1poMGJ3L052VnJDMkhSdkQxOEdXTUlnZEc4T2lBRmZCYkIwYnc2TzJsOEFuSFJ2RDNqMldvUndkRzhQQ085YWdWQjBidzloWmxoQWgAAA",
+      "retrieved_utc": "2026-10-03T00:29:38.148699+00:00",
+      "returned": 20,
+      "sha256": "81ea1875c15c6decd4e7e7ede59abbf0575e65269894c2821f81e4beaf88fea8",
+      "file": "data/raw/x/stratified_2026-09-08_s5_p4.json"
+    },
+    {
+      "window_id": "2026-09-09_s0",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788930060+until_time%3A1788930360&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:29:46.214193+00:00",
+      "returned": 20,
+      "sha256": "bab325381052fd154fcc61001daddad48d767c297de56a0f6ec52d588f9b4cc1",
+      "file": "data/raw/x/stratified_2026-09-09_s0_p0.json"
+    },
+    {
+      "window_id": "2026-09-09_s0",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788930060+until_time%3A1788930360&queryType=Latest&cursor=DAADDAABCgABHRwAfNaXsFMKAAIdHABqx5fRIQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqdtssAnEAoABh06p22yv9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRIQUJ4UUpxdyt4MGNBSGdMMXFCRUhSd0FmTmFYc0ZNZEhBQnF4NWZSSVIwY0FIUVdHM0FuSFJ3QWRnbVhnUjRkSEFCM3FsZEJlUjBjQUh3d0d6RVBIUndBZXZrV1FLb2RIQUI1ZXB1UnJSMGNBSGk2MTBBaEhSd0FkaDNhY1BRZEhBQnh2QmJ3MWgwY0FIRjRGckNrSFJ3QWRPS1dRYVVkSEFCMzlSYkFHaDBjQUcxczFrQWJIUndBYkJNYU1LOGRIQUI1bnhheEtCMGNBSG9aMnVDbQAA",
+      "retrieved_utc": "2026-10-03T00:29:50.061295+00:00",
+      "returned": 20,
+      "sha256": "b1779cbe1c1c4f7411d39a45611cd92fe462a342af749a599b7d1f45239d08d5",
+      "file": "data/raw/x/stratified_2026-09-09_s0_p1.json"
+    },
+    {
+      "window_id": "2026-09-09_s0",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788930060+until_time%3A1788930360&queryType=Latest&cursor=DAADDAABCgABHRwAfNaXsFMKAAIdHABR09qQWAAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqdtssAnEAoABh06p22yv7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RIQUJUQUJwUkZSMGNBR0dkV3hEaEhSd0FjVUNhc1BzZEhBQjRDOWFnUkIwY0FHaU1HMkJjSFJ3QWZOYVhzRk1kSEFCVjUxWXdtQjBjQUdUVG04QTBIUndBV3dDWG9ZVWRIQUJsakpzZ2Z4MGNBSHd3R3pFUEhSd0FldmtXUUtvZEhBQjR1dGRBSVIwY0FIWWQybkQwSFJ3QVZ6TWFrVDBkSEFCMzlSYkFHaDBjQUcxczFrQWJIUndBWUZSYjBEZ2RIQUJVWEplUk5oMGNBR0U2bTFGc0hSd0FZYzBYWU1RZEhBQmU4bFlRL0IwY0FGVmhHOEFySFJ3QWRCWWJjQ2NkSEFCcXg1ZlJJUjBjQUhlcVYwRjVIUndBZGdtWGdSNGRIQUI1ZXB1UnJSMGNBR05VRzlHRUhSd0FhYVpXa2NnZEhBQlIwOXFRV0IwY0FIRzhGdkRXSFJ3QWNYZ1dzS1FkSEFCMDRwWkJwUjBjQUZqMDJoQ3FIUndBYkJNYU1LOGRIQUI1bnhheEtCMGNBRjBFMTRBR0hSd0FYTTdib09nZEhBQjZHZHJncGc9PQAA",
+      "retrieved_utc": "2026-10-03T00:29:56.797961+00:00",
+      "returned": 20,
+      "sha256": "24333f055c93287501d425e64e392799f8e57f3a99ec8f464a361819a3a46e13",
+      "file": "data/raw/x/stratified_2026-09-09_s0_p2.json"
+    },
+    {
+      "window_id": "2026-09-09_s0",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788930060+until_time%3A1788930360&queryType=Latest&cursor=DAADDAABCgABHRwAfNaXsFMKAAIdHAA9PNpRXQAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqdtssAnEAoABh06p22yv4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RIQUJLUHBkeFd4MGNBRURHRnlFcUhSd0FhSXdiWUZ3ZEhBQkJuNWRoRWgwY0FGWG5WakNZSFJ3QWV2a1dRS29kSEFCWE14cVJQUjBjQUhmMUZzQWFIUndBUWVxYU1SMGRIQUEvbTlvUjV4MGNBR0JVVzlBNEhSd0FUdm1hME5zZEhBQkhDTnF3bUIwY0FGVmhHOEFySFJ3QWQ2cFhRWGtkSEFCMkNaZUJIaDBjQUhRV0czQW5IUndBY2J3VzhOWWRIQUJZOU5vUXFoMGNBSG1mRnJFb0hSd0FYUVRYZ0FZZEhBQmN6dHVnNkIwY0FIb1oydUNtSFJ3QVBUemFVVjBkSEFCeFFKcXcreDBjQUZNQUdsRVZIUndBWVoxYkVPRWRIQUI0QzlhZ1JCMGNBSHpXbDdCVEhSd0FSUldYWWQ4ZEhBQjhNQnN4RHgwY0FHVFRtOEEwSFJ3QVQ0d1d3WHdkSEFCYkFKZWhoUjBjQUdXTW15Qi9IUndBUzlXWHNMUWRIQUEvZE5vaEFCMGNBRUJxbXlCSEhSd0FlTHJYUUNFZEhBQjJIZHB3OUIwY0FFcXNtMURNSFJ3QVRVT1dnUWtkSEFCdGJOWkFHeDBjQUVGUld4R3RIUndBVkZ5WGtUWWRIQUJoelJkZ3hCMGNBR0U2bTFGc0hSd0FYdkpXRVB3ZEhBQnF4NWZSSVIwY0FIbDZtNUd0SFJ3QVkxUWIwWVFkSEFCcHBsYVJ5QjBjQUZCREdqR0pIUndBVWRQYWtGZ2RIQUJPZWRveEFoMGNBSEY0RnJDa0hSd0FkT0tXUWFVZEhBQktpeGFCUGgwY0FFaTRWbUQ1SFJ3QWJCTWFNSzg9AAA",
+      "retrieved_utc": "2026-10-03T00:30:08.829974+00:00",
+      "returned": 20,
+      "sha256": "2eb3d9a847c59c3fff5aec7d0f2b9ea4bc20caadfc57207ed741293df37191ae",
+      "file": "data/raw/x/stratified_2026-09-09_s0_p3.json"
+    },
+    {
+      "window_id": "2026-09-09_s0",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788930060+until_time%3A1788930360&queryType=Latest&cursor=DAADDAABCgABHRwAfNaXsFMKAAIdHAAr-RuQHQAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqdtssAnEAoABh06p22yv2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRIQUJLUHBkeFd4MGNBR2lNRzJCY0hSd0FRTVlYSVNvZEhBQXpKZGR4Q0IwY0FFR2ZsMkVTSFJ3QU8rT2FzTU1kSEFCVjUxWXdtQjBjQUhyNUZrQ3FIUndBTUpiYVliSWRIQUJYTXhxUlBSMGNBSGYxRnNBYUhSd0FRZXFhTVIwZEhBQXNCVnZCTngwY0FEK2IyaEhuSFJ3QVR2bWEwTnNkSEFCZ1ZGdlFPQjBjQURQcGxpRmhIUndBUndqYXNKZ2RIQUJWWVJ2QUt4MGNBQ3Y1RzVBZEhSd0FkNnBYUVhrZEhBQjJDWmVCSGgwY0FEWStXeEJoSFJ3QWRCWWJjQ2NkSEFCeHZCYncxaDBjQUMxbzJ3SHJIUndBUFJGV2dDY2RIQUF1Q1pkUnZoMGNBRFdiVnBFR0hSd0FlWjhXc1NnZEhBQlk5Tm9RcWgwY0FGMEUxNEFHSFJ3QWVobmE0S1lkSEFCY3p0dWc2QjBjQURHN1ZrRkZIUndBTU4yV0lVa2RIQUJUQUJwUkZSMGNBRDA4MmxGZEhSd0FjVUNhc1BzZEhBQmhuVnNRNFIwY0FIZ0wxcUJFSFJ3QWZOYVhzRk1kSEFCRkZaZGgzeDBjQURIK211SE1IUndBUzlXWHNMUWRIQUJrMDV2QU5CMGNBRStNRnNGOEhSd0FXd0NYb1lVZEhBQmxqSnNnZngwY0FId3dHekVQSFJ3QVNxeWJVTXdkSEFBL2ROb2hBQjBjQUhpNjEwQWhIUndBZGgzYWNQUWRIQUJBYXBzZ1J4MGNBRTFEbG9FSkhSd0FiV3pXUUJzZEhBQXhUOXZBNmgwY0FFRlJXeEd0SFJ3QUx3RGE4VXdkSEFCVVhKZVJOaDBjQUR6WWx6QldIUndBWWMwWFlNUWRIQUJoT3B0UmJCMGNBRjd5VmhEOEhSd0FMUCtiMGZjZEhBQXRXWmVRZ1IwY0FHckhsOUVoSFJ3QVkxUWIwWVFkSEFCNWVwdVJyUjBjQUdtbVZwSElIUndBU29zV2dUNGRIQUJSMDlxUVdCMGNBRTU1MmpFQ0hSd0FjWGdXc0tRZEhBQjA0cFpCcFIwY0FGQkRHakdKSFJ3QVNMaFdZUGtkSEFCc0V4b3dyeDBjQURIazJrQmQAAA",
+      "retrieved_utc": "2026-10-03T00:41:33.506144+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-09_s0_p4.json"
+    },
+    {
+      "window_id": "2026-09-09_s1",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788941940+until_time%3A1788942240&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:41:37.574377+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-09_s1_p0.json"
+    },
+    {
+      "window_id": "2026-09-09_s2",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788960060+until_time%3A1788960360&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:41:41.626692+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-09_s2_p0.json"
+    },
+    {
+      "window_id": "2026-09-09_s3",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788977580+until_time%3A1788977880&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:41:45.691745+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-09_s3_p0.json"
+    },
+    {
+      "window_id": "2026-09-09_s4",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1788989040+until_time%3A1788989340&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:41:49.908729+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-09_s4_p0.json"
+    },
+    {
+      "window_id": "2026-09-09_s5",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789009440+until_time%3A1789009740&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:41:53.966076+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-09_s5_p0.json"
+    },
+    {
+      "window_id": "2026-09-10_s0",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789013580+until_time%3A1789013880&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:41:58.062672+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-10_s0_p0.json"
+    },
+    {
+      "window_id": "2026-09-10_s1",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789033440+until_time%3A1789033740&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:02.101215+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-10_s1_p0.json"
+    },
+    {
+      "window_id": "2026-09-10_s2",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789048020+until_time%3A1789048320&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:06.142341+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-10_s2_p0.json"
+    },
+    {
+      "window_id": "2026-09-10_s3",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789056360+until_time%3A1789056660&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:10.260351+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-10_s3_p0.json"
+    },
+    {
+      "window_id": "2026-09-10_s4",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789078920+until_time%3A1789079220&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:14.329525+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-10_s4_p0.json"
+    },
+    {
+      "window_id": "2026-09-10_s5",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789088100+until_time%3A1789088400&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:18.414281+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-10_s5_p0.json"
+    },
+    {
+      "window_id": "2026-09-11_s0",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789100700+until_time%3A1789101000&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:22.602630+00:00",
+      "returned": 20,
+      "sha256": "cbf06a29628e811419b7826f8b78d9172f4633f71b7fb01a8d0138248a3a6b8a",
+      "file": "data/raw/x/stratified_2026-09-11_s0_p0.json"
+    },
+    {
+      "window_id": "2026-09-11_s0",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789100700+until_time%3A1789101000&queryType=Latest&cursor=DAADDAABCgABHR6LbvvWEfQKAAIdHotNEZrwUQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqpQgoAnEAoABh06qlCCf9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRIb3RjT2hiQm9oMGVpMjdMMjRFMEhSNkxiaXVXUVI4ZEhvdE5FWnJ3VVIwZWkxTEdtNEcrSFI2TFdGQldRVlFkSG90YW9oWnhHaDBlaTJFY1d3RFBIUjZMWm1QVzhMWWRIb3RzeGxaQXNCMGVpMjc3MWhIMEhSNkxaNUJYSVNnZEhvdGk2eGFSWWgwZWkyWENGbEFISFI2TFVKcmJBREFkSG90VWlKZlFIaDBlaTFzTFcwRlBIUjZMVU5EYmdNd2RIb3RWdUZjaHh4MGVpMDU0RzZCNwAA",
+      "retrieved_utc": "2026-10-03T00:42:25.360520+00:00",
+      "returned": 20,
+      "sha256": "ffdcf660951ab40a1c5ff5bc92397d377037dd1d969ae2619d97ea3ffacaec9b",
+      "file": "data/raw/x/stratified_2026-09-11_s0_p1.json"
+    },
+    {
+      "window_id": "2026-09-11_s0",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789100700+until_time%3A1789101000&queryType=Latest&cursor=DAADDAABCgABHR6LbvvWEfQKAAIdHosfPZpguwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqpQgoAnEAoABh06qlCCf7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RIb3RPZUJ1Z2V4MGVpMjdMMjRFMEhSNkxSVDhYb09JZEhvc3FXMXN3WlIwZWkxaFFWa0ZVSFI2TFVzYWJnYjRkSG90aEhGc0F6eDBlaTAwUm12QlJIUjZMV3FJV2NSb2RIb3RtWTlid3RoMGVpMmVRVnlFb0hSNkxZdXNXa1dJZEhvdGx3aFpRQngwZWkxQ2Eyd0F3SFI2TFFxYVhJYlVkSG9zbS9SdVFWUjBlaXpqVW14SHlIUjZMV3d0YlFVOGRIb3RRME51QXpCMGVpMEpVR3BCaEhSNkxOZmJiRUpRZEhvc2ZjMXRnWkIwZWkxVzRWeUhISFI2TElkMWJVU3NkSG9zOWtGY3c4UjBlaTF3NkZzR2lIUjZMYml1V1FSOGRIb3NqYUJjQk1CMGVpendlbXBDRUhSNkxSZllhd1RnZEhvczI5ZGNnYngwZWkyekdWa0N3SFI2TGJ2dldFZlFkSG9zZlBacGd1eDBlaTBzMjJuSDBIUjZMTGQwYXdCZ2RIb3N4TDl1d2pSMGVpejRabDJCQkhSNkxWSWlYMEI0ZEhvczNVRnBBM2c9PQAA",
+      "retrieved_utc": "2026-10-03T00:42:29.481990+00:00",
+      "returned": 20,
+      "sha256": "97ffd13b3240802aa9ac2ef50ab284b38d29efeef5214999d27d51e738633f15",
+      "file": "data/raw/x/stratified_2026-09-11_s0_p2.json"
+    },
+    {
+      "window_id": "2026-09-11_s0",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789100700+until_time%3A1789101000&queryType=Latest&cursor=DAADDAABCgABHR6LbvvWEfQKAAIdHor5glox_gAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqpQgoAnEAoABh06qlCCf4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RIb3RPZUJ1Z2V4MGVpd2FpbXVGRkhSNkxSVDhYb09JZEhvdFN4cHVCdmgwZWkyRWNXd0RQSFI2TEVGdGJZSHdkSG90WVVGWkJWQjBlaTFDYTJ3QXdIUjZLKzVsV29jd2RIb3RDcHBjaHRSMGVpdzNyVnBIUEhSNkxXd3RiUVU4ZEhvdENWQnFRWVIwZWl6WDIyeENVSFI2TEJBbWJnYmdkSG9zamFCY0JNQjBlaXp3ZW1wQ0VIUjZMRCtCYk1YNGRIb3R1KzlZUjlCMGVpdnp5RjFCSkhSNkxMZDBhd0JnZEhvci9kRm93YXgwZWkxU0lsOUFlSFI2TEdxUWE4SUlkSG9zYlB4cFFoaDBlaXpkUVdrRGVIUjZMYnN2YmdUUWRIb3Rsd2haUUJ4MGVpMmVRVnlFb0hSNkxXcUlXY1JvZEhvdE5FWnJ3VVIwZWkyWmoxdkMySFI2TEtsdGJNR1VkSG9zUGVsdVJsaDBlaTJMckZwRmlIUjZMRVVZYnNBVWRIb3I1Z2xveC9oMGVpeWI5RzVCVkhSNkxPTlNiRWZJZEhvcjlOeFlBbEIwZWkxRFEyNERNSFI2TEgzTmJZR1FkSG90VnVGY2h4eDBlaXoyUVZ6RHhIUjZMSWQxYlVTc2RIb3RjT2hiQm9oMGVpMjRybGtFZkhSNkxCZ0lXZ0JVZEhvc1lWaFlSbWgwZWkwWDJHc0U0SFI2TE52WFhJRzhkSG90c3hsWkFzQjBlaXYvV1ZxQm5IUjZMSHoyYVlMc2RIb3I2K0pZaE5SMGVpMHMyMm5IMEhSNkxCOXRiRWMwZEhvc3hMOXV3alIwZWl6NFpsMkJCSFI2TEZ5eVdnV1U9AAA",
+      "retrieved_utc": "2026-10-03T00:42:36.918759+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-11_s0_p3.json"
+    },
+    {
+      "window_id": "2026-09-11_s1",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789123500+until_time%3A1789123800&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:41.007380+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-11_s1_p0.json"
+    },
+    {
+      "window_id": "2026-09-11_s2",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789129020+until_time%3A1789129320&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:45.091898+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-11_s2_p0.json"
+    },
+    {
+      "window_id": "2026-09-11_s3",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789155720+until_time%3A1789156020&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:49.173452+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-11_s3_p0.json"
+    },
+    {
+      "window_id": "2026-09-11_s4",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789159260+until_time%3A1789159560&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:42:53.285672+00:00",
+      "returned": 20,
+      "sha256": "83be1bb03412ad6fd3ae1db8c0311e5ed168d3b56576bf31f39daecc2d13ec61",
+      "file": "data/raw/x/stratified_2026-09-11_s4_p0.json"
+    },
+    {
+      "window_id": "2026-09-11_s4",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789159260+until_time%3A1789159560&queryType=Latest&cursor=DAADDAABCgABHR9q08DWgGkKAAIdH2q9_lYRCQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqpuhsAnEAoABh06qm6Gv9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRIMnJQU3R2QjBoMGZhczJ5R2lHS0hSOXEwS0piQVMwZEgyclFSSmR3cEIwZmF0RXRHbEc5SFI5cXZ1cFc4UG9kSDJyUUJSWkIvUjBmYXRQQTFvQnBIUjlxdmY1V0VRa2RIMnEvKzVlUk54MGZhc25WbDJDR0hSOXF3SDdYSWJFZEgyckUvbGNSdlIwZmFzOVhseEZRSFI5cTA1N1dVVEVkSDJyQWNaWkJZQjBmYXRHOUc0QkZIUjlxeDNpWHNhY2RIMnJTNlpyZ2JCMGZhc3h4MThEaAAA",
+      "retrieved_utc": "2026-10-03T00:42:57.534351+00:00",
+      "returned": 20,
+      "sha256": "dd5e40643687d06f88da8bb423d46508ae2178cfe527db5ac5ca68a0721bf6ff",
+      "file": "data/raw/x/stratified_2026-09-11_s4_p1.json"
+    },
+    {
+      "window_id": "2026-09-11_s4",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789159260+until_time%3A1789159560&queryType=Latest&cursor=DAADDAABCgABHR9q08DWgGkKAAIdH2qh_FchVAAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqpuhsAnEAoABh06qm6Gv7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RIMnEwUlplQjB4MGZhczlLMjhIU0hSOXFzeVJXMFM4ZEgyclFvbHNCTFIwZmF0RXRHbEc5SFI5cXZ1cFc4UG9kSDJxdndOY3hKQjBmYXRBRkZrSDlIUjlxc0YyV2tQZ2RIMnF6T3RiUUZSMGZhc0IrMXlHeEhSOXF4UDVYRWIwZEgycTg2MWJCK3gwZmF0T2UxbEV4SFI5cTBiMGJnRVVkSDJxM2ZSZHhBQjBmYXEzOVZoQlVIUjlxbzAxYUFmb2RIMnEwU1pjQkF4MGZhcVlrbXNEdEhSOXF6YklhSVlvZEgyclFSSmR3cEIwZmFyd1ltMkZrSFI5cW9meFhJVlFkSDJxeXhkWWdGUjBmYXRQQTFvQnBIUjlxdGdNVzhDSWRIMnJKMVpkZ2hoMGZhcnJlVnZIK0hSOXF2L3VYa1RjZEgyclBWNWNSVUIwZmFyc1oxbUhsSFI5cXZmNVdFUWtkSDJyQWNaWkJZQjBmYXJnWkZpR1RIUjlxeDNpWHNhY2RIMnJTNlpyZ2JCMGZhclV0bDBFMkhSOXFwNzBYZ2NZZEgyck1jZGZBNFE9PQAA",
+      "retrieved_utc": "2026-10-03T00:43:02.398365+00:00",
+      "returned": 20,
+      "sha256": "620c5476a2e885514ef7ffabbeb1ceb891d7d0101b20b8da36caba61259548e0",
+      "file": "data/raw/x/stratified_2026-09-11_s4_p2.json"
+    },
+    {
+      "window_id": "2026-09-11_s4",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789159260+until_time%3A1789159560&queryType=Latest&cursor=DAADDAABCgABHR9q08DWgGkKAAIdH2qWWNdQHAAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqpuhsAnEAoABh06qm6Gv4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RIMnJQU3R2QjBoMGZhcUJ4R29EMEhSOXFyOERYTVNRZEgycWh4bGR4eWgwZmFwbUFXbUJqSFI5cXZPdFd3ZnNkSDJyRS9sY1J2UjBmYXNCKzF5R3hIUjlxMDU3V1VURWRIMnEzZlJkeEFCMGZhcFpZMTFBY0hSOXF0RW1YQVFNZEgycWpUVm9CK2gwZmFwM2pGdERpSFI5cW4rM1dNUElkSDJxWFJCYkJ2aDBmYXBpcjE2REpIUjlxbHZIYmtETWRIMnJQVjVjUlVCMGZhcllERnZBaUhSOXF2ZjVXRVFrZEgycTRHUlloa3gwZmFzZDRsN0duSFI5cW51QWJJSk1kSDJxWWZsZlJ1aDBmYXBrVUdqRTlIUjlxcDcwWGdjWWRIMnEwUlplQjB4MGZhck1rVnRFdkhSOXFuZldYUUZzZEgyclFvbHNCTFIwZmF0RXRHbEc5SFI5cXZ1cFc4UG9kSDJyUUJSWkIvUjBmYXFIeTFnQ3dIUjlxc3pyVzBCVWRIMnF3WFphUStCMGZhdEc5RzRCRkhSOXFyZjFXRUZRZEgycWZweG9ockIwZmFwMXZsdkZDSFI5cW5NZWFRSU1kSDJyUVJKZHdwQjBmYXFZa21zRHRIUjlxemJJYUlZb2RIMnFlcDVjaHpoMGZhcndZbTJGa0hSOXFzc1hXSUJVZEgyclR3TmFBYVIwZmFwcDlGa0F1SFI5cXlkV1hZSVlkSDJxNjNsYngvaDBmYXIvN2w1RTNIUjlxdXhuV1llVWRIMnJBY1paQllCMGZhcUg4VnlGVUhSOXEwdW1hNEd3ZEgycTFMWmRCTmgwZmFzeHgxOERoSFI5cW1YWWFzT289AAA",
+      "retrieved_utc": "2026-10-03T00:43:06.473252+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-11_s4_p3.json"
+    },
+    {
+      "window_id": "2026-09-11_s5",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789175760+until_time%3A1789176060&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:10.784827+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-11_s5_p0.json"
+    },
+    {
+      "window_id": "2026-09-12_s0",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789189380+until_time%3A1789189680&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:14.853582+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-12_s0_p0.json"
+    },
+    {
+      "window_id": "2026-09-12_s1",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789213740+until_time%3A1789214040&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:18.904522+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-12_s1_p0.json"
+    },
+    {
+      "window_id": "2026-09-12_s2",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789215540+until_time%3A1789215840&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:22.998373+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-12_s2_p0.json"
+    },
+    {
+      "window_id": "2026-09-12_s3",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789235940+until_time%3A1789236240&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:27.077321+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-12_s3_p0.json"
+    },
+    {
+      "window_id": "2026-09-12_s4",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789248720+until_time%3A1789249020&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:31.234201+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-12_s4_p0.json"
+    },
+    {
+      "window_id": "2026-09-12_s5",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789271640+until_time%3A1789271940&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:35.311253+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-12_s5_p0.json"
+    },
+    {
+      "window_id": "2026-09-13_s0",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789286040+until_time%3A1789286340&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:39.340719+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-13_s0_p0.json"
+    },
+    {
+      "window_id": "2026-09-13_s1",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789292040+until_time%3A1789292340&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:43.383570+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-13_s1_p0.json"
+    },
+    {
+      "window_id": "2026-09-13_s2",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789312020+until_time%3A1789312320&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:43:48.237548+00:00",
+      "returned": 20,
+      "sha256": "eb11fc62df7934578ce62ca0232ec61a474e1d3c83ddc53c5589a0f6e54c3e8a",
+      "file": "data/raw/x/stratified_2026-09-13_s2_p0.json"
+    },
+    {
+      "window_id": "2026-09-13_s2",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789312020+until_time%3A1789312320&queryType=Latest&cursor=DAADDAABCgABHSGxjz0bgGYKAAIdIbFvhxdRsAAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqqkLEAnEAoABh06qqQsP9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRJYkZ5VUZjd3pSMGhzVytIRjFHd0hTR3hqR1JXa2YwZEliR0lWUmZSN0IwaHNYWEwxeEVMSFNHeGUySlhZVWdkSWJHT3o1cmdxUjBoc1hGUm1sQUZIU0d4ZDJMYVlUc2RJYkY0cnRiUVp4MGhzWTg5RzRCbUhTR3hmTXlXVVNJZEliRjR4SmRCNkIwaHNYSHYxOEQvSFNHeGVNTmJFTDBkSWJHTzR4YXgxQjBoc1lzSzI3Q1JIU0d4ZVFkV3dja2RJYkdNekJwQktoMGhzWVY3VnZCeAAA",
+      "retrieved_utc": "2026-10-03T00:43:52.239549+00:00",
+      "returned": 20,
+      "sha256": "ad2eaddd7e7ce174f8688850961207aef7f020965e612bdf69900b6ea069943e",
+      "file": "data/raw/x/stratified_2026-09-13_s2_p1.json"
+    },
+    {
+      "window_id": "2026-09-13_s2",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789312020+until_time%3A1789312320&queryType=Latest&cursor=DAADDAABCgABHSGxjz0bgGYKAAIdIbFbexaxXAAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqqkLEAnEAoABh06qqQsP7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RJYkZ5VUZjd3pSMGhzV3dmMTlGaEhTR3hpRlVYMGV3ZEliRmNFbHZBb3gwaHNYdGlWMkZJSFNHeGRjdlhFUXNkSWJGaUNKWndQQjBoc1Y3eEYwQ25IU0d4WXByYVlDSWRJYkdQUFJ1QVpoMGhzWGpFbDBIb0hTR3hmTXlXVVNJZEliRnQ3OXJ3dFIwaHNXWHlWckJQSFNHeGNlL1h3UDhkSWJGNHcxc1F2UjBoc1k3akZySFVIU0d4aXdyYnNKRWRJYkZua1JyeEhSMGhzV2RaMXlFc0hTR3hZa0JYd0VJZEliRnZoeGRSc0IwaHNZeGtWcEg5SFNHeFhqbmJrVWNkSWJGYmV4YXhYQjBoc1k3UG11Q3BIU0d4Y1ZHYVVBVWRJYkYzWXRwaE94MGhzWGl1MXRCbkhTR3hZUS9YUURnZEliRmoreFp3MXgwaHNXZ2dsMUJZSFNHeGVRZFd3Y2tkSWJGZEg1YUJGeDBoc1djc1YzQTNIU0d4ak13YVFTb2RJYkdGZTFid2NSMGhzV2lHVmtDZkhTR3haN0VXMFBVZEliRnZSbGRCRHc9PQAA",
+      "retrieved_utc": "2026-10-03T00:43:56.862599+00:00",
+      "returned": 20,
+      "sha256": "3b05d0a20f1e5ad56ca3e0ad795e0bb6e2fd8755e8805d6d84650d873a80117e",
+      "file": "data/raw/x/stratified_2026-09-13_s2_p2.json"
+    },
+    {
+      "window_id": "2026-09-13_s2",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789312020+until_time%3A1789312320&queryType=Latest&cursor=DAADDAABCgABHSGxjz0bgGYKAAIdIbFBApfQUwAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqqkLEAnEAoABh06qqQsP4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RJYkZ2UmxkQkR4MGhzVW9rVmxEbUhTR3hpRlVYMGV3ZEliRnNIOWZSWVIwaHNWaXlHNUNoSFNHeGUySlhZVWdkSWJHUFBSdUFaaDBoc1dLYTJtQWlIU0d4YmUvYThMVWRJYkZCQXBmUVV4MGhzVUhGMXpCVkhTR3hlTU5iRUwwZEliRng3OWZBL3gwaHNXZVJHdkVkSFNHeFJzWGE0VGdkSWJGaVFGZkFRaDBoc1ZWK0Y2RmhIU0d4akdSV2tmMGRJYkZQTnhiUWxSMGhzVnQ3RnJGY0hTR3hWVnNYZ0VBZEliR096NXJncVIwaHNYRlJtbEFGSFNHeGQyTGFZVHNkSWJGWFd4Y3g0eDBoc1VwSVZrRzRIU0d4WVEvWFFEZ2RJYkZqK3hadzF4MGhzV2dnbDFCWUhTR3hlUWRXd2NrZEliRlNmcGJ3RWgwaHNXaUdWa0NmSFNHeFp5eFhjRGNkSWJGeVVGY3d6UjBoc1Z3U1c4Q2pIU0d4ZGN2WEVRc2RJYkZpQ0pad1BCMGhzVmt3MjZDMUhTR3hTMDdYQWF3ZEliRjh6SlpSSWgwaHNWN3hGMENuSFNHeGVNU1hRZWdkSWJGV3dSYVFkaDBoc1k3akZySFVIU0d4WmZKV3NFOGRJYkdMQ3R1d2tSMGhzVTJIbGpIOUhTR3hWVEhYY0xnZEliRlFSOXBRVlIwaHNXZFoxeUVzSFNHeGI0Y1hVYkFkSWJGZU9kdVJSeDBoc1ZHemxvR29IU0d4ZUs3VzBHY2RJYkZDTWRjQStSMGhzVlV4MnVCREhTR3hYUitXZ1JjZEliR016QnBCS2gwaHNZVjdWdkJ4SFNHeFo3RVcwUFU9AAA",
+      "retrieved_utc": "2026-10-03T00:43:59.336603+00:00",
+      "returned": 20,
+      "sha256": "7d44f09af880d0bb2e4c56515a0521ef6a9669d686c435aa57f5bbf0389a6574",
+      "file": "data/raw/x/stratified_2026-09-13_s2_p3.json"
+    },
+    {
+      "window_id": "2026-09-13_s2",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789312020+until_time%3A1789312320&queryType=Latest&cursor=DAADDAABCgABHSGxjz0bgGYKAAIdIbEpupbQKQAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqqkLEAnEAoABh06qqQsP2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRJYkZ2UmxkQkR4MGhzVml5RzVDaEhTR3hiQi9YMFdFZEliR0lWUmZSN0IwaHNVb2tWbERtSFNHeEticVcwQ2tkSWJGN1lsZGhTQjBoc1QzcWxrR1JIU0d4anowYmdHWWRJYkU3U1pZd2VSMGhzV0thMm1BaUhTR3hiZS9hOExVZEliRXFoRmRRWVIwaHNVRUNsOUJUSFNHeGNlL1h3UDhkSWJGQnhkY3dWUjBoc1hqRFd4QzlIU0d4TDh6VzhBMGRJYkZua1JyeEhSMGhzVExGR2hBWEhTR3hQekpXWUZvZEliRkFMOVl3elIwaHNVYkYydUU0SFNHeFlrQlh3RUlkSWJGVmZoZWhZUjBoc1l4a1ZwSDlIU0d4VHpjVzBKVWRJYkZiZXhheFhCMGhzVlZiRjRCQUhTR3hQVVViUWFBZEliR096NXJncVIwaHNUY2hGM0JpSFNHeGNWR2FVQVVkSWJGM1l0cGhPeDBoc1RpNEc3QmpIU0d4VjFzWE1lTWRJYkZLU0ZaQnVCMGhzV0VQMTBBNEhTR3hMc0ZXd2RFZEliRTdxRm9nN0IwaHNXUDdGbkRYSFNHeGFDQ1hVRmdkSWJGNUIxYkJ5UjBoc1RvUG1vQUVIU0d4UCtRV2tIWWRJYkZTZnBid0VoMGhzV2lHVmtDZkhTR3haeXhYY0RjZEliRnlVRmN3elIwaHNUU2dWcEdDSFNHeFhCSmJ3S01kSWJFNDRWZEJsQjBoc1hYTDF4RUxIU0d4WWdpV2NEd2RJYkZaTU51Z3RSMGhzVXRPMXdHc0hTR3hmTXlXVVNJZEliRmU4UmRBcHgwaHNYakVsMEhvSFNHeFZzRVdrSFlkSWJGbDhsYXdUeDBoc1k3akZySFVIU0d4aXdyYnNKRWRJYkZOaDVZeC9SMGhzVlV4MTNDNEhTR3hVRWZhVUZVZEliRm5XZGNoTEIwaHNXK0hGMUd3SFNHeFhqbmJrVWNkSWJFMllGdUFsaDBoc1hpdTF0Qm5IU0d4VWJPV2dhZ2RJYkZDTWRjQStSMGhzVlV4MnVCREhTR3hYUitXZ1JjZEliR016QnBCS2gwaHNTc21tNUdySFNHeGhYdFc4SEVkSWJFK3o1YlFZUjBoc1dleEZ0RDEAAA",
+      "retrieved_utc": "2026-10-03T00:44:03.611293+00:00",
+      "returned": 20,
+      "sha256": "e335912a994439222febcf95d0688835b4106291d55a386beaca2dd8b7fd145a",
+      "file": "data/raw/x/stratified_2026-09-13_s2_p4.json"
+    },
+    {
+      "window_id": "2026-09-13_s3",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789324320+until_time%3A1789324620&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:44:08.698123+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-13_s3_p0.json"
+    },
+    {
+      "window_id": "2026-09-13_s4",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789342980+until_time%3A1789343280&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:44:12.750637+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-13_s4_p0.json"
+    },
+    {
+      "window_id": "2026-09-13_s5",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789344000+until_time%3A1789344300&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:44:16.832219+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-13_s5_p0.json"
+    },
+    {
+      "window_id": "2026-09-14_s0",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789359180+until_time%3A1789359480&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:44:20.934164+00:00",
+      "returned": 0,
+      "sha256": "c211e5c2da1ddac542e156973a29cef0984ee2d85b1fc71a01f194fc212a5785",
+      "file": "data/raw/x/stratified_2026-09-14_s0_p0.json"
+    },
+    {
+      "window_id": "2026-09-14_s1",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789383120+until_time%3A1789383420&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:44:23.147045+00:00",
+      "returned": 20,
+      "sha256": "abf4e9486188fa2d22e3e5c72e4ce1053879877d0fd06d5bc6c9db6f76c016eb",
+      "file": "data/raw/x/stratified_2026-09-14_s1_p0.json"
+    },
+    {
+      "window_id": "2026-09-14_s1",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789383120+until_time%3A1789383420&queryType=Latest&cursor=DAADDAABCgABHSLAyNpasNcKAAIdIsC6-ZvQkwAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqrGYcAnEAoABh06qsZhv9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRJc0RJMmxxdzF4MGl3TDgrRnFGOEhTTEF4dkpYRUlNZElzREd1TmF3Q0IwaXdNSUZtNkJBSFNMQXgxdldjTHdkSXNDOUs1YXhIUjBpd0w0YkZ6Q25IU0xBdnNIWGdVd2RJc0RGbk51Ulh4MGl3TCtHbDlFMEhTTEF5QkhhNEpjZElzREJRWmNSOHgwaXdMN25sbEFwSFNMQXhxbWIwWjBkSXNDNitadlFreDBpd01QMlYwRjdIU0xBdmYvYXNYc2RJc0M4ZVZ0UlNSMGl3TUZZR21EWgAA",
+      "retrieved_utc": "2026-10-03T00:44:25.356246+00:00",
+      "returned": 20,
+      "sha256": "b724cb81925da515f8c255f133355e635c415d0f310d2138042f4d6ecb56853b",
+      "file": "data/raw/x/stratified_2026-09-14_s1_p1.json"
+    },
+    {
+      "window_id": "2026-09-14_s1",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789383120+until_time%3A1789383420&queryType=Latest&cursor=DAADDAABCgABHSLAyNpasNcKAAIdIsCfUdogkgAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqrGYcAnEAoABh06qsZhv7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RJc0RJMmxxdzF4MGl3TG9QMTNFVkhTTEFvTEJXMFp3ZElzQ25LOXVSWlIwaXdNYTQxckFJSFNMQXVNZGJ3SXdkSXNEQ0JadWdRQjBpd01kYjFuQzhIU0xBcWI2WGtlMGRJc0N2dVJyZ2V4MGl3TDBybHJFZEhTTEF4Wnpia1Y4ZElzQy9ocGZSTkIwaXdNZ1IydUNYSFNMQXZzSFhnVXdkSXNDKzU1WlFLUjBpd0xGc0ZpQ1hIU0xBdXZtYjBKTWRJc0M1UE5jZ2lCMGl3TFBRR2hCNEhTTEF2Zi9hc1hzZElzQ2xUOWJRQWgwaXdLSlUxNkFnSFNMQXZ6NFdvWHdkSXNDNkxKYWgwQjBpd01ieVZ4Q0RIU0xBbzR5YVlUd2RJc0NuWUJjZ3J4MGl3SzVQMnlEM0hTTEF1akxid1g0ZElzQytHeGN3cHgwaXdNRkJseEh6SFNMQXJ4S1hRYW9kSXNER3FadlJuUjBpd01QMlYwRjdIU0xBcDU2WEFZRWRJc0NmVWRvZ2toMGl3S3ZwbXdGeEhTTEF2SGxiVVVrZElzREJXQnBnMlE9PQAA",
+      "retrieved_utc": "2026-10-03T00:44:27.661974+00:00",
+      "returned": 20,
+      "sha256": "562c7fc2c631f3de20e07cc182db88ada87466baea409313a271cd5367017741",
+      "file": "data/raw/x/stratified_2026-09-14_s1_p2.json"
+    },
+    {
+      "window_id": "2026-09-14_s1",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789383120+until_time%3A1789383420&queryType=Latest&cursor=DAADDAABCgABHSLAyNpasNcKAAIdIsCPJVeAdwAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqrGYcAnEAoABh06qsZhv4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RJc0NmVWRvZ2toMGl3TWphV3JEWEhTTEF4cmpXc0FnZElzREhXOVp3dkIwaXdNSUZtNkJBSFNMQW5aZlh3WlFkSXNDZ3NGYlJuQjBpd0ttK2w1SHRIU0xBeUJIYTRKY2RJc0NYaVJvd2JoMGl3TDdubGxBcEhTTEFtYlVXNEZJZElzQzYrWnZRa3gwaXdJOGxWNEIzSFNMQXZ6NFdvWHdkSXNERzhsY1FneDBpd0pwc1YyRXJIU0xBbXNaV2dJQWRJc0NUUVJiQkZ4MGl3S2RnRnlDdkhTTEFvNHlhWVR3ZElzQ3ZFcGRCcWgwaXdKaUlGMUZhSFNMQXZIbGJVVWtkSXNEQldCcGcyUjBpd0ptYlY3Rk1IU0xBdWcvWGNSVWRJc0NZWk5ZZ1JoMGl3TGpIVzhDTUhTTEFsWTRYVUxFZElzQ25LOXVSWlIwaXdNV2MyNUZmSFNMQXZTdVdzUjBkSXNDdnVScmdleDBpd0wrR2w5RTBIU0xBdnNIWGdVd2RJc0NUbUpxeEdoMGl3TGs4MXlDSUhTTEFzV3dXSUpjZElzQ1dtMXRCUXgwaXdMUFFHaEI0SFNMQXZmL2FzWHNkSXNDbFQ5YlFBaDBpd0p3YzJxQktIU0xBb2xUWG9DQWRJc0M2TEphaDBCMGl3SS9rMW5DaUhTTEFsZWRXNFpZZElzQ2JuNXFRSmgwaXdKTkoyNERCSFNMQXZoc1hNS2NkSXNDdVQ5c2c5eDBpd0xveTI4RitIU0xBbjB6YkFhSWRJc0RCUVpjUjh4MGl3STgxR21BcEhTTEF4cW1iMFowZElzREQ5bGRCZXgwaXdLZWVsd0dCSFNMQXErbWJBWEU9AAA",
+      "retrieved_utc": "2026-10-03T00:44:29.994675+00:00",
+      "returned": 20,
+      "sha256": "aa09d397aa5c2dc13285f8ba763d2eccac2ea6f581c6527e326c75156687dc41",
+      "file": "data/raw/x/stratified_2026-09-14_s1_p3.json"
+    },
+    {
+      "window_id": "2026-09-14_s1",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789383120+until_time%3A1789383420&queryType=Latest&cursor=DAADDAABCgABHSLAyNpasNcKAAIdIsCDn1cBfgAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqrGYcAnEAoABh06qsZhv2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRJc0RJMmxxdzF4MGl3SjlSMmlDU0hTTEFqTjdhNE0wZElzQ04zWmRCVGgwaXdJckRtb0h4SFNMQXhyaldzQWdkSXNEQ0JadWdRQjBpd01kYjFuQzhIU0xBblpmWHdaUWRJc0Nnc0ZiUm5CMGl3S20rbDVIdEhTTEF5QkhhNEpjZElzQ1hpUm93YmgwaXdMN25sbEFwSFNMQW1iVVc0RklkSXNDRWZwb1FQaDBpd0xyNW05Q1RIU0xBaWFuWHdjWWRJc0NMUU5lUXNoMGl3TDgrRnFGOEhTTEFqeVZYZ0hjZElzQ05pRnF4OFIwaXdNYnlWeENESFNMQW1teFhZU3NkSXNDYXhsYUFnQjBpd0pOQkZzRVhIU0xBcDJBWElLOGRJc0NqakpwaFBCMGl3STRjbHNBUkhTTEFqdm1hb0xZZElzQ3ZFcGRCcWgwaXdJWk4xOUNxSFNMQWl6b2IwQWtkSXNDWWlCZFJXaDBpd0loMlZxQkdIU0xBaFI2YXdIY2RJc0NLSHBhd3VCMGl3THg1VzFGSkhTTEF3VmdhWU5rZElzQ1ptMWV4VEIwaXdMb1AxM0VWSFNMQW1HVFdJRVlkSXNDNHgxdkFqQjBpd0pXT0YxQ3hIU0xBcHl2YmtXVWRJc0RGbk51Ulh4MGl3TDBybHJFZEhTTEFyN2thNEhzZElzQy9ocGZSTkIwaXdJWHVWekFQSFNMQXZzSFhnVXdkSXNDRG4xY0JmaDBpd0lQT0ZpQURIU0xBazVpYXNSb2RJc0NHOFZ0Z3NSMGl3TGs4MXlDSUhTTEFzV3dXSUpjZElzQ0oxZGVBUmgwaXdKYWJXMEZESFNMQXM5QWFFSGdkSXNDOS85cXhleDBpd0tWUDF0QUNIU0xBbkJ6YW9Fb2RJc0NpVk5lZ0lCMGl3TG9zbHFIUUhTTEFqK1RXY0tJZElzQ1Y1MWJobGgwaXdKdWZtcEFtSFNMQWpCRlhzY2dkSXNDZlROc0JvaDBpd0xveTI4RitIU0xBazBuYmdNRWRJc0N1VDlzZzl4MGl3TDRiRnpDbkhTTEF3VUdYRWZNZElzQ1BOUnBnS1IwaXdNYXBtOUdkSFNMQXcvWlhRWHNkSXNDbm5wY0JnUjBpd0t2cG13RngAAA",
+      "retrieved_utc": "2026-10-03T00:44:32.335189+00:00",
+      "returned": 20,
+      "sha256": "7ffd75856f675a54af8afeb5c11fc229a4c2606df72cf39d0c3ecd593e9f01ad",
+      "file": "data/raw/x/stratified_2026-09-14_s1_p4.json"
+    },
+    {
+      "window_id": "2026-09-14_s2",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789396020+until_time%3A1789396320&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:44:35.664754+00:00",
+      "returned": 20,
+      "sha256": "1df430a7ffe5ec38e841cf4a7ec3fcca793f5226ef1663210bbcc1ac76036994",
+      "file": "data/raw/x/stratified_2026-09-14_s2_p0.json"
+    },
+    {
+      "window_id": "2026-09-14_s2",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789396020+until_time%3A1789396320&queryType=Latest&cursor=DAADDAABCgABHSLx_atWwYkKAAIdIvH0k1cRGAAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqrSjEAnEAoABh06qtKMP9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRJdkg5bVpmUmt4MGk4ZnVlVzRGSUhTTHg5VVdhMElvZEl2SDlXZHNnVUIwaThmZnhHbkR5SFNMeCtrUGJRZWNkSXZIMmhsYmd4eDBpOGZneWxnR09IU0x4K2NrWFlENGRJdkg4ZTFmQUNoMGk4ZjJyVnNHSkhTTHgvWmpXVU84ZEl2SDNTMWRnelIwaThmU1RWeEVZSFNMeDlhM1hRSEVkSXZIOFdCWlJqaDBpOGZsR1Z5Rk5IU0x4Ky9aYjBjc2RJdkg5RlZ2QjBSMGk4ZmQ5RjZBSAAA",
+      "retrieved_utc": "2026-10-03T00:44:37.908872+00:00",
+      "returned": 20,
+      "sha256": "765b394a874a63271c34b26286af1fd7ecbabb1878a29d40a826e3f31017e035",
+      "file": "data/raw/x/stratified_2026-09-14_s2_p1.json"
+    },
+    {
+      "window_id": "2026-09-14_s2",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789396020+until_time%3A1789396320&queryType=Latest&cursor=DAADDAABCgABHSLx_atWwYkKAAIdIvHoc9vB5AAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqrSjEAnEAoABh06qtKMP7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RJdkh2NmxZQVdCMGk4ZTdZRjlDOUhTTHgrNTViZ1VnZEl2SHM1bGJRWXgwaThmZnhHbkR5SFNMeCtrUGJRZWNkSXZIckE1WkEvaDBpOGZQMzFySDVIU0x4N3VNVzBPTWRJdkgyaGxiZ3h4MGk4Zmd5bGdHT0hTTHgvYXRXd1lrZEl2SDV5UmRnUGgwaThmZExWMkROSFNMeDZIUGJ3ZVFkSXZIdGRab2dWUjBpOGZNaW12SHhIU0x4OWEzWFFIRWRJdkhyOE5ieGNCMGk4ZnYyVzlITEhTTHg2elViTU9NZEl2SHh0OWVSQngwaThmZDlGNkFISFNMeDhKK1hFUHNkSXZIOW1aZlJreDBpOGZKNVYyQldIU0x4ODhnV2NKa2RJdkgxUlpyUWloMGk4ZjFaMnlCUUhTTHg2T0hXSVZnZEl2SHRZTllBYWgwaThmeDdWOEFLSFNMeC9aaldVTzhkSXZIb2xoZEIxaDBpOGZTVFZ4RVlIU0x4OGtlWG9PVWRJdkg4V0JaUmpoMGk4ZmxHVnlGTkhTTHg4dGdYMFdRZEl2SDlGVnZCMFE9PQAA",
+      "retrieved_utc": "2026-10-03T00:44:39.733083+00:00",
+      "returned": 20,
+      "sha256": "809f3fc1f989f47fc5c72f7ef81f35d21a26bf1ccd119e95773122747af22b43",
+      "file": "data/raw/x/stratified_2026-09-14_s2_p2.json"
+    },
+    {
+      "window_id": "2026-09-14_s2",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789396020+until_time%3A1789396320&queryType=Latest&cursor=DAADDAABCgABHSLx_atWwYkKAAIdIvHaDhZg6wAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqrSjEAnEAoABh06qtKMP4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RJdkhibjVwUmZoMGk4ZnVlVzRGSUhTTHg3T1pXMEdNZEl2SG9ROVpRcVIwaThmZnhHbkR5SFNMeCtrUGJRZWNkSXZIckE1WkEvaDBpOGVVMjFxQ1ZIU0x4K2NrWFlENGRJdkgzUzFkZ3pSMGk4ZG9PRm1EckhTTHg4eUthOGZFZEl2SDFyZGRBY1IwaThmdjJXOUhMSFNMeDZIUGJ3ZVFkSXZIY25wc2dwaDBpOGZDZmx4RDdIU0x4NnpVYk1PTWRJdkg5bVpmUmt4MGk4ZlBJRm5DWkhTTHgyaGdYMFFNZEl2SG80ZFloV0IwaThlV1pGMEZYSFNMeDV0SVhnUDBkSXZIaHhOcEJPaDBpOGYyWTFsRHZIU0x4NkpZWFFkWWRJdkgwazFjUkdCMGk4ZDZTVzlHL0hTTHgvRmdXVVk0ZEl2SDVSbGNoVFIwaThmTFlGOUZrSFNMeDcrcFdBRmdkSXZIZmxoYWdSUjBpOGU3WUY5QzlIU0x4NE1FV29aRWRJdkhndzVhUW1oMGk4ZlAzMXJINUhTTHg3dU1XME9NZEl2SDRNcFlCamgwaThmMnJWc0dKSFNMeDlvWlc0TWNkSXZIdGRab2dWUjBpOGR4ckc2QmJIU0x4M1Y1YmdLMGRJdkhyOE5ieGNCMGk4ZmQ5RjZBSEhTTHg4YmZYa1FjZEl2SGxISmJ4YUIwaThmSjVWMkJXSFNMeDNuVVc4TnNkSXZIZlFsZFF1QjBpOGZWRm10Q0tIU0x4L1ZuYklGQWRJdkhrMjVhQWtSMGk4ZTFnMWdCcUhTTHgvSHRYd0FvZEl2SHlSNWVnNVIwaThkK1dGeEQzSFNMeC9SVmJ3ZEU9AAA",
+      "retrieved_utc": "2026-10-03T00:44:41.982291+00:00",
+      "returned": 20,
+      "sha256": "d843e2ea074119d949d7b85fe8f92ef8b7cc9c4f73d512e8915359b8a9630208",
+      "file": "data/raw/x/stratified_2026-09-14_s2_p3.json"
+    },
+    {
+      "window_id": "2026-09-14_s2",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789396020+until_time%3A1789396320&queryType=Latest&cursor=DAADDAABCgABHSLx_atWwYkKAAIdIvHLSxYQaQAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqrSjEAnEAoABh06qtKMP2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRJdkhRdWhZZ1hSMGk4ZEZ1VjlIa0hTTHg3T1pXMEdNZEl2SDdubHVCU0IwaThkdWZtbEYrSFNMeDZFUFdVS2tkSXZITHk5Y1JYQjBpOGZmeEduRHlIU0x4K2tQYlFlY2RJdkhyQTVaQS9oMGk4ZVUyMXFDVkhTTHgwT1BXNGZBZEl2SDV5UmRnUGgwaThmZExWMkROSFNMeDAzRGJnYzRkSXZIYURoWmc2eDBpOGZNaW12SHhIU0x4OWEzWFFIRWRJdkg3OWx2Unl4MGk4ZWh6MjhIa0hTTHgzSjZiSUtZZEl2SHduNWNRK3gwaThlczFHekRqSFNMeC9abVgwWk1kSXZIenlCWndtUjBpOGRvWUY5RURIU0x4eldZYVFVTWRJdkhPOUpid0h4MGk4ZWpoMWlGWUhTTHg1WmtYUVZjZEl2SG0waGVBL1IwaThlSEUya0U2SFNMeC9aaldVTzhkSXZIb2xoZEIxaDBpOGZTVFZ4RVlIU0x4MTBGWE1QUWRJdkhla2x2UnZ4MGk4ZnhZRmxHT0hTTHgrVVpYSVUwZEl2SHkyQmZSWkIwaThlL3FWZ0JZSFNMeDM1WVdvRVVkSXZIdTJCZlF2UjBpOGVEQkZxR1JIU0x4MFBlVzhRb2RJdkhndzVhUW1oMGk4ZEtzMTVGZ0hTTHh5MHNXRUdrZEl2SHo5OWF4K1IwaThlN2pGdERqSFNMeCtES1dBWTRkSXZIOXExYkJpUjBpOGZhR1Z1REhIU0x4MW9GYlFQTWRJdkh0ZFpvZ1ZSMGk4ZHhyRzZCYkhTTHgyTFhXUWMwZEl2SGRYbHVBclIwaThldncxdkZ3SFNMeDkzMFhvQWNkSXZIeHQ5ZVJCeDBpOGVVY2x2Rm9IU0x4MTZZYUVVWWRJdkhaZ1piQVJCMGk4Zko1VjJCV0hTTHgvVm5iSUZBZEl2SGVkUmJ3MngwaThmVkZtdENLSFNMeDMwSlhVTGdkSXZIazI1YUFrUjBpOGRhUjEwRXhIU0x4N1dEV0FHb2RJdkg4ZTFmQUNoMGk4YzNlR3ZBV0hTTHh5MzhXUWVJZEl2SHlSNWVnNVIwaThkZ1hGbkVwSFNMeDM1WVhFUGNkSXZIOUZWdkIwUjBpOGRCSEZxRXgAAA",
+      "retrieved_utc": "2026-10-03T00:44:43.774120+00:00",
+      "returned": 20,
+      "sha256": "1b9ff7c5613dd049fc2a1e263e72cea025ad796fdaca1abe3cc9b17d4d7329d5",
+      "file": "data/raw/x/stratified_2026-09-14_s2_p4.json"
+    },
+    {
+      "window_id": "2026-09-14_s3",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789412940+until_time%3A1789413240&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:44:46.575807+00:00",
+      "returned": 20,
+      "sha256": "f1fade05a9165e280c88f435bb71b217a029971328761feb18f267afc4a9424b",
+      "file": "data/raw/x/stratified_2026-09-14_s3_p0.json"
+    },
+    {
+      "window_id": "2026-09-14_s3",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789412940+until_time%3A1789413240&queryType=Latest&cursor=DAADDAABCgABHSMyiY1WQPAKAAIdIzJ7xZaQJwAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqrddQAnEAoABh06qt10_9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRJektBN1pzUjJCMGpNb1BwVnhGckhTTXlmR1dYUVhBZEl6SityUmVoWGgwak1vTklsekJlSFNNeWdlc1dJS0lkSXpLSmpWWkE4QjBqTW53NFZtRmFIU015Zk9zVzhWZ2RJektKTGhlQkdCMGpNb2d0VjdDdUhTTXlmMmFYRWFjZEl6S0Q0RmNSMkIwak1vRklWbEdYSFNNeWhiRVd3TDhkSXpLSUhsY2g2eDBqTW4vVW1xSFZIU015Z1JxYUlkQWRJeko4aVp0QlRoMGpNbnZGbHBBbgAA",
+      "retrieved_utc": "2026-10-03T00:44:48.767275+00:00",
+      "returned": 20,
+      "sha256": "2ebc7e72a9c95733c935174e47d969d650ea0e134e03bc54c498a63e10dea87e",
+      "file": "data/raw/x/stratified_2026-09-14_s3_p1.json"
+    },
+    {
+      "window_id": "2026-09-14_s3",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789412940+until_time%3A1789413240&queryType=Latest&cursor=DAADDAABCgABHSMyiY1WQPAKAAIdIzJmEpehkgAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqrddQAnEAoABh06qt10_7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RJektBN1pzUjJCMGpNblZrR3VIeUhTTXlmR1dYUVhBZEl6SjZPRmR4WWgwak1uVXQxNkUxSFNNeWNkTVhBVzBkSXpLSUxWZXdyaDBqTW45bWx4R25IU015Zk9zVzhWZ2RJekpvNFZyaGJoMGpNbW9GV3pFaEhTTXljb3pXVVkwZEl6SnhVQmZCSngwak1uYXAya0RESFNNeVprc1dFV29kSXpKOGladEJUaDBqTW0rTmxpQk1IU015ZThXV2tDY2RJekpwUkJZZ1hoMGpNb1BwVnhGckhTTXlhOXlYSUtnZEl6S0I2eFlnb2gwak1vTklsekJlSFNNeWZxMFhvVjRkSXpLSmpWWkE4QjBqTW1ZU2w2R1NIU015ZHhqWGdiNGRJektKTGhlQkdCMGpNbnc0Vm1GYUhTTXlnK0JYRWRnZEl6S0JTRlpSbHgwak1taGNsaEFVSFNNeWhiRVd3TDhkSXpLSUhsY2g2eDBqTW4vVW1xSFZIU015WnlVYkVNVWRJeko0UEZZaUFCMGpNb0VhbWlIUUhTTXlhUmVXc0lnZEl6SnVldGRSTHc9PQAA",
+      "retrieved_utc": "2026-10-03T00:44:50.512916+00:00",
+      "returned": 20,
+      "sha256": "d7710d67757dd5f258b37610d5e846baaec4cba2ff05bd687ead979da5d149c5",
+      "file": "data/raw/x/stratified_2026-09-14_s3_p2.json"
+    },
+    {
+      "window_id": "2026-09-14_s3",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789412940+until_time%3A1789413240&queryType=Latest&cursor=DAADDAABCgABHSMyiY1WQPAKAAIdIzJPWxZwmgAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqrddQAnEAoABh06qt10_4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RJektBN1pzUjJCMGpNblV0MTZFMUhTTXljZE1YQVcwZEl6SmdQcGN4b0Iwak1sNzhHdUQ4SFNNeVQ1dlhRWllkSXpLSUxWZXdyaDBqTWs5YkZuQ2FIU015V1A4WEVDVWRJekpvNFZyaGJoMGpNbW9GV3pFaEhTTXlVd0RhVUdjZEl6SjJxZHBBd3gwak1tT2YxMUhVSFNNeWZJbWJRVTRkSXpLRDZWY1JheDBqTW9IckZpQ2lIU015YTl5WElLZ2RJektKalZaQThCMGpNbmNZMTRHK0hTTXlpUzRYZ1JnZEl6Slc0cGRCYlIwak1taGNsaEFVSFNNeVZueldZRllkSXpLRnNSYkF2eDBqTWxYdUZvQUZIU015aUI1WEllc2RJekpsd2R1UnN4MGpNbi9VbXFIVkhTTXlaeVViRU1VZEl6S0JHcG9oMEIwak1ubzRWM0ZpSFNNeWRXUWE0ZklkSXpKOFpaZEJjQjBqTWxNREc4RHJIU015V2k1VzRLVWRJekpZL05kUXpoMGpNbjltbHhHbkhTTXlWY29YVWUwZEl6Sjg2eGJ4V0Iwak1sNzNscEdqSFNNeVpOSlhrSk1kSXpKeWpOWlJqUjBqTW5GUUY4RW5IU015WmtzV0VXb2RJekp2alpZZ1RCMGpNbnZGbHBBbkhTTXlhVVFXSUY0ZEl6S0RTSmN3WGgwak1uNnRGNkZlSFNNeVpoS1hvWklkSXpKOE9GWmhXaDBqTW9QZ1Z4SFlIU015Z1VoV1VaY2RJekpkSGxieDF4MGpNbEhqbDVIcEhTTXlZNzBYMGVJZEl6SjRQRllpQUIwak1ta1hsckNJSFNNeWJuclhVUzg9AAA",
+      "retrieved_utc": "2026-10-03T00:44:52.740647+00:00",
+      "returned": 20,
+      "sha256": "f5579dd0a1d99b8af4382fe9b46e6ba4d3cf46351c8442ae35a7a1f1976d5cd8",
+      "file": "data/raw/x/stratified_2026-09-14_s3_p3.json"
+    },
+    {
+      "window_id": "2026-09-14_s3",
+      "page": 4,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789412940+until_time%3A1789413240&queryType=Latest&cursor=DAADDAABCgABHSMyiY1WQPAKAAIdIzI-d5ogAwAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUdOqrddQAnEAoABh06qt10_2PACwAHAAADcEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFGQWRJektBN1pzUjJCMGpNa0pVMW9BckhTTXlkUzNYb1RVZEl6SmUvQnJnL0Iwak1tQStsekdnSFNNeWNkTVhBVzBkSXpKUG05ZEJsaDBqTW9ndFY3Q3VIU015YU9GYTRXNGRJekpZL3hjUUpSMGpNazliRm5DYUhTTXlhZ1ZiTVNFZEl6SjJxZHBBd3gwak1sTUEybEJuSFNNeVk1L1hVZFFkSXpKOGladEJUaDBqTW9QcFZ4RnJIU015UG5lYUlBTWRJekkvL1pyaHFoMGpNa2xHRmhHdUhTTXlnZXNXSUtJZEl6SnIzSmNncUIwak1vbU5Wa0R3SFNNeVNmMlhJV1lkSXpKM0dOZUJ2aDBqTW9rdUY0RVlIU015VnVLWFFXMGRJekpvWEpZUUZCMGpNb1d4RnNDL0hTTXlWbnpXWUZZZEl6SlY3aGFBQlIwak1vZ2VWeUhySFNNeVpjSGJrYk1kSXpKLzFKcWgxUjBqTW1jbEd4REZIU015Z1JxYUlkQWRJeko2T0ZkeFloMGpNblZrR3VIeUhTTXlmR1dYUVhBZEl6Sk5JNWJSeUIwak1sTURHOERySFNNeVRaWFhNQ0VkSXpKYUxsYmdwUjBqTWtPdldpR3hIU015UlhHVzhMWWRJekpZL05kUXpoMGpNbjltbHhHbkhTTXlWY29YVWUwZEl6Sjg2eGJ4V0Iwak1sNzNscEdqSFNNeVJkbVdnS2NkSXpKSEJwckFveDBqTW1UU1Y1Q1RIU015UHFoYThWMGRJekp5ak5aUmpSMGpNbkZRRjhFbkhTTXlaa3NXRVdvZEl6SkdVaGNCVEIwak1tK05saUJNSFNNeWU4V1drQ2NkSXpJKzZsZlFzaDBqTW1sRUZpQmVIU015UzdUYmNEVWRJektEU0pjd1hoMGpNbjZ0RjZGZUhTTXlRN0ZXd2VVZEl6Sm1FcGVoa2gwak1udzRWbUZhSFNNeWcrQlhFZGdkSXpLQlNGWlJseDBqTWo4clZzRVVIU015WFI1VzhkY2RJekpGYlp2QXZoMGpNa2Z5V2hBT0hTTXlZNzBYMGVJZEl6SlI0NWVSNlIwak1uZzhWaUlBSFNNeVNsOFdZUUFkSXpKdWV0ZFJMeDBqTW1rWGxyQ0kAAA",
+      "retrieved_utc": "2026-10-03T00:44:55.093728+00:00",
+      "returned": 20,
+      "sha256": "825217c0b81c371fdc1e4ad1145d83747ec6402b850e7d5d76e813ed671ea614",
+      "file": "data/raw/x/stratified_2026-09-14_s3_p4.json"
+    },
+    {
+      "window_id": "2026-09-14_s4",
+      "page": 0,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789420500+until_time%3A1789420800&queryType=Latest&cursor=",
+      "retrieved_utc": "2026-10-03T00:44:57.860655+00:00",
+      "returned": 20,
+      "sha256": "079978af2ecd3c39989a918c3cebeaf3e3d98ef7bee09aa4c41b45e64c3b7110",
+      "file": "data/raw/x/stratified_2026-09-14_s4_p0.json"
+    },
+    {
+      "window_id": "2026-09-14_s4",
+      "page": 1,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789420500+until_time%3A1789420800&queryType=Latest&cursor=DAADDAABCgABHSNPX4iWUMIKAAIdI09SA9vApAAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUdOqroeYAnEAoABh06quh5f9jwCwAHAAAA8EVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFCUWRJMDlmR0ZZUkhCMGpUMTMyMnBFRUhTTlBXY0lYc1lVZEkwOVpkWlpCMXgwalQxT0lGd0NVSFNOUFVnUGJ3S1FkSTA5WVh0c2d6QjBqVDFNWVZuQkZIU05QVnRhYllIOGRJMDlmWnB1Z01oMGpUMStJbGxEQ0hTTlBXUmliY1prZEkwOVVhaGVBbUIwalQxZ1psa0hOSFNOUFhXUFcwRWdkSTA5ZlpoWkE0UjBqVDE3SVYxREpIU05QV1lIYklESWRJMDlkVUJjUmVoMGpUMXMwbHRITwAA",
+      "retrieved_utc": "2026-10-03T00:44:59.644763+00:00",
+      "returned": 20,
+      "sha256": "41b2a90138dd5875c3a2e2e68c917e9711424b1a6d6bc0b9ea5dff1fcb825a9a",
+      "file": "data/raw/x/stratified_2026-09-14_s4_p1.json"
+    },
+    {
+      "window_id": "2026-09-14_s4",
+      "page": 2,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789420500+until_time%3A1789420800&queryType=Latest&cursor=DAADDAABCgABHSNPX4iWUMIKAAIdI087xVeRpgAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUdOqroeYAnEAoABh06quh5f7HgCwAHAAAByEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFDZ2RJMDlmR0ZZUkhCMGpUeitFMXlIb0hTTlBTUi9YVU8wZEkwOVp3aGV4aFIwalR6L0pWNUVRSFNOUFVDb2JvT0FkSTA5U0E5dkFwQjBqVHoxQ204RlBIU05QVnRhYllIOGRJMDlmWnB1Z01oMGpUMStJbGxEQ0hTTlBXUmliY1prZEkwOVVhaGVBbUIwalR6NXlGMEJCSFNOUFFYdVhzTUlkSTA5ZlpoWkE0UjBqVDE3SVYxREpIU05QVXhoV2NFVWRJMDlSTEphZzRoMGpUMXMwbHRIT0hTTlBYZmJha1FRZEkwOC9UcHB3SVIwalQwRjdteEFFSFNOUFVCV2F3ZEFkSTA5T2J4ZXdhQjBqVDFsMWxrSFhIU05QVFRkV1FCd2RJMDlUaUJjQWxCMGpUenZGVjVHbUhTTlBXRjdiSU13ZEkwOU1ibHB4T2gwalR6MEhHa0VESFNOUFA0S1hrT2dkSTA5RmVCdFFpeDBqVDFnWmxrSE5IU05QU1VCWFlZTWRJMDlkWTliUVNCMGpUeisrVjVEK0hTTlBYVkFYRVhvZEkwOVpnZHNnTWc9PQAA",
+      "retrieved_utc": "2026-10-03T00:45:07.343716+00:00",
+      "returned": 20,
+      "sha256": "e7825ef97261b085954daf9159539db2e114e0c2dda7b861f71498a45bab2d22",
+      "file": "data/raw/x/stratified_2026-09-14_s4_p2.json"
+    },
+    {
+      "window_id": "2026-09-14_s4",
+      "page": 3,
+      "url": "https://api.twitterapi.io/twitter/tweet/advanced_search?query=%28AI+OR+%22artificial+intelligence%22+OR+superintelligence%29+lang%3Aen+-filter%3Aretweets+since_time%3A1789420500+until_time%3A1789420800&queryType=Latest&cursor=DAADDAABCgABHSNPX4iWUMIKAAIdI08nKNqR0QAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUdOqroeYAnEAoABh06quh5f4rQCwAHAAACnEVtUEM2d0FBQWZRL2dHSk4wdkdwL0FBQUFEd2RJMDh0bXRad1loMGpUeXFWRzNFeUhTTlBQNFRYSWVnZEkwOVp3aGV4aFIwalQxSUQyOENrSFNOUE1tbFcwWHdkSTA4eGd0ZkFUQjBqVDErSWxsRENIU05QWDJhYm9ESWRJMDlXMXB0Z2Z4MGpUejFDbThGUEhTTlBYMllXUU9FZEkwOWV5RmRReVIwalQwRjdsN0RDSFNOUFBuSVhRRUVkSTA5Yk5KYlJ6aDBqVHpkVFZ3QTZIU05QV1hXV1FkY2RJMDlPYnhld2FCMGpUMUFWbXNIUUhTTlBNSndXMFNJZEkwOU5OMVpBSEIwalR5OFoydUIrSFNOUFU0Z1hBSlFkSTA5WVh0c2d6QjBqVDB4dVduRTZIU05QT1hOYVlKQWRJMDhuS05xUjBSMGpUeTZsbGxCU0hTTlBQNEtYa09nZEkwOVlHWlpCelIwalQwbEFWMkdESFNOUFhXUFcwRWdkSTA4L3ZsZVEvaDBqVDExUUZ4RjZIU05QV1lIYklESWRJMDlmR0ZZUkhCMGpUMGtmMTFEdEhTTlBQOGxYa1JBZEkwOHVBeHNndngwalQxQXFHNkRnSFNOUEtMS2FZUDBkSTA4NUQ1ZGhPUjBqVHk4YVc2RElIU05QV1JpYmNaa2RJMDlVYWhlQW1CMGpUelJIMTVDVUhTTlBVU3lXb09JZEkwOVRHRlp3UlIwalQxMzIycEVFSFNOUE92YldzSklkSTA4dWlsY3dMeDBqVHo5T21uQWhIU05QUVh1YkVBUWRJMDg3eFZlUnBoMGpUeXRYRnJFY0hTTlBPUXJhc0F3ZEkwOHJPMVpCd3gwalQwVjRHMUNMSFNOUFBRY2FRUU09AAA",
+      "retrieved_utc": "2026-10-03T00:45:09.515704+00:00",
+      "returned": 20,
+      "sha256": "d34f46665c9bfbdd62d87e71536dce0dd5c3633da7b4f306d48a0a63351171fa",
+      "file": "data/raw/x/stratified_2026-09-14_s4_p3.json"
+    }
+  ],
+  "coverage": [
+    {
+      "window_id": "2026-09-08_s0",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-08_s1",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-08_s2",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-08_s3",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-08_s4",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-08_s5",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-09_s0",
+      "returned": 80,
+      "exhausted": true,
+      "capped": false,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-09_s1",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-09_s2",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-09_s3",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-09_s4",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-09_s5",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-10_s0",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-10_s1",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-10_s2",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-10_s3",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-10_s4",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-10_s5",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-11_s0",
+      "returned": 60,
+      "exhausted": true,
+      "capped": false,
+      "pages": 4
+    },
+    {
+      "window_id": "2026-09-11_s1",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-11_s2",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-11_s3",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-11_s4",
+      "returned": 60,
+      "exhausted": true,
+      "capped": false,
+      "pages": 4
+    },
+    {
+      "window_id": "2026-09-11_s5",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-12_s0",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-12_s1",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-12_s2",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-12_s3",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-12_s4",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-12_s5",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-13_s0",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-13_s1",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-13_s2",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-13_s3",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-13_s4",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-13_s5",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-14_s0",
+      "returned": 0,
+      "exhausted": true,
+      "capped": false,
+      "pages": 1
+    },
+    {
+      "window_id": "2026-09-14_s1",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-14_s2",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    },
+    {
+      "window_id": "2026-09-14_s3",
+      "returned": 100,
+      "exhausted": false,
+      "capped": true,
+      "pages": 5
+    }
+  ],
+  "budget_cap_usd": "2.997",
+  "estimated_billed_usd": "0.19650",
+  "reserved_request_ceiling_usd": "0.29700",
+  "completed": false,
+  "errors": [
+    {
+      "status": 429,
+      "message": "{\"error\":\"Too Many Requests\",\"message\":\"For free-tier users, the QPS limit is one request every 5 seconds.\"}",
+      "retry_after": null,
+      "utc": "2026-10-03T00:25:17.386788+00:00"
+    },
+    {
+      "status": 429,
+      "message": "{\"error\":\"Too Many Requests\",\"message\":\"For free-tier users, the QPS limit is one request every 5 seconds.\"}",
+      "retry_after": null,
+      "utc": "2026-10-03T00:30:09.966190+00:00"
+    }
+  ]
+}
